@@ -43,4 +43,17 @@ $ cd web-wechat-2019
 ```   
 $ mkdir students/net123456 
 ```   
-- 编写一个网页 
+- 编写一个网页文件，如： students/net123456/index.html   
+```  
+<!DOCTYPE html>
+<html>
+<head>
+  <title>你的学号</title>
+</head>
+<body>
+  Hello world!
+</body>
+</html>
+```  
+
+

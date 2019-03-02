@@ -71,3 +71,13 @@ $ git commit -m "创建首页"
 $ git push
 ``` 
 
+## 7. 发送合并请求
+
+- 打开个人项目库：https://github.com/你的帐号名/we-wechat-2019 ；
+- 点击 New pull request 按钮；
+- 检查自己所修改的文件是否正确。如果不正确，则按照之前的步骤重新修改；如果正确，则点击『Create pull request』绿色按钮。
+- 在发帖子表单中填写以下信息：
+```  
+Title：#1 提交实验一代码
+Leave a comment：选填
+```  

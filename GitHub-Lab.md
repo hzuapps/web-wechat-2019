@@ -55,5 +55,19 @@ $ mkdir students/net123456
 </body>
 </html>
 ```  
+## 6. 提交代码
 
+```  
+$ git add students/net123456/index.html
+$ git commit -m "创建首页"
+$ git push
+```  
+
+注意：第一次提前时，如果遇到错误提示，则按照提示配置全局邮箱地址及用户名：
+
+```  
+$ git config ...
+$ git commit -m "创建首页"
+$ git push
+``` 
 

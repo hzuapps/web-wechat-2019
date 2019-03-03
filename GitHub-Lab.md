@@ -16,7 +16,7 @@ https://github.com/你的帐号名/web-wechat-2019
 
 ## 3. 安装 Git 工具
 
-- 打开 https://git-scm.org，下载适合本机版本（32位或64位）；
+- 打开 https://git-scm.org ，下载适合本机版本（32位或64位）；
 - 双击 exe 文件将工具安装到本机上；
 - 从开始菜单打开 Git-Shell。
 

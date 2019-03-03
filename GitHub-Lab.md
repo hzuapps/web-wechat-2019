@@ -38,12 +38,12 @@ $ cd web-wechat-2019
 ## 5. 编写代码
 
 - 选择下载并安装一个网页编辑工具，如：Sublime-text
-- 打开资源浏览器，在项目中创建个人学号目录，如：web-wechat-2019/students/net123456/
+- 打开资源浏览器，在项目中创建个人学号目录，如：web-wechat-2019/students/123456/
 - 或者直接在命令行里，使用 mkdir 命令创建目录：  
 ```   
-$ mkdir students/net123456 
+$ mkdir students/123456 
 ```   
-- 编写一个网页文件，如： students/net123456/index.html   
+- 编写一个网页文件，如： students/123456/index.html   
 ```  
 <!DOCTYPE html>
 <html>
@@ -58,7 +58,7 @@ $ mkdir students/net123456
 ## 6. 提交代码
 
 ```  
-$ git add students/net123456/index.html
+$ git add students/123456/index.html
 $ git commit -m "创建首页"
 $ git push
 ```  

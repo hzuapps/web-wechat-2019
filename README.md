@@ -2,7 +2,7 @@
 
 ## 实验要求
 
-https://github.com/hzuapps/html5-2018/issues?q=is%3Aissue+is%3Aopen+label%3ALab
+https://github.com/hzuapps/web-wechat-2019/issues?q=is%3Aissue+is%3Aopen+label%3ALab
 
 ## 在线查看实验结果
 

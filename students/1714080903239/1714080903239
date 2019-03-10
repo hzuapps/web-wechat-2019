@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>简历</title>
+</head>
+<body>
+<table border="1">
+
+		<th colspan="2">个人简历</th>
+	
+
+    <tr>
+    	<td colspan="2"><img src="捕获.PNG" width="200" align="middle"></td>
+    </tr>
+    <tr>
+    	<td>
+    		
+    			<tr>
+    				<td>姓名</td>
+    				<td >李文希</td>
+    			</tr>
+    			<tr>
+    				<td >学号</td>
+    				<td>1714080903239</td>
+    			</tr>
+    			<tr>
+    				<td>专业</td>
+    				<td >网络工程</td>
+    			</tr>
+    		</table>
+    	</td>
+    </tr>
+
+<a href="https://github.com/">我的网址</a><br><br>
+<form name="form1" method="get" >
+	留言表:<input type="text" name="liuyan">
+	<input type="submit" >
+</form>
+</body>
+</html>

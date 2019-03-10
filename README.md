@@ -6,7 +6,7 @@ https://github.com/hzuapps/web-wechat-2019/issues?q=is%3Aissue+is%3Aopen+label%3
 
 ## 在线查看实验结果
 
-https://infoaas.com/html5-2018/  
+https://infoaas.com/web-wechat-2019/  
 
 ## 微信小程序开发文档
 

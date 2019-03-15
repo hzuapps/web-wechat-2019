@@ -2,7 +2,7 @@
 
 ## 1. 注册GitHub帐号
 
-- 打开 https://github.com，注册（Signup）新帐号；
+- 打开 https://github.com ，注册（Signup）新帐号；
 - 在设定的邮箱接收激活邮件，点击激活链接，激活新帐号。
 
 ## 2. Fork 实验库
@@ -70,6 +70,21 @@ $ git config ...
 $ git commit -m "创建首页"
 $ git push
 ``` 
+
+注意：提交代码可以用通配符（你们竟然没有学过Windows搜索吗？） 
+
+```  
+$ git add students/com123456/**
+```  
+
+注意：删除多余文件或文件夹的命令；即使硬盘里面已经删掉也要执行命令（想想为什么？）。
+
+```  
+$ git rm -rf students/学号目录/你不要的文件
+$ git rm -rf 你传错或不要的文件夹/**
+$ git commit -m "删除不必要的文件"
+$ git push
+```  
 
 ## 7. 发送合并请求
 

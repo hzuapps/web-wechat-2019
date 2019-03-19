@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS实现顶部导航条</title>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.MenuBar{
+				width: 1160px;
+				height: 31px;
+				background-color: #11a0f0;
+				margin: 50px auto 20px;
+				list-style: none;
+				border: 2px black solid;
+			}
+			.clearfix:after{
+				display: block;
+				content: "";
+				clear: both;
+			}
+			
+			.MenuBar > li{
+				float: left;
+				width: 25%;
+				height:100%;
+			}
+			li .a1{
+				display: block;
+				width: 100%;
+				text-align: center;
+				text-decoration: none;
+				color: white;
+				font-weight: bold;
+				padding: 5px 0px;
+			}
+			a:hover{
+				background-color:  #1184d1;
+			}
+			
+			/*小黑屋一栏后加箭头，移入后改变*/
+			.aAfter:after{
+				content: "	亖";
+			}
+			.a1:hover.aAfter:after{
+				content: " 〇";	
+			}
+
+			
+			li .MenuBar2{
+				width: 200px;
+				background-color:  #11a0f0;
+				list-style: none;
+				border: 2px black solid;
+				display: none;
+			}
+			.MenuBar li:hover .MenuBar2{
+				display: block;
+				position:relative;
+				left: 15px;
+				top: -5px;
+				line-height: 30px;
+			}  
+			
+		
+			.MenuBar2 a{
+				display: block;
+				width: 184px;
+/*				text-align: center;*/
+				padding-left: 16px;
+				text-decoration: none;
+				color: white;
+				font-weight: bold;
+			}
+			
+			
+		
+		</style>
+	</head>
+	<body>
+		
+		<ul class="MenuBar clearfix">
+			<li><a class="a1" href="https://www.bilibili.com/">首页</a></li>
+			<li><a  class="a1" href="">畅享音乐</a></li>
+			
+			<li>
+				<a class="a1 aAfter" href="">小黑屋</a>
+				<ul class="MenuBar2 clearfix">
+					<li><a href="#">正经小黑屋</a></li>
+					<li><a href="#">小黑污</a></li>
+					<li><a href="#">你不会点进来的</a></li>
+				</ul>
+			</li>
+			
+			<li><a class="a1" href="">奖励计划</a></li>
+		</ul>
+		
+		
+		
+		
+		
+
+
+	</body>
+</html>

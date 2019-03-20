@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://raw.githack.com/Tencent/weui/master/dist/style/weui.min.css">
+        <style>
+            body
+            {
+                background-color:bisque;
+            }
+            img
+            {
+                width:100%;
+                height:auto;
+            }
+            .weui-cells__title
+            {
+                text-align: center;
+            }
+            #content1
+            {
+                display: none;
+            }
+            #content2
+            {
+                display: none;
+            }
+            #content3
+            {
+                display: none;
+            }
+            #content4
+            {
+                display: none;
+            }
+            textarea
+            {
+                background-color: azure;
+                text-align: center;
+            }
+            .weui-cell
+            {
+                background-color: azure;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="weui-cells__title">个人简历</div>
+        <button class="weui-btn weui-btn_plain-default" id="photo">个人照片</button>
+        <div id="content1">
+            <img src="http://wx4.sinaimg.cn/large/78c17645ly1fc1h9r2uxpj20xb0m8tbb.jpg"></img> 
+        </div>
+    </br>
+        <button class="weui-btn weui-btn_plain-primary" id="info">基本信息</button> 
+        <div class="weui-cells weui-cells_form" id="content2">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <textarea class="weui-textarea" rows="5">姓名:Ronnie O'Sullivan&#10;毕业院校:惠州学院&nbsp;专业:网络工程&nbsp;学历:本科&#10;联系方式:①邮箱:resume@exmple.com&#10;&nbsp;&nbsp;&nbsp;&nbsp;②手机:1234567890123&#10;</textarea>
+                    <p style="text-align:center"><a href="https://github.com/AzureSorA">Github主页</a></p>
+                </div>
+            </div>
+        </div>
+    </br>
+        <button class="weui-btn weui-btn_plain-primary" id="career">求职意向</button> 
+        <div class="weui-cells weui-cells_form" id="content3">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <textarea class="weui-textarea" rows="3">应聘职位:网络工程师&#10;期望月薪:5000&#10;期望工作地区:广州、深圳</textarea> 
+                </div>
+            </div>
+        </div>
+    </br>
+        <button class="weui-btn weui-btn_plain-primary" id="skill">个人能力</button> 
+        <div class="weui-cells weui-cells_form" id="content4">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <textarea class="weui-textarea" rows="3">自学能力强,善于交流&#10;英语四级证书，日语N2&#10;精通C语言、C++、Python、Java、C#</textarea> 
+                </div>
+            </div>
+        </div>
+    </br>
+        <script>
+        function show(x,y){
+            x.onclick = function(){
+            var val = y.style.display;
+            if(val == 'none'){
+                y.style.display = 'block'; //显示
+            }else{
+                y.style.display = 'none'; //隐藏
+            }
+        }
+        }
+        var photo  = document.getElementById('photo');
+        var content1 = document.getElementById('content1');
+        var info  = document.getElementById('info');
+        var content2 = document.getElementById('content2');
+        var career  = document.getElementById('career');
+        var content3 = document.getElementById('content3');
+        var skill = document.getElementById('skill');
+        var content4 = document.getElementById('content4');
+        show(photo,content1);
+        show(info,content2);
+        show(career,content3);
+        show(skill,content4);
+        </script> 
+    </body>
+</html>

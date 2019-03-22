@@ -10,153 +10,133 @@
 				padding: 0px;
 			}
 			
-			.title{
+			h1{
 				text-align: center;
-				margin: 0px 400px;
+				margin-top: 20px;
 			}
 			
-			table{
-				border: 1px solid;
-				width: 600px;
-				margin: 30px auto;
-				border-collapse: collapse;
+			hr{
+				color: #CECECE;
+				margin-top: 20px;
 			}
 			
-			td{
-				border: 1px solid;
-				text-align: center;
+			.photo{
+				margin: 10px 250px;
 			}
 			
-			#introduction{
-				padding: 50px;
+			#picture{
+				margin: -40px 750px;
+				width: 130px;
+				height: 130px;
+				line-height: 20;
+				list-style: none;
 			}
 			
-			.year{
-				padding: 5px;
+			.hangjv{
+				line-height: 2;
 			}
 			
-			.text{
-				width: 600px;
-				margin: 5px 30%;
-				border: 1px solid;
+			.description{
+				margin: 0 500px; 
 			}
 		</style>
 	</head>
 	<body>
+		<h1>个人简历</h1>
+		<hr />
 		
-		<div class="title">
-			<h1>个人简历</h1>
-			<hr />
+		<a class="weui-media-box weui-media-box_appmsg" href="https://github.com/1076982049">
+		        <div class="weui-media-box__hd">
+		            <li class="weui-uploader__file" id="picture" style="background-image:url(http://wx1.sinaimg.cn/mw690/0060lm7Tly1g1bw7txmy2j308308ct8z.jpg)"></li>
+		        </div>
+				
+		        <div class="weui-media-box__bd description">
+					<h2>王兰花</h2>
+		            <p class="weui-media-box__desc hangjv">性别：女</p>
+		            <p class="weui-media-box__desc hangjv">出生日期：1999.01.04</p>
+		            <p class="weui-media-box__desc hangjv">我的github：点击头像</p>
+		            <p class="weui-media-box__desc hangjv">电话号码：31415926535</p>
+		        </div>
+		</a>
+		
+		<a class="weui-btn weui-btn_default" href="javascript:;">专业信息</a>
+		
+		<div class="weui-cell">
+		        <div class="weui-cell__bd">
+		            <p>专业</p>
+		        </div>
+		        <div class="weui-cell__ft">作曲类专业</div>
 		</div>
 		
-		<div>
-			<table>
-				<tr>
-					<td>姓名</td>
-					<td>王兰花</td>
-					<td>性别</td>
-					<td>女</td>
-					<td rowspan="6"><img src="http://wx1.sinaimg.cn/mw690/0060lm7Tly1g10azi319dj305k05kwef.jpg" alt="证件照"></td>
-				</tr>
-				
-				<tr>
-					<td>出身年月</td>
-					<td>1980年1月</td>
-					<td>联系电话</td>
-					<td>99999999999</td>
-				</tr>
-				
-				<tr>
-					<td>学历</td>
-					<td>本科</td>
-					<td>专业</td>
-					<td>声乐</td>
-				</tr>
-				
-				<tr>
-					<td>工作经验</td>
-					<td>创作5年</td>
-					<td>民族</td>
-					<td>汉</td>
-				</tr>
-				
-				<tr>
-					<td>毕业学校</td>
-					<td colspan="3">惠州学院</td>
-				</tr>
-				
-				<tr>
-					<td>电子邮箱</td>
-					<td colspan="3">1078888888@qq.com</td>
-				</tr>
-				
-				<tr>
-					<td>住址</td>
-					<td colspan="4">惠州惠城区演达大道惠州学院1栋101</td>
-				</tr>
-				
-				<tr>
-					<td>获奖经历</td>
-					<td colspan="4">校级xxx奖，市级xxx奖</td>
-				</tr>
-				
-				<tr>
-					<td id="introduction">自我简介</td>
-					<td colspan="4">我的专长是教授古典和流行钢琴，以及词曲创作，和电脑编曲及录音技术。</td>
-				</tr>
-				
-				<tr>
-					<td rowspan="5">求职意向</td>
-					<td>目标职位</td>
-					<td colspan="4">歌词编写人总负责人</td>
-				</tr>
-				
-				<tr>
-					<td>目标行业</td>
-					<td colspan="4">音乐歌词创作</td>
-				</tr>
-				
-				<tr>
-					<td>期望薪资</td>
-					<td colspan="4">3w-4w</td>
-				</tr>
-				
-				<tr>
-					<td>期望地区</td>
-					<td colspan="4">北京</td>
-				</tr>
-				
-				<tr>
-					<td>到岗时间</td>
-					<td colspan="4">时刻准备着</td>
-				</tr>
-				
-				<tr>
-					<td rowspan="3">工作经历</td>
-					<td class="year">2017-2019年</td>
-					<td colspan="4">高中音乐老师</td>
-				</tr>
-				
-				<tr>
-					<td class="year">2015-2017年</td>
-					<td colspan="4">钢琴家教</td>
-				</tr>
-				
-				<tr>
-					<td class="year">2013-2015年</td>
-					<td colspan="4">歌词编剧</td>
-				</tr>
-			</table>
+		<div class="weui-cell">
+		        <div class="weui-cell__bd">
+		            <p>毕业学校</p>
+		        </div>
+		        <div class="weui-cell__ft">星海音乐学院</div>
 		</div>
+		
+		<div class="weui-cell">
+		        <div class="weui-cell__bd">
+		            <p>学历</p>
+		        </div>
+		        <div class="weui-cell__ft">研究生</div>
+		</div>
+		
+		<a class="weui-btn weui-btn_default" href="javascript:;">求职意向</a>
+		
+		<div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">目标职位</div>
+                <div class="weui-cell__ft" style="font-size: 0">
+                    <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+                </div>
+        </div>
+		
+		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">期望薪资</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+		
+		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">期望地区</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+		
+		<a class="weui-btn weui-btn_default" href="javascript:;">自我简介</a>
+		
+		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">专业技能</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+		
+		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">获奖情况</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+		
+		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">工作经历</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+		
+		<a class="weui-btn weui-btn_default" href="javascript:;">留言区</a>
+		<div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <textarea class="weui-textarea" placeholder="在此输入您的留言" rows="3"></textarea>
+                    <div class="weui-textarea-counter"><span>0</span>/200</div>
+                </div>
+        </div>
 			
-		
-		<div>
-			<div class="weui-cell__bd">
-                    <textarea class="weui-textarea text" placeholder="点击此处留言" rows="3"></textarea>
-					<a class="weui-btn weui-btn_mini weui-btn_primary text" href="https://github.com/1076982049;">check my github</a>
-					<a class="weui-btn weui-btn_mini weui-btn_primary text" href="javascript:;">submit</a>
-            </div>
-		</div>
-		
+		<a class="weui-btn weui-btn_primary" href="javascript:;">暂存</a>
+		<a class="weui-btn weui-btn_primary" href="javascript:;">提交</a>	
 	</body>
 </html>

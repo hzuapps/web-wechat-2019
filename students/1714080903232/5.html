@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+     <meta charset="utf-8" content="text/html;charset=gb2312"/> 
+     <title> 个人简历</title>
+     <link rel="stylesheet" href="weui.min.css" />
+     <style type="text/css">
+        *{margin: 0px;
+          padding: 0px;
+          }  
+        .right{
+                display: inline-block;
+                float:right;
+            }
+     </style>
+     <script type="text/javascript">
+        function fun(id1,id2){
+                    if(id2.style.display == "none")
+                        id2.style.display = "";
+                    else id2.style.display = "none";
+                
+            };
+                window.onload  = function(){
+                var introduce = document.getElementById("introduce");
+                var descript = document.getElementById("descript");
+                var close1 = document.getElementById("close1");
+                introduce.onclick = function(){
+                    if(close1.innerHTML == "")
+                        close1.innerHTML = "";
+                    else close1.innerHTML = "";
+                    fun(introduce,descript);
+                var work = document.getElementById("work");
+                var experience = document.getElementById("experience");
+                var class2 = document.getElementById("close2");
+                work.onclick = function(){
+                    if(close2.innerHTML == "")
+                        close2.innerHTML = "";
+                    else close2.innerHTML = "";
+                    fun(work,experience);
+                };
+                var more = document.getElementById("more");
+                var my = document.getElementById("my");
+                var class3 = document.getElementById("close3");
+                more.onclick = function(){
+                    if(close3.innerHTML == "")
+                        close3.innerHTML = "";
+                    else close3.innerHTML = "";
+                    fun(more,my);
+                };
+              
+                    };
+                };
+        </script>
+</head>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">个人简历</h1>
+        <p class="page__desc">MY RESUME</p>
+    </div>
+    
+                
+                <div class="weui-cell__ft">
+                    <a class="weui-swiped-btn weui-swiped-btn_warn" href="javascript:"></a>
+                </div>
+            </div>
+        </div>
+       <div style="width: 20px" ></div>
+        
+       
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><img src="https://i01picsos.sogoucdn.com/ebd3d355ad9a61b9" alt="" style="width:100px;margin-right:5px;display:block"></div>
+                
+                    
+                
+            </div>
+               
+        </div>
+
+        <div class="weui-cells">
+            <a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd">
+                    <p>姓名：时璟</p>
+                </div>
+            </a>
+
+            <a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd">
+                    <p>性别：男</p>
+                </div>
+            </a>
+
+            <a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd">
+                    <p>出生年月：1998.4</p> 
+                </div>
+                
+            </a>
+
+  <a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd">
+                    <p>联系方式：13999999999</p>
+                </div>
+               
+            </a>
+
+
+
+             <a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd">
+                    <p>政治面貌：共青团员</p>
+                </div>
+               
+            </a>
+
+
+        </div>
+
+        <div class="weui-cells__title">临床医学</div>
+        <div class="weui-cells">
+
+
+
+
+
+
+
+     <a id="introduce" class="weui-cell weui-cell_access" href="javascript:;">
+                    <div class="weui-cell__bd" >
+                        <p >专业技能</p><p  id="close1" ></p>
+                    </div>
+                    <div class="weui-cell__ft">
+                    </div>
+                </a>
+                <!--<div class="weui-cell "  >-->
+                        <div class="weui-cell__bd gray">
+                            <p id="descript" style="display: none;">
+                                &nbsp;&nbsp;&nbsp; 掌握基础医学中临床医学的基本理论、基本知识；
+                                掌握常见病名发病诊断处理的临床基本技能；
+                                具有对急、难、重症的初步处理能力；熟悉国家卫生工作方针、政策法规；
+                                掌握医学文献检索、资料调查的基本方法，
+                                具有一定的科学研究和实际工作能力。
+                            </p>
+                        </div>               
+                <!--</div>-->  
+
+        <div class="weui-cells__title" >SKILLS</div>
+        <div class="weui-cells">
+
+
+
+                <a id="work" class="weui-cell weui-cell_access" href="javascript:;">
+                    <div class="weui-cell__bd" >
+                        <p class="left">工作经历</p><p class="right gray" id="close2" ></p>
+                    </div>
+                    <div class="weui-cell__ft">
+                    </div>
+                </a>
+                <!--<div class="weui-cell "  >-->
+                        <div class="weui-cell__bd gray">
+                            <div id="experience" style="display:none ;">
+                                <p>2017.07-2017.11</p> 
+                                 &nbsp;&nbsp;&nbsp;曾在xxxx诊所实习
+                                <p>2018.07-2018.12</p>
+                                &nbsp;&nbsp;&nbsp;在xxxx医院工作过一段时间，并多次参与临床手术
+                            </div>
+                        </div>               
+                <!--</div>-->  
+
+        <div class="weui-cells__title">EXEPERIENCE</div>
+        <div class="weui-cells">
+
+
+
+<a id="more" class="weui-cell weui-cell_access" href="javascript:;">
+                    <div class="weui-cell__bd" >
+                        <p class="left">自我评价</p><p class="right gray" id="close3" ></p>
+                    </div>
+                    <div class="weui-cell__ft">
+                    </div>
+                </a>
+                <!--<div class="weui-cell "  >-->
+                        <div class="weui-cell__bd ">
+                            <div id="my" style="display:none ;">                                 
+                               本人有较强的学习能力、上进心强，处事态度细心谨慎、认真负责；富有团队合作精神，虚心请教他人，共同学习，共同进步；有良好的生活习惯，与他人相处融洽，善于与人交际。
+                            </div>
+                        </div>               
+                <!--</div>-->  
+
+        <div class="weui-cells__title">EVALUATION</div>
+        <div class="weui-cells">
+
+
+            </a>
+        </div>
+    </div>
+   
+</div>
+
+
+<div class="page">
+   
+    <div class="page__bd page__bd_spacing">
+
+        <div class="weui-footer weui-footer_fixed-bottom">
+            <p class="weui-footer__links">
+                <a href="javascript:home();" class="weui-footer__link">My Resume</a>
+            </p>
+            <p class="weui-footer__text">SHIJING &copy; submit IN 2019</p>
+        </div>
+    </div>
+</div>

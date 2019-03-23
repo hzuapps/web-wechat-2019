@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>document</title>
+		<script type="text/javascript">
+			function	dom(x){
+				var a=document.getElementById("a").value;
+				switch(x){
+					case 1:document.bgColor=a;break;
+					case 2:document.fgColor=a;break;
+					case 3:document.linkColor=a;break;
+					case 4:alert(document.lastModified);break;
+					case 5:alert(document.URL);break;
+					default:document.bgColor="white";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<button onclick="dom(4);">本文档修改时间</button>
+		<button onclick="dom(5);">本文档URL</button>
+		<hr />
+		<input type="text" id="a" value="red" />
+		<button onclick="dom(1);">背景色</button>
+		<button onclick="dom(2);">文本颜色</button>
+		<button onclick="dom(3);">未访问的链接颜色</button>
+		<p><a href="#">document</a>又称为撒哈拉多哈所付所绿付或绿所大或过或扩多啥或过或或或或或或或或或或或或或</p>
+	</body>
+</html>

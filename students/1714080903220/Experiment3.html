@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>resume-weui</title>
+		<link rel="stylesheet" href="./web-wechat-2019/students/1714080903220/weui.min.css" />
+		<style type="text/css">
+			.left{display: inline-block;}
+			.right{display: inline-block;float:right;}
+			.gray{color:gray;}
+			#img{width:10px;height:10px;}
+			#word{float:left;line-height:80px;}
+            #photo,#word{height:45px;}
+		</style>
+		<script type="text/javascript">
+			function fun(id1,id2){
+					if(id2.style.display == "none")
+						id2.style.display = "";
+					else id2.style.display = "none";
+			};
+			window.onload  = function(){
+				var contact = document.getElementById("contact");
+				var list = document.getElementById("list");
+				var close2 = document.getElementById("close2");
+				contact.onclick = function () {
+					if(close2.innerHTML == "收起")
+						close2.innerHTML = "详情";
+					else close2.innerHTML = "收起";
+					fun(contact,list);
+				};
+				var study = document.getElementById("study");
+				var school = document.getElementById("school");
+				var close1 = document.getElementById("close1");
+				study.onclick = function () {
+					if(close1.innerHTML == "本科")
+						close1.innerHTML = "本科";
+					else close1.innerHTML = "本科";
+					fun(study,school);
+				};
+				
+				var introduce = document.getElementById("introduce");
+				var honor = document.getElementById("honor");
+				var close3 = document.getElementById("close3");
+				introduce.onclick = function(){
+					if(close3.innerHTML == "收起")
+						close3.innerHTML = "详情";
+					else close3.innerHTML = "收起";
+					fun(introduce,honor);				};
+				var work = document.getElementById("work");
+				var experience = document.getElementById("experience");
+				var class4 = document.getElementById("close4");
+				work.onclick = function(){
+					if(close4.innerHTML == "收起")
+						close4.innerHTML = "详情";
+					else close4.innerHTML = "收起";
+					fun(work,experience);
+				};
+			};
+		</script>
+	</head>
+	<body>
+		<div id="body">
+			<div class="page__hd">
+        	<h1 class="page__title">个人简历</h1>
+    	</div>
+				<div class="page">
+   			 <div class="page__bd">  
+   			 	<div class="weui-cells weui-cells_radio weui-check__label">
+            		<div class="weui-cell weui-check__label"  >
+				   	<a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd" id="contact">
+                  <p class="left">基本信息</p><p class="right gray" id="close2" ><img src="Head-portrait.jpg" width="30" height="30" alt=""/></p>
+                </div>
+                <div class="weui-cell__ft">
+                </div>
+        	</a>
+       			<div id="list" class="gray" style="display: none;">
+       				<div class="weui-cell weui-check__label">
+	            		<div class="weui-cell__bd ">
+	                		<p class="left">姓名</p><p class="right">白读书</p>
+	            		</div>   
+       			  </div> 
+	       			<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd">
+	                		<p class="left">性别</p><p class="right">男</p>
+	            		</div>
+       			  </div>  
+	       		 	<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd">
+	                		<p class="left">籍贯</p><p class="right ">广东揭阳</p>
+	            		</div>        
+	       		 	</div>
+					<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd">
+	                		<p class="left">政治面貌</p><p class="right ">群众</p>
+	            		</div>        
+	       		 	</div>
+					<a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd" id="study">
+                    <p class="left">学历</p><p class="right gray" id="close1" >本科</p>
+                </div>
+                <div class="weui-cell__ft">
+                </div>
+        	</a>
+            <div id = "school" style="display: none;">
+				   <div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd gray">
+	                		<p class="left">学校</p><p class="right">惠州学院</p>
+	            		</div>
+   		 	  </div>  
+	       		 	<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd gray">
+	                		<p class="left">专业</p><p class="right">网络工程</p>
+	            		</div>
+	       		 	</div>  
+				<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd gray">
+	                		<p class="left">主修课程</p><p class="right">SDN、数据库系统</p>
+	            		</div>
+   		 	  </div>  
+	       		 </div>
+					<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd">
+	                		<p class="left">求职意向</p><p class="right ">网络工程师</p>
+	            		</div>        
+	       		 	</div>
+					<a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd" id="study">
+                    <p class="left">联系方式</p><p class="right gray" id="close1" >本科</p>
+                </div>
+                <div class="weui-cell__ft">
+                </div>
+        	</a>
+            <div id = "school" style="display: none;">
+				   <div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd gray">
+	                		<p class="left">学校</p><p class="right">惠州学院</p>
+	            		</div>
+   		 	  </div>  
+	       		 	<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd gray">
+	                		<p class="left">专业</p><p class="right">网络工程</p>
+	            		</div>
+	       		 	</div>  
+				<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd gray">
+	                		<p class="left">主修课程</p><p class="right">SDN、数据库系统</p>
+	            		</div>
+   		 	  </div>  
+	       		 </div>
+	               </div>
+						
+					<a id="introduce" class="weui-cell weui-cell_access" href="javascript:;">
+	                <div class="weui-cell__bd" >
+	                    <p class="left">曾获荣誉</p><p class="right gray" id="close3" ></p>
+	                </div>
+	                <div class="weui-cell__ft">
+	                </div>
+        		</a>
+	            		<div class="weui-cell__bd gray">
+	                		<p id="honor" style="display: none;">
+&nbsp;&nbsp;&nbsp;⚪ 2015年全国大学生网络安全攻防大赛全国三等奖<br>
+&nbsp;&nbsp;&nbsp;⚪ 2016年全国大学生计算机大赛华中赛区二等奖<br>
+&nbsp;&nbsp;&nbsp;⚪ 2016年全国大学生计算机大赛全国优秀奖
+	                		</p>
+	            		</div>    
+	       		<a id="work" class="weui-cell weui-cell_access" href="javascript:;">
+	                <div class="weui-cell__bd" >
+	                    <p class="left">工作经历</p><p class="right gray" id="close4" ></p>
+	                </div>
+	                <div class="weui-cell__ft">
+	                </div>
+        		</a>
+	            		<div class="weui-cell__bd gray">
+	                		<div id="experience" style="display:none ;">
+	                			<p>2016.11-2017.6</p>
+	                			在甄土亢有限公司担任公司网络管理员一职
+								<p>2017.12-2018.12</p>
+								在999有限公司担任网络工程师，并在此期间因公司需要担任过短暂的安卓应用开发工作
+	                		</div>
+	            		</div> 
+						<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd gray">
+	                		<p class="left">联系方式</p><p class="right">13928723423</p>
+	            		</div>
+	       		 	</div>  
+				<form method="post">
+				<div class="weui-cells__title">留言区</div>
+	       		<div class="weui-cells weui-cells_form">
+	            <div class="weui-cell">
+	                <div class="weui-cell__bd">
+	                    <textarea class="weui-textarea" placeholder="请输入文本" rows="3"></textarea>
+	                    <div class="weui-textarea-counter"><span>0</span>/200</div>
+	                </div>
+				</div>	
+	        </div>
+	        <div class="weui-btn-area">
+	            <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
+	            <input class="weui-btn weui-btn_primary" type="reset" value="重置" />
+			</form>
+					
+				</div>
+			  </div>	
+			</div>
+	</div>
+			<div class="weui-footer">
+    <p class="weui-footer__links">
+        <a href="https://github.com/purple-red" class="weui-footer__link">我的github</a>
+    </p>
+    <p class="weui-footer__text">Purple-red © 2019</p>
+</div>		
+</body>
+</html>

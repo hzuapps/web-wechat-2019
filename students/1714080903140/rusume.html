@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content=event.html"">
+		<meta name="keywords" content="event,html,js">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>个人简历</title>
+		<link rel="stylesheet" type="text/css" href="weui.min.css"/>
+		<script type="text/javascript" src="resume.js"></script>
+		<style type="text/css" >
+			textarea{resize: none; 
+				background-color: rgba(255,255,255,0.8);
+			}
+			#bg{background-color: blue;}
+			ul{list-style: none;
+			 	margin-left:10% ;
+			 }
+			#all{width: 500px;
+				border: 1px; 
+				height: 700px; 
+				background-color: white;
+			}
+			#left{width: 30%;
+				height: 100%;
+			 	background-color: skyblue; 
+			 	float: left;
+			  }
+			#right{width: 70%; 
+				height: 100%;  
+				background-color:whitesmoke ;
+				float: right;
+			 }
+			.title{font-weight: bold;
+				font: "微软雅黑"; 
+				font-size: 19px; 
+				text-align: center;
+			}
+			.pto{margin: 10% 10% 0 10% ;}
+			.article{font: "微软雅黑";
+			 	font-size: 15px; 
+				text-align: center;
+			 }
+			.text{font: "微软雅黑"; 
+				font-size:12px;
+				text-align: left;
+
+			}
+			.r_title{font: "微软雅黑"; 
+				font-size: 19px;
+				text-align: left; 
+				font-weight: bold;
+				}
+			.r{margin: 10% 5% 10px 5%;}</style>
+	</head>
+	<body align="center">
+		<div id="all">
+			<div id="left">
+				<img src="https://avatars1.githubusercontent.com/u/48166794?s=460&v=4" width="80%" class="pto" />
+				<div class="title" align="center">ZRuim</div>
+				<div class="article"></div>
+				<div class="title">基本信息———</div>
+				<div class="text">
+					<ul>
+					<li>专业：</li>
+					<li>网络工程 </li>
+					<li>联系电话：</li>
+					<li>13751588888</li>
+					<li>电子邮箱：</li>
+					<li>235238@qq.com</li>
+				</ul>
+				</div>
+				<div class="title">技能特长———</div>
+				<div class="text" >
+					<textarea name="" rows="5" cols="15" style="margin-left: 4px;" >基本掌握MySQL、Java编程、C++语言。</textarea>
+				</div>
+				<div class="title">个人标签———</div>
+				<div class="text">
+					<textarea name="" rows="5" cols="15" style="margin-left: 4px;" >独立、外向、乐观、积极向上、对于新事物有较大的兴趣。</textarea>
+				</div>
+				<a href="https://github.com/ZRuim" ><img src="http://cdn.ifanr.cn/wp-content/uploads/2014/06/github.png" width="50%" style="margin:20% 20%;" /></a></div>
+			<div id="right">
+				<div class="r_title  r" >求职意向</div>
+				<div class="text ">
+					<textarea name="" rows="5" cols="35"  style="margin-left: 4px;"> </textarea>
+				</div>
+				<div class="r_title  r" >教育背景</div>
+				<div class="text">
+					<textarea name="" rows="5" cols="35" style="margin-left: 4px;" >大学本科毕业于惠州学院信息科学技术学院</textarea>
+				</div>
+				<div class="r_title  r" >工作经验</div>
+				<div class="text">
+					<textarea name="" rows="5" cols="35" style="margin-left: 4px;" ></textarea>
+				</div>
+				<div class="r_title  r" >自我评价</div>
+				<div class="text">
+					<textarea name="" rows="5" cols="35" style="margin-left: 4px;" ></textarea>
+				</div></div></div>
+		<form action="pass.html" method="post" id="loginForm">
+			<div class="weui-cells__title" style="font-weight: bold; color: #000000;">留言</div>
+        <div class="weui-cells weui-cells_form" >
+            <div class="weui-cell">
+                <div class="weui-cell__bd" align="center">
+                    <textarea name="liuyan" id="liuyan" style="width: 300px; height: 200px;" type="text" placeholder="请输入留言"></textarea>
+                    <div class="weui-textarea-counter"><span>0</span>/200</div>
+                </div>
+            </div>
+        </div>
+        <div class="weui-cell__ft">
+                <button class="weui-vcode-btn" type="submit" id="subBtn">提交</button>
+        </div>
+		</form>
+	</body>
+</html>

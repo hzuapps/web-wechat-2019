@@ -6,6 +6,21 @@
 <link rel="stylesheet" href="../style/weui.css"/>
     <link rel="stylesheet" href="./example.css"/>
     <link rel="stylesheet" href="../style/weui.min.css"/>
+    <script>
+      function Function1()
+      {
+        var x=document.getElementById('name').value;
+        var y=document.getElementById('mail').value;
+        var z=document.getElementById('info').value;
+        if (x==null || x==""||y==null||y==""||z==null||z==""){
+        alert("请输入正确用户信息！留言不能为空！");
+        }
+      else {
+        alert("提交成功！");
+      }
+    }
+
+    </script>
     <style type="text/css">
     body{
       background-color:#d0e4fe;
@@ -19,7 +34,7 @@
         width: 720px;
       }
       th:hover,
-      td:hover{
+      td:hove
         background-color: #eeeeee;
       }
       th,td{
@@ -101,16 +116,16 @@
         </tr>
 </table>
 <br>
-       <form class="weui-cells__title" action="" style="width: 724px; margin: auto; resize: none;font-size: 16px;">
+       <form class="weui-cells__title" style="width: 724px; margin: auto; resize: none;font-size: 16px;">
          <fieldset>
           <legend>留言板：</legend>
-          <textarea class="weui-textarea" rows="3"></textarea>
+          <textarea id="info" ="weui-textarea" rows="3"></textarea>
 
           <div class="weui-cells__title">NAME</div>
         <div class="weui-cells">
             <div class="weui-cell">
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="text" placeholder="请输入文本"/>
+                    <input id="name" class="weui-input" type="text" placeholder="请输入用户名"/>
                 </div>
             </div>
         </div>
@@ -118,19 +133,12 @@
           <div class="weui-cells">
             <div class="weui-cell">
                 <div class="weui-cell__bd">
-                    <input class="weui-input" type="text" placeholder="请输入文本"/>
+                    <input id="mail" class="weui-input" type="text" placeholder="请输入邮箱"/>
                 </div>
             </div>
         </div><br>
-          Date of birth: <div class="weui-cells">
-            <div class="weui-cell">
-                <div class="weui-cell__bd">
-                    <input class="weui-input" type="text" placeholder="请输入文本"/>
-                </div>
-            </div>
-        </div>
         <br>
-         <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default">提交</a>
+        <button type="button" onclick="Function1()">提交</button>
        </form>
 </body>
 </html>

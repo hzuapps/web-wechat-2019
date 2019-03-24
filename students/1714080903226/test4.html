@@ -21,9 +21,10 @@
 	{
 	var x=document.getElementById("usr").value;
 	var y=document.getElementById("pwd").value;
-	if(x==""||x=="null"||y==""||y=="null")
+	var z=document.getElementById("info").value;
+	if(x==""||x=="null"||y==""||y=="null"||z==""||z=="null")
 		{
-		alert("请输入正确信息！");
+		alert("请输入正确的用户信息！留言不能为空！");
 		}
 	else
 	{

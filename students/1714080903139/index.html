@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/weui.min.css" />
+	<style type="text/css">
+		h4 {color: mediumspringgreen;font: "blackadder itc";}
+		h3 {color: gray;font-size: 27px;font-family: "arial black";}
+		h2 {color: black;font-size: 20px;font-family: "arial black";}
+		h1 {color: black;font-size:18px;font-family: "arial black";}
+		h5 {color: dodgerblue;font-size:18px;font-family: "arial black";}
+
+			.left
+			{
+ 				display: inline-block;
+ 			}
+ 			.right
+ 			{
+ 				display: inline-block;
+ 				float:right;
+ 			}
+		
+	</style>
+	
+	<script type="text/javascript">
+ 			
+ 			function fun(id1,id2){
+ 					if(id2.style.display == "none")
+ 						id2.style.display = "";
+ 					else id2.style.display = "none";
+ 				
+ 			};
+ 			window.onload  = function()
+ 			{
+ 				
+ 				var personal = document.getElementById("personal");
+ 				var list = document.getElementById("list");
+ 				var close2 = document.getElementById("close2");
+ 				personal.onclick = function () 
+ 				{
+ 					if(close2.innerHTML == "收起")
+ 						close2.innerHTML = "了解更多";
+ 					else close2.innerHTML = "收起";
+ 					fun(personal,list);
+ 				};
+ 			
+ 			var study = document.getElementById("study");
+ 				var school = document.getElementById("school");
+ 				var close1 = document.getElementById("close1");
+ 				study.onclick = function () {
+ 					if(close1.innerHTML == "收起")
+ 						close1.innerHTML = "了解更多";
+ 					else close1.innerHTML = "收起";
+ 					fun(study,school);
+ 				};
+ 			};
+ 		</script>
+	
+	</head>
+	<head>
+		<meta charset="utf-8"/>
+		<title>个人简历</title>
+		<link rel="stylesheet" type="text/css" href="css/weui.min.css"/>
+	</head>
+	<body>
+		<h3 align="center">个人简历</h3>
+		<hr />
+		<div class="page">
+    			 <div class="page__bd">  
+     			 	<div class="weui-cells weui-cells_radio weui-check__label">
+             		<div class="weui-cell weui-check__label"  >
+                 		<div class="weui-cell__bd">	
+                 			<br />
+                 			<img src="https://i01picsos.sogoucdn.com/6a211ee11aea5b40" / width="100px" height="100px">
+                 		</div>          
+        			</div>
+    			 	</div>
+    			 <div class="weui-cell weui-check__label"  >
+             		<div class="weui-cell__bd">
+                 		<h1 class="left">姓名  Name</h2><h2 class="right">林浣靖</h1>
+             		</div>               
+        		 </div>          
+
+          		<div class="weui-cell weui-check__label"  >
+             		<div class="weui-cell__bd">
+                 		<h2 class="left">性别 Gender</h2><h1 class="right">女</h1>
+             		 	</div>               
+        		 	</div>          
+
+         		<div class="weui-cell weui-check__label"  >
+             		<div class="weui-cell__bd">
+                 		<h2 class="left">出生年月   Birth</h2><p class="right">1996/11</p>
+             		</div>               
+        		</div>
+        		 
+        		<a class="weui-cell weui-cell_access" href="javascript:;">
+                 <div class="weui-cell__bd" id="personal">
+                     <h5 class="left">个人信息  Personal Data</h5><h5 class="right gray" id="close2" >了解更多</h5>
+                 </div>
+         		</a>
+
+         			<div id="list" class="gray"style="display: none;">
+         				<div class="weui-cell weui-check__label">
+	 	            		<div class="weui-cell__bd ">
+	 	                		<p class="left">年龄：</p><p class="right">23</p>
+	 	            		</div>               
+ 	       			 	</div> 
+
+  	       			<div class="weui-cell weui-check__label"  >
+ 	            		<div class="weui-cell__bd">
+ 	                		<p class="left">学历：</p><p class="right">本科</p>
+ 	            		</div>               
+ 	       			</div>  
+ 	       			 
+ 	       			<div class="weui-cell weui-check__label"  >
+ 	            		<div class="weui-cell__bd">
+ 	                		<p class="left">毕业院校：</p><p class="right">惠州学院</p>
+ 	            		</div>               
+ 	       			</div>  
+  	       		 	<div class="weui-cell weui-check__label"  >
+ 	            		<div class="weui-cell__bd">
+ 	                		<p class="left">专业：</p><p class="right ">统计学</p>
+ 	            		</div>               
+ 	       		 	</div> 
+ 	       		 	<div class="weui-cell weui-check__label"  >
+ 	            		<div class="weui-cell__bd">
+ 	                		<p class="left">政治面貌：</p><p class="right ">共青团员</p>
+ 	            		</div>               
+ 	       		 	</div> 
+ 	       		 	<div class="weui-cell weui-check__label"  >
+ 	            		<div class="weui-cell__bd">
+ 	                		<h4 class="left"> 联系方式：</h4><p></p>
+ 	                		<p class="left ">电话：135946584821</p><p></p>
+ 	                		<p class="left ">微信：135946584821</p><p></p>
+ 	                		<p class="left ">邮箱：16167036115@qq.com</p><p></p>
+ 	                		<p class="left ">联系地址：广东省广州市番禺区××××</p><p></p>
+ 	            		</div>               
+ 	       		 	</div> 
+ 	       		 	
+ 	       		 	
+ 	       		 	
+ 	       			<a class="weui-cell weui-cell_access" href="javascript:;">
+                 <div class="weui-cell__bd" id="study">
+                     <h5 class="left">个人简介  About Me</h5><h5 class="right gray" id="close1" >了解更多</h5>
+                 </div>
+                 <div class="weui-cell__ft">
+                 </div>
+         	</a>
+
+              <div id = "school" style="display: none;">	       				       			
+              	<div class="weui-cell weui-check__label"  >
+ 	            		<div class="weui-cell__bd gray">
+ 	                		<p>本人责任心强，对工作耐心细致，善于发现，对事物具备良好的洞察力；善于与人
+ 	              	沟通，虚心接受他人的意见并加以改正，人际关系良好，能做好一个协作者也能做好一个领导者；
+ 	                		行动力、时间观念强，对自我要求较高</p><p></p>
+ 	                		<h4>具备技能：</h4><p></p>
+ 	                		<p>语言技能：英语专业８级，书写文笔流畅，无语法错误。阅读能力强。</p><p></p>
+ 	                		<p>计算技能：ERP系统、Office办公软件、VBA。</p>
+ 	            		</div>               
+ 	       			 </div>  
+ 	       		 </div>
+	</body>
+</html>

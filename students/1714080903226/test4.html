@@ -14,10 +14,21 @@
             x.style.background="rgb(116, 206, 241)";
 			document.body.style.background="rgb(116, 206, 241)"  
 		}
-</script>
 
-<script>
-	function myFunction2()
+		function myFunction3()
+		{  var x=document.getElementById("usr").value;
+		   var y=document.getElementById("pwd").value; 
+		   if(x==""||x=="null"||y==""||y=="null")
+		{
+		alert("请输入正确的用户信息！");
+		}
+	else
+	{
+		alert("登陆成功!");
+		} 
+		}
+
+		function myFunction2()
 	{
 	var x=document.getElementById("usr").value;
 	var y=document.getElementById("pwd").value;
@@ -144,7 +155,7 @@
 			<input class="weui-input" type="number" pattern="[0-9]*" placeholder="&ensp;&ensp;请输入密码" id="pwd"/>
 			<p align="center">-------------------------------------------------------------------------------------------------------------------------------------</p>
 				<br><br>
-			<a href="javascript:;" class="weui-btn weui-btn_plain-primary">登&ensp;&ensp;&ensp;&ensp;陆</a>
+			<a href="javascript:myFunction3();" class="weui-btn weui-btn_plain-primary">登&ensp;&ensp;&ensp;&ensp;陆</a>
 			<a href="javascript:;" class="weui-btn weui-btn_plain-default">忘记密码？</a>
 			<br />
 			<label for="info">留言内容：</label><br />

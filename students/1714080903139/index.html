@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html>
+	<html>
 	<head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/weui.min.css" />
+	<head>
+		<meta http-equiv="content-type" content="text/html";charset="gb2312" />
+		<script type="text/javascript" language="JavaScript">
+			function changeColor()
+			{
+				for (i=0;i<4;i++) 
+					if(form1.color[i].checked)
+					{
+						document.body.style.background=form1.color[i].value;
+					}
+			}
+		</script>
+	</head>
+	<body>
+		<p>请选择网页背景颜色</p>
+		<form name="form1">
+			<input name="color" type="radio" value="#FFFFFF" onclick="changeColor()" >白色
+			<input name="color" type="radio" value="#0000fF" onclick="changeColor()" >蓝色
+			<input name="color" type="radio" value="#00FF00" onclick="changeColor()" >绿色
+			<input name="color" type="radio" value="#FFFF00" onclick="changeColor()" >黄色
+		</form>
+	</body>
+	</html>
 	<style type="text/css">
 		h4 {color: mediumspringgreen;font: "blackadder itc";}
-		h3 {color: gray;font-size: 27px;font-family: "arial black";}
+		h3 {color: black;font-size: 27px;font-family: "arial black";}
 		h2 {color: black;font-size: 20px;font-family: "arial black";}
 		h1 {color: black;font-size:18px;font-family: "arial black";}
 		h5 {color: dodgerblue;font-size:18px;font-family: "arial black";}
+		 
+		#a {color:green(255,0,0,0.80);background:rgba(0,0,255,0.20);}
+		#b {background-color: bisque;background:rgba(0,0,255,0.20);}
+		#c {color:black(255,0,0,1);background:rgba(0,0,255,0.10);}
 
 			.left
 			{
@@ -60,30 +88,29 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>个人简历</title>
-		<link rel="stylesheet" type="text/css" href="css/weui.min.css"/>
+
 	</head>
 	<body>
-		<h3 align="center">个人简历</h3>
+		<h3 align="center" id=c>个人简历</h3>
 		<hr />
 		<div class="page">
     			 <div class="page__bd">  
      			 	<div class="weui-cells weui-cells_radio weui-check__label">
              		<div class="weui-cell weui-check__label"  >
                  		<div class="weui-cell__bd">	
-                 			<br />
-                 			<img src="https://i01picsos.sogoucdn.com/6a211ee11aea5b40" / width="100px" height="100px">
+                 			<img src="https://i01picsos.sogoucdn.com/6a211ee11aea5b40" / width="100px" height="100px" border="2.5px" >
                  		</div>          
         			</div>
     			 	</div>
     			 <div class="weui-cell weui-check__label"  >
              		<div class="weui-cell__bd">
-                 		<h1 class="left">姓名  Name</h2><h2 class="right">林浣靖</h1>
+                 		<h1 class="left" >姓名  Name</h2><h2 class="right">林浣靖</h1>
              		</div>               
         		 </div>          
 
           		<div class="weui-cell weui-check__label"  >
              		<div class="weui-cell__bd">
-                 		<h2 class="left">性别 Gender</h2><h1 class="right">女</h1>
+                 		<h2 class="left">性别 Gender</h2> <h1 class="right">     女</h1>
              		 	</div>               
         		 	</div>          
 
@@ -159,5 +186,56 @@
  	            		</div>               
  	       			 </div>  
  	       		 </div>
+</div>
 	</body>
+	<hr />
+   <h2>留言板：</h2>	
+<p>您的留言：</p>
+	<textarea class="weui-textarea" placeholder="请输入文本" rows="2"></textarea>
+</form>
+	<script>
+function x(form)
+{
+    if(form.useword.value == "")
+    {
+         alert("您输入的姓名为空，请输入！");
+         return false;
+    }
+    return true;
+}
+</script>
+<form onsubmit="return x(this)">
+
+    您的姓名：<input type="text" name="useword" /><p></p>
+   			
+    </form>
+		<html >
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="event.html">
+        <meta name="keywords" content="event,html,js">
+       
+        <script type="text/javascript" src="form.js"></script>
+    </head>
+    <body>
+        <form action="pass.html" method="post" id="loginForm">
+            	您的邮箱：<input type="text" name="email" id="email"></input><br />
+            <button type="submit" id="subBtn">提交</button>
+        </form>
+    </body>
+   
+    <hr />
+
+		</html>
+		
+
+        
+    
+</form>
+
+		
+	
+	
+	
+
 </html>

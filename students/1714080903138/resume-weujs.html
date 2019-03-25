@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<meta charset="utf-8" />
+		<title>resume-weui</title>
+		<link rel="stylesheet" href="css/weui.min.css" />
+		<style type="text/css">	
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			#body{
+				width:350px;
+				margin:0 auto;
+			}
+			h1,h2{
+				text-align: center;
+			}
+			.b{
+				font-size: 17px;
+				margin-top: 20px;
+				width: 350px;
+
+			}
+		</style>
+		
+		<script type="text/javascript">
+			function checkIP(){
+    		var text=document.getElementById("url").value;
+    		if(text==""){
+      			alert("内容为空，请重新输入！");
+      			return false;
+    		}
+    		return true;
+ 		}
+		function changeColor() {
+                 var form2 = document.getElementsByName("color")
+            	 for ( i=0;i<3;i++)
+                	 if(form2[i].checked){
+                     	document.body.style.background = form2[i].value;
+                 }
+         }
+		</script>
+	</head>
+	
+	<body>
+		<div id="body">
+		<div align="center" >
+     	<form name="form1">
+         	<input name="color" type="radio" value="#0000FF" onclick="changeColor()">蓝色
+         	<input name="color" type="radio" value="#00FF00" onclick="changeColor()">绿色
+         	<input name="color" type="radio" value="#FFFF00" onclick="changeColor()">黄色
+     	</form>	
+     	</div>
+			
+		<h1 class="page__hd">个人简历</h1>  
+			<p style="text-align: center;"><img src="img/pikaqiu.jpg" width="30%" height="30%" ></p>
+		<br />
+		
+		
+        <h2 class="page__hd">个人基本信息</h2>
+        <div class="page">
+    	<div class="page__hd"></div>
+    		<div class="page__bd">
+        		<div class="weui-cells">
+        <div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">
+                    <span style="vertical-align: middle">求职意向：</span>
+                </div>
+                <span style="vertical-align:middle; font-size: 17px;">前端开发设计师</span>
+            </div>
+        <div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">
+                    <span style="vertical-align: middle">姓名：</span>
+                </div>
+                <span style="vertical-align:middle; font-size: 17px;">徐某某</span>
+            </div>
+        <div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">
+                    <span style="vertical-align: middle">毕业学校：</span>
+                </div>
+                <span style="vertical-align:middle; font-size: 17px;">惠州学院</span>
+            </div>
+        <div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">
+                    <span style="vertical-align: middle">学历：</span>
+                </div>
+                <span style="vertical-align:middle; font-size: 17px;">本科</span>
+            </div>
+        <div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">
+                    <span style="vertical-align: middle">专业：</span>
+                </div>
+                <span style="vertical-align:middle; font-size: 17px;">网络工程</span>
+            </div>
+        <div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">
+                    <span style="vertical-align: middle">年龄：</span>
+                </div>
+                <span style="vertical-align:middle; font-size: 17px;">20</span>
+            </div>
+		<div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">
+                    <span style="vertical-align: middle">联系方式：</span>
+                </div>
+                <span style="vertical-align:middle; font-size: 17px;">13650649407</span>
+            </div>
+        <div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">
+                    <span style="vertical-align: middle">邮箱：</span>
+                </div>
+                <span style="vertical-align:middle; font-size: 17px;">528336367@qq.com</span>
+            </div>
+       			</div>
+       		</div>
+        </div>
+		<br />
+		<br />
+		
+		
+        <h2 class="page__hd">我的技能/兴趣</h2>
+   		<div class="weui-grids">
+       	<a href="javascript:;" class="weui-grid">
+            <div class="weui-grid__icon">
+                <img src="http://www.tanghongying.club/lib/image/web.png" alt="">
+            </div>
+            <p class="weui-grid__label">PS切图</p>        
+        </a>  
+                <a href="javascript:;" class="weui-grid">
+            <div class="weui-grid__icon">
+                <img src="http://www.tanghongying.club/lib/image/nodejs.jpg" alt="">
+            </div>
+            <p class="weui-grid__label">Node.js</p>
+        </a>
+        <a href="javascript:;" class="weui-grid">
+            <div class="weui-grid__icon">
+                <img src="http://www.tanghongying.club/lib/image/css.png" alt="">
+            </div>
+            <p class="weui-grid__label">网页制作</p>
+        </a>
+        </div>
+     	<br />
+     	<br />
+     	
+     	
+        <h2 class="page__hd">我的作品集/科研经历</h2>
+        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <div class="weui-media-box__hd">
+                <img class="weui-media-box__thumb" src="http://www.tanghongying.club/lib/image/03.jpg" alt="">
+            </div>
+            <div class="weui-media-box__bd">
+                <h4 class="weui-media-box__title">teenmi</h4>
+                <p style="font-size: 12px;">天意美此网站为购物商城类网站开发,兼容IE8等浏览器,主界面简洁大方为了迎合客户的审美</p>
+            </div>
+        </a>
+
+		<br />
+		<br />
+	
+		
+        <h2 class="page__hd">工作和实习经历</h2>
+ 		<div class="page">
+    	<div class="page__bd">
+                       <p>2017/07-2017/08</p>
+ 			    &nbsp;&nbsp;&nbsp;xx县建设银行?
+ 				详细描述：?负责协助客户经理审查企业贷款申请材料和制作申报材料。
+ 			<p>2016/07-2016/09</p>
+ 				&nbsp;&nbsp;&nbsp;xx公司    
+ 				&nbsp;&nbsp;详细描述：?去实习，帮忙处理一些基本事务。
+    	</div>
+		</div>
+		<br />
+		<br />
+		
+		
+        <h2 class="page__hd">欢迎给我留言</h2>
+ 	    <form  method=t=post action="" name="ipform" onsubmit="return checkIP();">
+ 	 	<div class="weui-cells weui-cells_form" >
+             <div class="weui-cell">
+                 <div class="weui-cell__bd" align="center">
+                     <textarea name="ip" id="url" style="width: 300px; height: 200px;" type="text" placeholder="请输入留言"></textarea>
+                     <div class="weui-textarea-counter"><span>0</span>/200</div>
+                 </div>
+             </div>
+    	</div>
+ 		<div class="weui-cell__ft">
+                 <button class="weui-vcode-btn" type="submit" id="subBtn">留言</button>
+        </div>
+    	</form>
+ 	
+	</div>
+	</body>
+</html>
+

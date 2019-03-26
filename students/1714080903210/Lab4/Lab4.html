@@ -1,0 +1,295 @@
+<!DOCTYPE html>	
+<html>	
+<head>	
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">	
+	<meta name="description" content="event.html">
+    <meta name="keywords" content="event,html,js">
+	<title>个人简历</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
+	<link rel="stylesheet" type="text/css" href="../Lab3/weui.min.css">	
+	<style type="text/css">	
+	body{
+
+			font:14px/28px "微软雅黑";
+
+		}
+	@font-face	
+	{	
+		font-family: myFirstFont;	
+		src:url('msyh.ttc');	
+	}	
+ 	table,td	
+	{	
+		border: 0px solid black;	
+		text-align: center;	
+	}	
+ 	td	
+	{	
+		border: 0px solid black;	
+		text-align: center;	
+		width: 100px;	
+	}	
+ 	th	
+	{	
+		height: 50px;	
+	}	
+	.tips_true,.tips_false{
+
+			padding-left: 10px;
+
+		}
+ 	.timg{	
+        width:150px; 	
+        height:150px; 	
+        border-radius:150px;	
+	}	
+ 	.signimg{	
+        width:40px; 	
+        height:40px; 	
+        border-radius:40px;	
+	}	
+ 	body{	
+		background-color: #F0F0F0;	
+	}	
+ 	h1	
+	{	
+		text-align: center;	
+		font-family: myFirstFont;	
+	}	
+ 	</style>
+
+ <script type="text/javascript">
+
+	    function checkna(){
+
+			na=form1.yourname.value;
+
+		  	if( na.length <1 || na.length >12)  
+
+	  		{  	
+
+	  			divname.innerHTML='<font class="tips_false">长度是1~12个字符</font>';
+
+	  		     
+
+	  		}else{  
+
+	  		    divname.innerHTML='<font class="tips_true">输入正确</font>';
+
+	  		   
+
+	  		}  
+
+	  	
+
+	  }
+
+		//验证邮箱
+
+		
+
+		function checkmail(){
+
+					apos=form1.youremail.value.indexOf("@");
+
+					dotpos=form1.youremail.value.lastIndexOf(".");
+
+					if (apos<1||dotpos-apos<2) 
+
+					  {
+
+					  	divmail.innerHTML='<font class="tips_false">输入错误</font>' ;
+
+					  }
+
+					else {
+
+						divmail.innerHTML='<font class="tips_true">输入正确</font>' ;
+
+					}
+
+		}
+
+  </script>
+
+
+
+
+</head>	
+
+
+ 	<body ontouchstart>	
+	<br>	
+		<center>	
+		<img class="timg" src="..\Lab3\imag\头像.jpg">			
+		</center>	
+
+ 	<br>	
+	<div class="weui-panel__bd">	
+    	    <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">	
+       	     <div class="signimg">	
+       	         <img class="weui-media-box__thumb" src="..\Lab3\imag\个人.png" alt="">       	     		      	
+       	     </div>	
+       	     <div class="weui-media-box__bd">	
+        	        <h4 class="weui-media-box__title">  个人信息</h4>	
+        	    </div>	
+      	  </a>	
+ 	</div>			
+
+ 	<center>	
+	<table>	
+		<tr>	
+			<th>姓名</th>	
+			<td>JY</td>	
+		</tr>	
+		<tr>	
+			<th>出生年月</th>	
+			<td>1999.*</td>	
+		</tr>	
+		<tr>	
+			<th>邮箱</th>	
+			<td>*********@qq.com</td>	
+		</tr>	
+		<tr>	
+			<th>住址</th>	
+			<td>huizhou</td>	
+		</tr>	
+		<tr>	
+			<th>联系方式</th>	
+			<td>10000000000</td>	
+		</tr>	
+		<tr>	
+			<th>工作经验</th>	
+			<td>5年</td>	
+		</tr>	
+	</table>			
+	</center>	
+
+
+ 	<br>	
+	<div class="weui-panel__bd">	
+    	    <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">	
+       	     <div class="signimg">	
+       	         <img class="weui-media-box__thumb" src="..\Lab3\imag\项目申报.png" alt="">	
+       	     </div>	
+       	     <div class="weui-media-box__bd">	
+        	        <h4 class="weui-media-box__title">  项目经验</h4>	
+        	    </div>	
+      	  </a>	
+ 	</div>	
+
+  	<article class="weui-article">	
+    <h1>****管理系统</h1>	
+    <section>	
+        <h2 class="title">项目时间：2019</h2>	
+        <section>	
+            <center>	
+                 	 <h3>介绍</h3>	
+            </center>	
+   			 <p>	
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,	
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo	
+                consequat.	
+            </p>   	
+        </section>	
+
+     </section>	
+	</article>	
+
+  	<br>	
+ 	<br>	
+
+  	<div class="weui-panel__bd">	
+    	    <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">	
+       	     <div class="signimg">	
+       	         <img class="weui-media-box__thumb" src="..\Lab3\imag\意向服务商.png" alt="">	
+       	     </div>	
+       	     <div class="weui-media-box__bd">	
+        	        <h4 class="weui-media-box__title">  求职意向</h4>	
+        	    </div>	
+      	  </a>	
+ 	</div>		
+
+  	<center>	
+  	<table>	
+ 		<tr>	
+			<th>职位</th>	
+			<td>*</td>	
+		</tr>	
+		<tr>	
+			<th>期望薪资</th>	
+			<td>*</td>	
+		</tr>		
+ 	</table>	
+
+  	</center>	
+
+  	<br>	
+ 	<br>	
+
+ 	<div class="weui-panel__bd">	
+    	    <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">	
+       	     <div class="signimg">	
+       	         <img class="weui-media-box__thumb" src="..\Lab3\imag\交流.png" alt="">       	     		      	
+       	     </div>	
+       	     <div class="weui-media-box__bd">	
+        	        <h4 class="weui-media-box__title">  交流</h4>	
+        	    </div>	
+      	  </a>	
+ 	</div>	
+   
+
+   	<center>		
+   	<div class="contact" >
+
+		<form name="form1" method="post">
+
+			<ul>
+
+				<li>
+
+					<label>留言内容：</label>
+
+					<input type="text" name="yourname" placeholder="请输入你的留言" style="width: 250px;height: 100px" onblur="checkna()" required/>
+
+				</li>
+
+
+
+				<li>
+
+					<label>电子邮箱：</label>
+
+					<input type="text" name="youremail" placeholder="请输入你的邮箱" style="width: 250px" onblur="checkmail()" required/><span class="tips" id="divmail"></span>
+
+				</li>
+
+			</ul>
+
+			<b class="btn"><input type="submit" value="提交"/>
+
+			<!--input type="reset" value="取消"/></b-->
+
+		</form>
+
+	</div>	
+	</center>	
+
+
+
+
+
+ 	<div class="weui-footer">	
+    <p class="weui-footer__text">BcwsdnrJY &copy; My resume</p>	
+</div>	
+<div class="weui-footer">	
+    <p class="weui-footer__links">	
+        <p>welcome to<a href="https://github.com/bcwsdnrjy" class="weui-footer__link">my github</a></p>	
+    </p>	
+</div>	
+
+
+ </body>	
+</html> 

@@ -1,0 +1,54 @@
+<!Doctype html>
+<html lang="zh-cmn-Hans"> 
+<head>
+<meta charset="gkb">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<title>
+Lab4
+</title>
+<style>
+#text {color:pink;}
+from {height:100px; width:100px;}
+</style>
+<script type="text/javascript" language="javascript" src="JS.js">
+</script>
+<link rel="stylesheet" type="text/css" href="http://res.wx.qq.com/open/libs/weui/0.4.0/weui.min.css">
+</head>
+<body>
+<form name = "form1">
+	<input name = "color" type = "radio" value = "#FFFFFF" onclick = "changeColor()">白色
+	<input name = "color" type = "radio" value = "#0000FF" onclick = "changeColor()">蓝色
+	<input name = "color" type = "radio" value = "#00FF00" onclick = "changeColor()">绿色
+	<input name = "color" type = "radio" value = "#FFFF00" onclick = "changeColor()">黄色
+</form>
+<div><a href="https://github.com/ClayHello" id="text"> my profile </a></div>
+<div>
+    <table border="2"> 
+      <tr>
+	<th class="weui-cells__title">name</th>
+
+	<th class="weui-cells__title">sex</th>
+
+	<th class="weui-cells__title">class</th>
+      </tr>
+      <tr>
+	<td class="weui-cells__tips">Clay</td>
+
+	<td class="weui-cells__tips">male</td>
+
+	<td class="weui-cells__tips">网络工程2班</td>
+      </tr>
+    </table>
+</div>
+<a id="text" class="weui-cells__tips"> This is my picture!</a>
+<div><img src="timg.jpg"></div>
+<textarea class="weui-textarea " placeholder="请输入文本" rows="5" name="text1" >惠州学院毕业，多年开发经验，全栈工程师</textarea>
+<div><a href="javascript:;" class="weui-btn weui-btn_mini weui_btn_primary" onclick="hire()">聘用</a>  </div>
+<div>
+	<FORM METHOD=POST ACTION="" name="ipform" onsubmit="return checkIP();">
+	<input type="text" id="url" name="ip"  style="width:300px;" maxlength="50" value="" class="weui-input" placeholder="请输入留言">
+	<br/>
+	<input type="submit" name="button" value="留言" /></FORM>
+</div>
+</body>
+</html>

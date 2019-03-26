@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>WeUI</title>
+    <script type="text/javascript">
+    	window.onload = function(){
+    		var count = 1;
+    		var tab = document.getElementById("tab");
+    		var trail = document.getElementById("trail")
+    		tab.onclick = function(){
+    			if(count%2 == 1){
+    				trail.style.display = "block";
+    			} 
+    			else 
+    				trail.style.display = "none";
+    			count++;
+    			console.log(count);
+    			
+    		}
+    	}
+    </script>
+    <link rel="stylesheet" href="css/weui.css"/>
+</head>
+<body  ontouchstart>
+	    <div class="web-title0" align="center"><h2 >个人简历</h2></div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd" >
+        <h2>姚仍劲</h2>
+        </div> 
+        <div class="weui-cell_hd">
+            <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4226468334,723383513&fm=27&gp=0.jpg" width="150px" height="90px">
+        </div>   
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+         <b style="">性别：</b>
+        </div>
+        <div class="weui-cell_ft">
+          	 男
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+         <b>出生日期：</b>
+        </div>
+        <div class="weui-cell_ft">
+            xxx.xx.xx
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+        	<b>民族：</b>
+        </div>
+        <div class="weui-cell_ft">
+        	汉
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+        	<b>政治面貌：</b>
+        </div>
+        <div class="weui-cell_ft">
+        	团员 
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+        	<b>毕业学校：</b>
+        </div>
+        <div class="weui-cell_ft">
+           	惠州学院  
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+       		<b>专业技能：</b>
+        </div>
+        <div class="weui-cell_ft">
+          html/css/js/php/mysql 
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+        	<b>求职意向：</b>
+        </div>
+        <div class="weui-cell_ft">
+            前端开发 
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+        	<b>联系方式：</b>
+        </div>
+        <div class="weui-cell_ft">
+       		135********* 
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+        	<b>邮箱：</b>
+        </div>
+        <div class="weui-cell_ft">
+       		910111393@qq.com 
+        </div>
+    </div>
+    <div class="weui-cell" >
+        <div class="weui-cell__bd">
+            <b>github主页:</b>
+        </div>
+        <div class="weui-cell_ft">
+            <a href="https://github.com/yorojo">
+                    <b style="text-align: center;">https://github.com/yorojo</b>
+            </a>
+        </div>
+    </div>
+    <div class="container" id="container" >
+        <div class="page list js_show">
+            <div class="page_bd">
+                <div class="weui-cells" style="background-color:#778899">
+                    <a class="weui-cell weui-cell_access" href="javascript:">
+                        <div class="weui-cell__bd" align="center">
+                            <b id="tab">查看更多/收起</b>
+                        </div>
+                       		<div class="weui-cell_ft">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div id="trail" style="display:none">
+	    <div class="web-title1" style="background-color:#6495ED">
+	        	院校专业
+	    </div>
+		    <div class="weui-cell">
+		        <div class="weui-cell__bd">
+		        	<b>2017.9-2021.6</b>
+		        </div>
+		        <div class="weui-cell_ft">
+		          	惠州学院 &nbsp;网络工程
+		        </div>
+		    </div> 
+		    <div class="weui-cell">
+		        <div class="weui-cell__bd">
+		            <b>在校表现</b>
+		            <div class="weui-cell_ft">
+		                <p>优异</p>
+		            </div>
+		        </div>
+		    </div>
+		
+		    <div class="weui-cell">
+		        <div class="weui-cell__bd">
+		            <b>个人荣誉</b>
+		            <div class="weui-cell_ft">
+		                <ul>
+		                    <li>xxxxxxxx</li>
+		                    <li>xxxxxxxx</li>
+		                    <li>xxxxxxxx</li>
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
+		
+		    <div class="web-title1" style="background-color:#6495ED">
+		        	个人评价
+		    </div>
+		    <div class="weui-cell">
+		        <div class="weui-cell__bd">
+		            <p>
+		                &nbsp;&nbsp;xxxxxxxx
+		            </p>
+		            <p>
+		                &nbsp;&nbsp;xxxxxxxx
+		            </p>
+		        </div>    
+		    </div>
+		
+		    <div class="web-title1" style="background-color:#6495ED">
+		       	 留言区
+		    </div>
+		    <div class="weui-cells_form">
+		        <div class="weui-cell">
+		        <div class="weui-cell__bd">
+		            <textarea class="weui-textarea" placeholder="请输入留言..." rows="3"></textarea>
+		            <div class="weui-textarea-counter">
+		                <span>0</span>
+		                /200
+		            </div>
+		        </div>
+		    </div>
+	   	</div>
+    </div>
+    <div class="weui-btn-area">
+        <a href="javascript:" class="weui-btn weui-btn_primary" id="showTooltips" style="background-color: rgb(219,216,217); color: black; font-family: '微软雅黑';">
+                                 提交
+        </a>
+    </div>
+</body>

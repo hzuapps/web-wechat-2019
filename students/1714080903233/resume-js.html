@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>居一龙的个人简历</title>
+	<link href="weui.css" rel="stylesheet" type="text/css">
+	
+	<style type="text/css">
+			#bla{
+				color:black;
+			}
+			
+	</style>
+	<script>
+		function f()
+		{  var x=document.getElementById("info").value;
+		   if(x=="")
+			{
+				alert("请输入留言！");
+			}
+			else
+			{
+				alert("留言成功!");
+			} 
+		}
+		function changColor()
+		{
+			for(i=0; i<4; i++)
+				if(f1.color[i].checked){
+				document.body.style.background = f1.color[i].value;
+				}
+		}
+</script>
+	
+</head>
+<body bgcolor=>
+	<form name="f1" align="right">
+		背景颜色:
+		<input name="color" type="radio" value="#F8EFFB" onclick="changColor()">紫
+		<input name="color" type="radio" value="#FFF0F5" onclick="changColor()">粉
+		<input name="color" type="radio" value="#F0FFFF" onclick="changColor()">蓝
+		<input name="color" type="radio" value="#D1EEEE" onclick="changColor()">绿
+	</form>
+	<div class="page">
+		<div class="page__hd">
+			<h1 align="center" class="page__title">个人简历</h1>
+		</div>
+		
+		<div class="page__bd">
+			<div class="weui-cells">
+			
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>个人图片</b></p>
+					</div>
+					<div class="weui-cell__ft"><img alt="相片" src="img/zyl.png" height="100"></div>
+				</div>
+				
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>姓名</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">居一龙</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>性别</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">男</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>出生年月</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">1999/03</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>民族</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">汉</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>政治面貌</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">团员</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>婚姻状况</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">未婚</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>身高</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">180cm</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>籍贯</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">广东惠州</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>联系电话</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">12138678912</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>邮箱</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">12138@126.com</div>
+				</div>
+
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p><b>教育背景</b></p>
+					</div>
+					<div class="weui-cell__ft">展开</div>
+				</a>
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p><b>受教育经历</b></p>
+					</div>
+					<div class="weui-cell__ft">展开</div>
+				</a>
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p><b>工作经历</b></p>
+					</div>
+					<div class="weui-cell__ft">展开</div>
+				</a>
+				<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p><b>能力情况</b></p>
+					</div>
+					<div class="weui-cell__ft">展开</div>
+				</a>
+			
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>自我评价</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">
+					较良好有帅气的外形，勤奋努力的工作态度，<br/>
+					并且有着良好的艺术修养。生活中的居一龙是一<br/>
+					个面对不熟悉的人略显羞涩的大男孩，但面对打代<br/>
+					码，他是个很有钻研精神十分敬业的程序猿。
+					</div>
+				</div>
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>GitHub主页</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla"><a href="https://github.com/CAIZXX">我的GiTHub</a></div>
+				</div>
+			</div>
+			<div class="weui-cells__title">留言板</div>
+			<div class="weui-cells weui-cells_form">
+				<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<textarea class="weui-textarea" placeholder="请输入文本" rows="3" id="info" ></textarea>
+						<div class="weui-textarea-counter"><span>0</span>/200</div>
+					</div>
+				</div>
+			</div>
+			<div class="weui-btn-area">
+				<a class="weui-btn weui-btn_primary" href="javascript:f();" id="showTooltips">提交</a>
+			</div>
+        </div>
+	</div>
+	<br/><hr width="100%" size="2" color="#E2A9F3"/>
+</body>
+</html>

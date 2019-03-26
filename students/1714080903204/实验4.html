@@ -1,0 +1,128 @@
+<html lang="zh-cmn-Hans"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta http-equiv="Content-Type"content="text/html";charset="gb2312"/>
+     <meta name="description" content=event.html"">
+    <meta name="keywords" content="event,html,js">
+    <title>实验4</title>
+    <link rel="stylesheet" href="./weui.css">
+    <script type="text/javascript" language="javascript">
+        function changeColor() {
+            for(i=0;i<4;i++)
+                if(form1.color[i].checked)
+                {
+                    document.body.style.background=form1.color[i].value;
+                }
+        }
+    </script>
+     <script type="text/javascript" src="form.js"></script>
+</head>
+<body ontouchstart="">
+    <form name="form1">
+        <input type="radio" name="color" value="#FFFFFF" onclick="changeColor()">白色
+        <input type="radio" name="color" value="#CECEFF" onclick="changeColor()">蓝色
+        <input type="radio" name="color" value="#C2FF68" onclick="changeColor()">绿色
+        <input type="radio" name="color" value="#FFFFCE" onclick="changeColor()">黄色
+    </form>
+    <div class="container" id="container"><div class="page list js_show">
+    <div class="page__hd">
+        <h1 class="page__title">个人简历</h1>
+        <p class="page__desc"> </p>
+    </div>
+    <div class="page__bd">
+        <div class="weui-cells__title">相关信息</div>
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>姓名</p>
+                </div>
+                <div class="weui-cell__ft">郑非吾</div>
+                    </div>
+
+                    <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>性别</p>
+                </div>
+                <div class="weui-cell__ft">女</div>
+            </div>
+
+               <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>出生年月</p>
+                </div>
+                <div class="weui-cell__ft">1998-03</div>
+            </div>
+                       <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>籍贯</p>
+                </div>
+                <div class="weui-cell__ft">广东汕头</div>
+                    </div>
+                       <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>毕业院校</p>
+                </div>
+                <div class="weui-cell__ft">惠州学院</div>
+                    </div>
+                       <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>专业</p>
+                </div>
+                <div class="weui-cell__ft">网络工程</div>
+                    </div>
+                       <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>在校出色事迹</p>
+                </div>
+                <div class="weui-cell__ft">曾任学生会干部</div>
+                </div>
+   <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>曾获奖项</p>
+                </div>
+                <div class="weui-cell__ft">XX杯</div>
+            </div>
+   <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>性格</p>
+                </div>
+                <div class="weui-cell__ft">乐观开朗，处事积极</div>
+            </div>
+   <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>优点</p>
+                </div>
+                <div class="weui-cell__ft">做事认真、仔细，重视团队精神</div>
+            </div>
+
+
+ <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>联系方式</p>
+                </div>
+                <div class="weui-cell__ft">XXXXXXX</div>
+            </div>
+             <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>常用邮箱</p>
+                </div>
+                <div class="weui-cell__ft">XXXXX@qq.com</div>
+            </div>
+
+            <form action="pass.html" method="post" id="loginForm">
+            <div class="weui-cells__title">欢迎留言</div>
+          <div class="weui-cell__bd" align="center">
+                    <textarea name="liuyan" id="liuyan" style="width: 500px; height: 100px;" type="text" placeholder="请输入留言"></textarea>
+                </div>
+ <div class="weui-cell__ft">
+                <button class="weui-vcode-btn" type="submit" id="subBtn">提交</button>
+        </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>

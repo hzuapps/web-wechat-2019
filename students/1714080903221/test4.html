@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		WilliamMJC的简历
+	</title>
+        <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="weui.css">
+    <script type="text/javascript">
+           function myforms(){
+    var x=document.getElementById("info").value;
+    if(x===""||x===null)
+        {
+            alert("留言内不能为空哦！");
+            return false;
+        }
+    else{
+        alert("提交成功！");
+        return true;
+    }
+}
+        </script>
+</head>
+<body>
+  <div class="weui-cells__title">WilliamMJC的简历</div>
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <p>姓名</p>
+                </div>
+                <div class="weui-cell__ft">WilliamMJC</div>
+            </div>
+
+
+           <div class="weui-cell__bd">
+                    <p>联系方式</p>
+                </div>
+                <div class="weui-cell__ft">752467710@qq.com</div>
+            </div>
+
+
+           <div class="weui-cell__bd">
+                    <p>学历</p>
+                </div>
+                <div class="weui-cell__ft">本科</div>
+            </div>
+
+
+           <div class="weui-cell__bd">
+                    <p>专业方向</p>
+                </div>
+                <div class="weui-cell__ft">网络工程</div>
+            </div>
+
+
+           <div class="weui-cell__bd">
+                    <p>专业技能</p>
+                </div>
+                <div class="weui-cell__ft">长期学习C、C++、JAVA，具有较好的编程功底</div>
+            </div>
+
+
+           <div class="weui-cell__bd">
+                    <p>参赛经历</p>
+                </div>
+                <div class="weui-cell__ft">曾参加金迈思杯、蓝桥杯比赛</div>
+            </div>
+        </div>
+
+
+         <div class="weui-cells">
+            <a class="weui-cell weui-cell_access" href="https://github.com/WilliamMJC/web-wechat-2019">
+                <div class="weui-cell__bd">
+                    <p>我的Github</p>
+                </div>
+                <div class="weui-cell__ft">
+                </div>
+            </a>
+
+        <div class="weui-cells__title">留言</div>
+<div class="weui-cells weui-cells_form" >
+        <div class="weui-cells">
+            <div class="weui-cell">
+            <div class="weui-cell__bd">
+
+         <textarea id="info"  name="info" class="weui-textarea" placeholder="请输入留言" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+<div class="weui-textarea-counter"><span>0</span>/200</div>
+          <button type="button" class="weui-btn weui-btn_primary" onClick="myforms()">提交</button>
+        </div>
+</body>
+</html>
+
+
+            

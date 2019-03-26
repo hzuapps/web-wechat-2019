@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>resume-weui</title>
+		<link rel="stylesheet" href="css/weui.min.css" />
+		<script type="text/javascript" src="js/resume.js"></script>
+		<style type="text/css">
+			/*#body{
+				width:500px;
+				margin: 0 auto;
+			}*/
+			.left{
+				display: inline-block;
+			}
+			.right{
+				display: inline-block;
+				float:right;
+			}
+			.gray{
+				color:gray;
+			}
+			#img{
+				width:10px;
+				height:10px;
+			}
+			#word{
+				float:left;
+				line-height: 80px;
+			}
+			#photo,#word{
+				
+				height:45px;
+				
+			}
+			#box {
+				display: none;
+				position: fixed;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				/*background-color: rgba(0,0,0,0.5);*/
+			}
+		</style>
+		
+		
+		
+	</head>
+	<body>
+		<div id="">
+			<div class="page__hd" id = "">
+        	<h1 class="page__title">个人简历</h1>
+        
+    	</div>
+		<div class="page">
+   			 <div class="page__bd">  
+   			 	
+   			 	<div class="  weui-cells_radio weui-check__label">
+            		<div class="weui-cell weui-check__label"  >
+                		<div class="weui-cell__bd">		
+                			<div id="word">个人照片</div> 
+                			<div id="photo">    		                		
+	                       		<a href="#" onclick="window.open('img/00.jpg')"><img class="right" src="img/00.jpg" width="45px"/></a>			                       		    	
+                    		</div>
+                    		
+           		 	</div>          
+       				 </div>
+   			 	</div>
+        		<div class="weui-cell weui-check__label"  >
+            		<div class="weui-cell__bd">
+                		<p class="left">姓名</p><p class="right">陈丫</p>
+            		</div>               
+       		 	</div>          
+       			 
+        		<div class="weui-cell weui-check__label"  >
+            		<div class="weui-cell__bd">
+                		<p class="left">性别</p><p class="right">女</p>
+            		</div>               
+       		 	</div>          
+       		
+       			<div class="weui-cell weui-check__label"  >
+            		<div class="weui-cell__bd">
+                		<p class="left">出生年月</p><p class="right">1998/05</p>
+            		</div>               
+       		 	</div>
+       		 	
+       		 	<div class="weui-cell weui-check__label"  >
+            		<div class="weui-cell__bd">
+                		<p class="left">民族</p><p class="right">汉族</p>
+            		</div>               
+       		 	</div>   
+       		
+       			<div class="weui-cell weui-check__label"  >
+            		<div class="weui-cell__bd">
+                		<p class="left">籍贯</p><p class="right">广东汕头</p>
+            		</div>               
+       		 	</div>      		
+    
+       		<a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd" id="study">
+                    <p class="left">学历</p><p class="right gray" id="close1" >展开</p>
+                </div>
+                <div class="weui-cell__ft">
+                </div>
+        	</a>
+            	
+            <div id = "school" style="display: none;">	       				       			<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd gray">
+	                		<p class="left">毕业学校</p><p class="right ">本科/惠州学院</p>
+	            		</div>               
+	       			 </div>  
+	       		 	
+	       		 	<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd gray">
+	                		<p class="left">专业</p><p class="right">网络工程</p>
+	            		</div>               
+	       		 	</div>  
+	       		 </div>
+            	
+        	<a class="weui-cell weui-cell_access" href="javascript:;">
+                <div class="weui-cell__bd" id="contact">
+                    <p class="left">联系方式</p><p class="right gray" id="close2" >展开</p>
+                </div>
+                <div class="weui-cell__ft">
+                </div>
+        	</a>
+        
+       			<div id="list" class="gray"style="display: none;">
+       				
+       				<div class="weui-cell weui-check__label">
+	            		<div class="weui-cell__bd ">
+	                		<p class="left">手机号</p><p class="right">13258946258</p>
+	            		</div>               
+	       			 </div> 
+       				
+	       			<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd">
+	                		<p class="left">微信号</p><p class="right">13258946258</p>
+	            		</div>               
+	       			 </div>  
+	       		 		       		 	        		 	
+	       		 	<div class="weui-cell weui-check__label"  >
+	            		<div class="weui-cell__bd">
+	                		<p class="left">邮箱</p><p class="right ">251708546@qq.com</p>
+	            		</div>               
+	       		 	</div>  
+	       		 </div>
+   				 <div class="weui-cell weui-check__label"  >
+            		<div class="weui-cell__bd">
+                		<p class="left">政治面貌</p><p class="right">共青团员</p>
+            		</div>               
+       		 	</div>  
+       		 	
+       		 	<a id="introduce" class="weui-cell weui-cell_access" href="javascript:;">
+	                <div class="weui-cell__bd" >
+	                    <p class="left">个人简介</p><p class="right gray" id="close3" >展开</p>
+	                </div>
+	                <div class="weui-cell__ft">
+	                </div>
+        		</a>
+        		<!--<div class="weui-cell "  >-->
+	            		<div class="weui-cell__bd gray">
+	                		<p id="descript" style="display: none;">
+	                			&nbsp;&nbsp;&nbsp;本人性格开朗、稳重、有活力，待人热情、真诚；
+	                			工作认真负责，积极主动，能吃苦耐劳，用于承
+	                			受压力，勇于创新；有很强的组织能力和团队协
+	                			作精神，具有较强的适应能力；纪律性强，工作
+	                			积极配合；意志坚强，具有较强的无私奉献精神
+	                		</p>
+	            		</div>               
+	       		<!--</div>-->  
+	       			 
+	       		<a id="work" class="weui-cell weui-cell_access" href="javascript:;">
+	                <div class="weui-cell__bd" >
+	                    <p class="left">工作经历</p><p class="right gray" id="close4" >展开</p>
+	                </div>
+	                <div class="weui-cell__ft">
+	                </div>
+        		</a>
+        		
+        		<div class="weui-cell__bd gray">
+            		<div id="experience" style="display:none ;">
+            			<p>2018/07-2018/08</p> 
+            			工商银行xxx支行  
+							详细描述： 实习期间，不怕苦，不怕累，掌握了银行主要业务流程，受到同事们的好评。
+						<p>2017/07-2017/08</p>
+						&nbsp;&nbsp;&nbsp;xx县建设银行 
+							详细描述： 负责协助客户经理审查企业贷款申请材料和制作申报材料。
+						<p>2016/07-2016/09</p>
+						&nbsp;&nbsp;&nbsp;家教    
+							&nbsp;&nbsp;详细描述： 暑假期间在xx做了两个月的家教 。
+            		</div>
+        		</div>               
+	       	
+	       		
+	            <a id="set" class="weui-cell weui-cell_access" href="javascript:;" target="_self">
+	                <div class="weui-cell__bd">
+	                    <p>设置</p>
+	                </div>
+	                <div class="weui-cell__ft">
+	                </div>
+	            </a>
+	        <div id = "box" >
+	        	
+	            	
+				<div id = "content" class="weui-cells weui-cells_radio">
+					<label class="weui-cell weui-check__label"  >
+		                <div class="weui-cell__bd"  >
+		                    <p>设置主题</p>
+		                </div> 
+		            </label>
+		            <label class="weui-cell weui-check__label" for="x11" id="white">
+		                <div class="weui-cell__bd"  >
+		                    <p>WHITE</p>
+		                </div>
+		                <div class="weui-cell__ft" >
+		                    <input type="radio" class="weui-check" name="radio1" id="x11"checked="checked"/>
+		                    <span class="weui-icon-checked"></span>
+		                </div>
+		            </label>
+		            <label class="weui-cell weui-check__label" for="x12" id="blue">
+		
+		                <div class="weui-cell__bd" >
+		                    <p>SKEYBLUE</p>
+		                </div>
+		                <div class="weui-cell__ft">
+		                    <input  type="radio" name="radio1" class="weui-check" id="x12" />
+		                    <span class="weui-icon-checked"></span>
+		                </div>
+		            </label>
+		            <label class="weui-cell weui-check__label" for="x13" id="black">
+		
+		                <div class="weui-cell__bd">
+		                    <p>BLACK</p>
+		                </div>
+		                <div class="weui-cell__ft">
+		                    <input  type="radio" name="radio1" class="weui-check" id="x13" />
+		                    <span class="weui-icon-checked"></span>
+		                </div>
+		            </label>
+		    			
+       	    </div>
+		        <div class="weui-btn-area">
+		            <a  id = "btn"class="weui-btn weui-btn_primary" href="javascript:;" >OK</a>
+		            
+				</div>
+			  </div>
+	       			 
+       		 	
+			<form id="Form" method="get" >
+				<div class="weui-cells__title">留言区</div>
+	       		<div id = "text1" class=" weui-cells weui-cells_form">
+	            <div id="text2" class="weui-cell">
+	                <div id="text2"class="weui-cell__bd" >
+	                    <textarea class="weui-textarea" placeholder="请输入文本" rows="3"></textarea>
+	                    <div class="weui-textarea-counter"><spanid >0</span>/200</div>
+	                </div>
+	            </div>
+	        	</div>
+
+		        <div class="weui-btn-area">
+		            <button  type="submit" class="weui-btn weui-btn_primary" id="showTooltips"  >确定</button>
+		            <input id="reset1"class="weui-btn weui-btn_primary" type="reset" value="重置" />
+				</div>
+			</form>
+	        
+        
+    	</div>
+    
+		</div>
+	</div>
+
+	</body>
+	
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>个人简历</title>
+    <link rel="stylesheet" type="text/css" href="weui.css">
+    <script type="text/javascript" language="javascript">
+        function changeColor()
+        {
+            for(i=0;i<4;i++)
+                if (form1.color[i].checked) {
+                    document.body.style.background=form1.color[i].value;
+                }
+        }
+        function checkform()
+        {
+            var text=document.getElementById("info").value;
+            if(text==""){
+                alert("内容为空，请重新输入！");
+                return false;
+            }
+            else
+            {
+            alert("提交成功")
+            return true;
+            }
+        }
+    </script>
+    <style type="text/css">
+    p{
+    		color:black;
+    		font-family:"黑体"
+    	}
+    t{
+        font-family:"黑体" ;
+        font-weight: bold;
+        font-size:22px;
+    }	
+    </style>
+
+</head>
+<body>
+    <form name="form1">
+        <input type="radio" name="color" value="#FFC1C1" onclick="changeColor()">粉色
+         <input type="radio" name="color" value="#F5FFFA" onclick="changeColor()">蓝色
+          <input type="radio" name="color" value="#FAFAD2" onclick="changeColor()">黄色
+           <input type="radio" name="color" value="#C0C0C0" onclick="changeColor()">银白色
+    </form>
+<div class="page" >
+    <div class="page__hd">
+        <h1 class="page__title" align="center" ><font size="6"><b>个人简历</b></font></h1>
+    </div>
+ <div class="page__bd" >
+ 	<div class="weui-cells">
+ 		<div class="weui-cell">
+            <div class="weui-cell__bd">
+                <t>姓名</t>
+            </div>
+            <div class="weui-cell__ft" ><p>王嘉尔</p></div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <t>个人图片</t>
+            </div>
+            <div class="weui-cell__ft" ><img src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=6548fbff97510fb36c147fc5b85aa3f0/b21bb051f8198618b5ff5ac243ed2e738bd4e638.jpg"width="100"height="140"></div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <t>出生日期</t>
+            </div>
+            <div class="weui-cell__ft" ><p>1994.3.28</p></div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <t>籍贯</t>
+            </div>
+            <div class="weui-cell__ft" ><p>中国香港</p></div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <t>毕业院校</t>
+            </div>
+            <div class="weui-cell__ft" ><p>American International School</p></div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <t>工作经历</t>
+            </div>
+            <div class="weui-cell__ft" ><p>主持人，歌手，击剑运动员</p></div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <t>获得的成就</t>
+            </div>
+            <div class="weui-cell__ft" >
+            <p>
+            2010年全国锦标赛个人银牌<br/> 
+            2011年亚青锦标赛个人金牌<br/>
+            2011年亚洲击剑青年锦标赛男子17岁组佩剑个人冠军<br/> 
+            2014年SBS演艺大赏综艺部门男子新人奖<br/> 
+            新浪微博之夜年度人气艺人奖<br/>
+           </p></div>
+        </div>
+        <div class="weui-cell">
+        	<body link="black"vlink="blue"alink="red">
+            <div class="weui-cell__bd">
+                <t>个人主页</t>
+            </div>
+            <div class="weui-cell__ft" ><a href="https://github.com/zhujingyi2019" >GitHub主页</a></div>
+        </div>
+    </div>   
+        <div class="weui-cells__title">留言板</div>
+        <div class="weui-cells weui-cells_form">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <textarea class="weui-textarea" placeholder="请输入文本" rows="3" id="info"></textarea>
+                    <div class="weui-textarea-counter"><span>0</span>/200</div>
+                </div>
+            </div>
+        </div>
+            <div class="weui-btn-area">
+                <a class="weui-btn weui-btn_primary" href="javascript:checkform();" id="showTooltips">提交</a>
+            </div>
+	</div>	
+</div>
+</body>
+</html>

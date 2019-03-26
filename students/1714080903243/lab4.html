@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+  <title>我的简历</title>
+<style type="text/css">
+        table{    
+          border-collapse: collapse;
+          margin:0 auto;     
+          width:650px;
+        }
+        tr{
+          height: 40px;
+              }
+        td{
+          border: 1px solid black;
+        }
+        th{
+          border: 1px solid black;
+          background-color: ;
+        }
+        
+  #css5{
+    margin:0 auto;
+    width:200px;
+    font-family:"宋体"; 
+  } 
+      </style>
+<link rel="stylesheet" href="../weui-master/weui-master/dist/style/weui.css"/>
+
+<script type="text/javascript">
+   function changecolor(color){
+   document.bgColor=color;
+   }
+ 
+  
+function checkform(){ 
+    if(document.getElementById('ipt1').value.length==0){    
+        alert('输入为空！');
+        document.getElementById('ipt1').focus();
+        return false;
+    }
+    if(document.getElementById('ipt1').value=="请输入搜索内容"){    
+        alert('输入为空！');
+//        document.getElementById('ipt1').focus();
+        return false;
+    }
+  else{
+      alert('提交成功！');
+}
+}
+</script>
+</head>
+<body class="center'">
+
+
+
+  <input type="button" value="护眼模式" onClick="changecolor('green')">
+<input type="button" value="红色" onClick="changecolor('red')">
+<input type="button" value="蓝色" onClick="changecolor('blue')">
+ <table cellpadding="0" cellspacing="0" border="1" align="center" border="1"  >
+   <div id="css5"><h1 >我的简历</h1></div>
+ </br></br>
+    <tr >
+      <th  class="weui-cells__title">姓名</td>
+      <td class= "weui-cells__tips">小范</td>
+      <th class="weui-cells__title">年龄</td>
+      <td class="weui-cells__tips">21</td>
+     <td width="50" rowspan="3" height="80" bgcolor="#b6b8c4"><p><img width="150px" height="150px" src="https://p.ssl.qhimg.com/dmfd/125_71_75/t0157cb69b3b05d3e85.webp?size=540x960"></p></td>
+    </tr>
+    <tr >
+      <th  class="weui-cells__title">邮箱</td>
+    <td class="weui-cells__tips">**********@qq.com</td>
+     <th class="weui-cells__title">民族</td>
+      <td class="weui-cells__tips">汉</td>
+    </tr>
+    <tr>
+      <th height="31" class="weui-cells__title">手机号码</td>
+      <td class="weui-cells__tips"> 136***********</td>
+      <th class="weui-cells__title">政治面貌</td>
+      <td class="weui-cells__tips">团员</td>
+    </tr>
+
+  <tr>
+      <th class="weui-cells__title">我的GitHub</td>
+      <td colspan="4" align="left" class="weui-cells__tips"><a href="https://github.com/hzuapps/web-wechat-2019/issues/2">我的GitHUub</a></td>
+   </tr>
+    <tr>
+      <th  class="weui-cells__title">毕业学校</td>
+      <td colspan="4" align="left" class="weui-cells__tips">&nbsp;惠州学院 </td>
+   </tr>
+    <tr >
+      <th class="weui-cells__title">所学课程</td>
+      <td colspan="4" align="left" class="weui-cells__tips">&nbsp;离散数学，java,C++,计算机网络</td>
+   </tr>
+   </tr>
+    <tr>
+      <th class="weui-cells__title">专业技能</td>
+      <td colspan="4" align="left" class="weui-cells__tips">&nbsp;熟悉多种语言的开发，掌握多种网络协议</td>
+   </tr>
+    <tr>
+      <th class="weui-cells__title">给我留言</td>
+      <td colspan="4" align="left" class="weui-cells__tips">&nbsp;<input class="weui-input" type="text"  placeholder="在这里输入留言......" onfocus="javascript:this.value=''" type="text" id="ipt1" height="180"/ >
+       <input value="提交" type="Submit" id="btn1" onclick="checkform()" />
+ 
+      </td>
+   </tr>
+  </table>
+</body>
+</html>

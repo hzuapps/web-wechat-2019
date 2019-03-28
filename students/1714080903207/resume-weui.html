@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-  <title>个人简历</title>
-  <link rel="stylesheet" type="text/css" href="https://weui.io/weui.css"/>
-  <link rel="stylesheet" type="text/css" href="https://weui.io/example.css"/>
+    <title>个人简历</title>
+    <link rel="stylesheet" type="text/css" href="https://weui.io/weui.css"/>
+    <link rel="stylesheet" type="text/css" href="https://weui.io/example.css"/>
+    <script type="text/javascript" src="./form.js"></script>
 </head>
 <body>
-
+    
+    
     <div class="page__hd">
         <h1 class="page__title">个人简历</h1>
     </div>
@@ -36,13 +37,13 @@
     </div>
     <div class="weui-cells__title">项目： </div>
     <div class="weui-cells page__category-content">
-      <a class="weui-cell weui-cell_access js_item" data-id="button" href="https://github.com/Tfanzheng">
-          <div class="weui-cell__bd">
-              <p>github个人主页（点击进入）</p>
-          </div>
-          <div class="weui-cell__ft"></div>
-      </a>
-  </div>
+        <a class="weui-cell weui-cell_access js_item" data-id="button" href="https://github.com/Tfanzheng">
+            <div class="weui-cell__bd">
+                <p>github个人主页（点击进入）</p>
+            </div>
+            <div class="weui-cell__ft"></div>
+        </a>
+    </div>
     <div class="weui-cells__title">籍贯: </div>
     <div class="weui-cells">
         <div class="weui-cell">
@@ -115,15 +116,15 @@
             </div>
         </div>
     </div>
-    <div class="weui-cells weui-cells_form">
+    <form class="weui-cells weui-cells_form" id="textForm" >
         <div class="weui-cell">
             <div class="weui-cell__bd">
-                <textarea class="weui-textarea" placeholder="请输入留言" rows="3"></textarea>
+                <textarea name="textfield" id="textfield" class="weui-textarea" placeholder="请输入留言" rows="3"></textarea>
                 <div class="weui-textarea-counter"><span>0</span>/200</div>
-                <input type="submit" name="Submit" value="提 交" class="weui-btn weui-btn_primary">
+                <input type="submit" name="submit" value="提 交" class="weui-btn weui-btn_primary" >
             </div>
         </div>
-    </div>
+    </form>
 
 </body>
 </html>

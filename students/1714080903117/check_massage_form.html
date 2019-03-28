@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8 ">
+	<title>检查留言表单内容</title>
+	<script type="text/javascript" language="javascript">
+		function changeColor(){
+			for(i=0;i<4;i++)
+				if(form1.color[i].checked){
+					document.body.style.background=form1.color[i].value;
+				}
+		}
+		function check(){
+			if(document.getElementById("uu").value=="")
+				alert("请输入内容");
+			else
+				alert("留言成功");
+		}
+	</script>
+</head>
+<body>
+	<form name="form1">
+		<input name="color" type="radio" value="#FFFFFF" onclick="changeColor()">白色
+		<input name="color" type="radio" value="gray" onclick="changeColor()">灰色
+		<input name="color" type="radio" value="green" onclick="changeColor()">绿色
+		<input name="color" type="radio" value=black onclick="changeColor()">黑色
+	</form><br>
+	<label>留言表单：</label><br>
+	<input type="text"id="uu"><br>
+	<input type="button" value="提交" onclick="check()">
+</body>
+</html>

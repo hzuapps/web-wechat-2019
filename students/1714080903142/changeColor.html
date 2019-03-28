@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用JavaScript改变网页背景</title>
+		<script type="text/javascript">
+			function changeColor(){
+				for(i = 0;i<4;i++){
+					if(form1.color[i].checked){
+						document.body.style.background = form1.color[i].value;
+					}
+				}
+			}
+		</script>
+		<style type="text/css">
+			input{
+				margin-left:20px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<form name="form1">
+			<input name="color" type="radio" value="#FFF" onclick="changeColor()" id="a1" /><label for="a1">白色</label>
+			<input name="color" type="radio" value="#00F" onclick="changeColor()" id="a2"/><label for="a2">蓝色</label>
+			<input name="color" type="radio" value="#0F0" onclick="changeColor()" id="a3"/><label for="a3">绿色</label>
+			<input name="color" type="radio" value="#FF0" onclick="changeColor()" id="a4"/><label for="a4">黄色</label>
+		</form>
+		
+		
+	</body>
+</html>

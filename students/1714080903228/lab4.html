@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        个人简历
+    </title>    
+    <meta charset="UTF-8">
+    <style>
+            body{
+        
+            margin-left: 20%;
+            margin-right: 20%;
+        
+        }
+            .define-table{
+                border-collapse:collapse;
+                border-spacing:0;
+                border-left:1px solid #888;
+                border-top:1px solid #888;
+            }
+            .define-table th,.define-table td{
+                border-right:1px solid #888;
+                border-bottom:1px solid #888;
+                padding:5px 15px;
+            }
+            .define-table th{
+                font-weight:bold;
+            }   
+        </style>
+    <script>
+        function f()
+        {  var x=document.getElementById("ly").value;
+           if(x=="")
+            {
+                alert("输入为空，请输入留言！");
+            }
+            else
+            {
+                alert("留言成功!");
+            } 
+        }
+        function changeColor()
+        {
+            for(i=0; i<4; i++)
+                if(f1.color[i].checked){
+                document.body.style.background = f1.color[i].value;
+                }
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="weui.css">
+</head>
+<body>
+    <form name="f1">
+<input type="radio" name="color" value="#FFF0F5" onclick="changeColor()">pink
+<input type="radio" name="color" value="#3bb4c1" onclick="changeColor()">blue
+<input type="radio" name="color" value="#cdffeb" onclick="changeColor()">green
+
+</form>
+  
+<div class="page__bd page__bd_spacing">
+        <div class="weui-flex">
+            <div class="weui-flex__item"><div class="placeholder" style="text-align: center;">个人简历</div></div>
+        </div>
+        <div class="weui-flex">
+            <div class="weui-flex__item"><div class="placeholder">姓名</div></div>
+            <div class="weui-flex__item"><div class="placeholder" style="text-align: left;">forest</div></div>
+            <img src="http://i8.hexunimg.cn/2011-10-25/134516107.jpg" width="100" height="60">
+        </div>
+        <div class="weui-flex">
+            <div class="weui-flex__item"><div class="placeholder">毕业学校</div></div>
+            <div class="weui-flex__item"><div class="placeholder">惠州学院</div></div>
+            <div class="weui-flex__item"><div class="placeholder">性别：男</div></div>
+        </div>
+        <div class="weui-flex">
+            <div class="weui-flex__item"><div class="placeholder">手机号码：</div></div>
+            <div class="weui-flex__item"><div class="placeholder">10001</div></div>
+            <div class="weui-flex__item"><div class="placeholder">电子邮箱</div></div>
+            <div class="weui-flex__item"><div class="placeholder">739580612@qq.com</div></div>
+        </div>
+        <div class="weui-flex">
+            <div><div class="placeholder">工作经历:</div></div>
+            <div class="weui-flex__item"><div class="placeholder">负责过华东地区的市场拓展工作：完成销售任务， 贯彻执行公司的销售策略；因地制宜，制定和实施区域性的市场发展计划；发展和管理经销商，并与其保持良好合作关系；协助经销商建立运作架构，指导和管理其销售队伍。</div></div>
+            
+        </div>
+    </div>
+    <br>
+    <br>
+<p style="text-align: left;">如果你对我感兴趣，请联系我或给我留言...<p>
+    <br>
+
+   
+
+    <div class="weui-cells__title" style="text-align: center;">留言区</div>
+    <div class="weui-cells weui-cells_form">
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <textarea class="weui-textarea" placeholder="请输入文本" rows="3" id="ly" ></textarea>
+                        <div class="weui-textarea-counter"><span>0</span>/200</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="weui-btn-area">
+        <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips" onclick="f()">提交</a>
+    </div>
+<div class="weui-footer">
+            <p class="weui-footer__links">
+                <a href="https://github.com/erhsilence" class="weui-footer__link">我的github主页</a>
+            </p>
+            <p class="weui-footer__text">Copyright &copy; 2008-2016 weui.io</p>
+        </div>
+</div>
+</body>
+</html>

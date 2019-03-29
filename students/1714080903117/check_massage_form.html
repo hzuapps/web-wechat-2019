@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="weui.min.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>个人简历</title>
+	<meta charset="gb2312">
+	<link rel="stylesheet" type="text/css" href="./resume.css">
+		<script type="text/javascript" language="javascript">
+		function check(){
+			if(document.getElementById("uu").value=="")
+				alert("请输入内容");
+			else
+				alert("留言成功");
+		}
+	</script>
+</head>
+<body>
+	<div class="page__hd">
+        <h1 class="page__title" align="center">个人简历</h1>
+    </div>
+	<div class="page__hd" align="center">
+        <img src="http://b-ssl.duitang.com/uploads/item/201603/04/20160304171613_rTUdV.jpeg" width="150" height="130" alt="图片">
+    </div>
+				
+	<div>
+		
+    <div class="page__bd page__bd_spacing">
+    	<a href="javascript:;" class="weui-btn weui-btn_primary">姓名：陈晓佳</a>
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showAndroidDialog1">民族：汉</a>
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showAndroidDialog2">学号：1714080903117</a>
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showAndroidDialog2">出生年月：1999-9</a>
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showAndroidDialog2">学历：本科</a>
+        <a href="javascript:;" class="weui-btn weui-btn_default" id="showAndroidDialog2">专业：网络工程</a>
+        <a href="javascript:;" class="weui-btn weui-btn_primary">求职意向：游戏开发工程师</a>
+        <a href="javascript:;" class="weui-btn weui-btn_primary">联系电话：1999999999（也可留言联系）</a>
+    </div>
+		
+		<table  align="center" width="800">
+			
+			<hr width=100% align="left">
+			<tr>
+				<td>GitHub账号：<a href="https://github.com/hackercxj">github主页</a></td>
+			</tr>
+	    </table>
+	    <hr width=100% align="center">
+	    <table align="center" width=100%>
+			<tr>
+				<td>爱好特长：玩游戏</td>
+				<td height="50"></td>
+			</tr>
+		</table>
+			    <hr width=100% align="center">
+
+			
+		<hr width=100% align="center">
+ 		<label>留言：</label>
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text" id="uu" placeholder="请输入文本"/>
+                </div>
+            </div>
+        </div>
+		<hr width=100% align="center"> 
+	   </table>
+	   <div class="weui-btn-area">
+            <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips" onclick="check()">发送留言</a>
+        </div>
+	</div>
+</body>
+</html>

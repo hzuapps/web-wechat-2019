@@ -1,0 +1,114 @@
+<!doctype html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://raw.githack.com/Tencent/weui/master/dist/style/weui.min.css">
+        <script type="text/javascript" language="javascript">
+        function check(){
+            if(document.getElementById("uu").value=="")
+                alert("请输入内容");
+            else
+                alert("留言成功");
+        }
+    </script>
+        <style>
+            body
+            {
+                background-color:white;
+            }
+            img
+            {
+                width:100%;
+                height:auto;
+            }
+            .weui-cells__title
+            {
+                text-align: center;
+            }
+            textarea
+            {
+                background-color: white;
+                text-align: center;
+            }
+            .weui-cell
+            {
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+
+    <div class="weui-cells__title">个人简历</div>
+    <button class="weui-btn weui-btn_plain-default" id="photo">个人照片</button>
+    <div id="content1" style="display: none;">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553271973977&di=6cb74f6aeafcbf8c9e235a978b752598&imgtype=0&src=http%3A%2F%2Fh.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2Fa71ea8d3fd1f413438a133cc271f95cad0c85ee9.jpg"> 
+        </div>
+    <button class="weui-btn weui-btn_plain-primary" id="info">基本信息</button>
+    <div class="weui-cells weui-cells_form" id="content2" style="display: block;">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <textarea class="weui-textarea" rows="5">姓名:徐昊
+毕业院校:惠州学院&nbsp;专业:网络工程&nbsp;学历:本科
+联系方式:①邮箱:905260825@qq.com
+&nbsp;&nbsp;&nbsp;&nbsp;②手机:18344075389
+</textarea>
+                    <p style="text-align:center"><a href="https://github.com/xuhao905260825">Github主页</a></p>
+                </div>
+            </div>
+        </div>
+ <button class="weui-btn weui-btn_plain-primary" id="skill">个人能力</button>
+<div class="weui-cells weui-cells_form" id="content4" style="display: block;">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <textarea class="weui-textarea" rows="3">有独立自主学习能力，丰富的在岗工作经验
+英语六级证书，日语N1
+精通C++、Python、Java、JavaScript</textarea> 
+                </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr width=100% align="center">
+        <label>留言：</label>
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text" id="uu" placeholder="请输入文本"/>
+                </div>
+            </div>
+        </div>
+        <hr width=100% align="center"> 
+       </table>
+       <div class="weui-btn-area">
+            <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips" onclick="check()">发送留言</a>
+        </div>
+    </div>
+<script>
+        function show(x,y){
+            x.onclick = function(){
+            var val = y.style.display;
+            if(val == 'none'){
+                y.style.display = 'block'; 
+            }else{
+                y.style.display = 'none'; 
+            }
+        }
+        }
+        var photo  = document.getElementById('photo');
+        var content1 = document.getElementById('content1');
+        var info  = document.getElementById('info');
+        var content2 = document.getElementById('content2');
+        var career  = document.getElementById('career');
+        var content3 = document.getElementById('content3');
+        var skill = document.getElementById('skill');
+        var content4 = document.getElementById('content4');
+        show(photo,content1);
+        show(info,content2);
+        show(career,content3);
+        show(skill,content4);
+        </script>
+    </body>
+    </html>

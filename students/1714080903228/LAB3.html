@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        个人简历
+    </title>    
+    <meta charset="UTF-8">
+    <style>
+            body{
+        
+            margin-left: 20%;
+            margin-right: 20%;
+        
+        }
+            .define-table{
+                border-collapse:collapse;
+                border-spacing:0;
+                border-left:1px solid #888;
+                border-top:1px solid #888;
+            }
+            .define-table th,.define-table td{
+                border-right:1px solid #888;
+                border-bottom:1px solid #888;
+                padding:5px 15px;
+            }
+            .define-table th{
+                font-weight:bold;
+            }   
+        </style>
+    <script>
+        function f()
+        {  var x=document.getElementById("ly").value;
+           if(x=="")
+            {
+                alert("输入为空，请输入留言！");
+            }
+            else
+            {
+                alert("留言成功!");
+            } 
+        }
+        function changeColor()
+        {
+            for(i=0; i<4; i++)
+                if(f1.color[i].checked){
+                document.body.style.background = f1.color[i].value;
+                }
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="weui.css">
+</head>
+<body>
+    <form name="f1">
+<input type="radio" name="color" value="#FFF0F5" onclick="changeColor()">pink
+<input type="radio" name="color" value="#3bb4c1" onclick="changeColor()">blue
+<input type="radio" name="color" value="#cdffeb" onclick="changeColor()">green
+
+</form>
+  
+  <table class="define-table" border="1" 
+        style="border-width:2px 2px 0 0;
+        border-color:#C8C8CD;
+        border-style:solid;"
+        width="90">
+
+<tr>
+    <th colspan="4">个人简历</th>
+
+</tr>
+<tr>
+    
+
+</tr>
+
+<tr>
+    <th colspan="1"> 姓名</th>
+    <td>f0rest</td>
+    <td colspan="2" rowspan="2">
+        <img src="http://i8.hexunimg.cn/2011-10-25/134516107.jpg" width="150" height="90">
+    </td>
+</tr>
+
+
+<tr>
+    <th>学号</th>
+    <td>1714080903228</td>
+</tr>
+<tr>
+    <th>学历：</th>
+    <td><a href="https://www.hzu.edu.cn/">惠州学院</a></td>
+    <th>专业:</th>
+    <td>网络工程</td>
+
+</tr>
+
+<tr>
+    <th>应聘职位：</th>
+    <td>产品经理</td>
+    <th>求职类型：</th>
+    <td>全职</td>
+</tr>
+<tr>
+    <th>手机号码：</th>  
+    <td><a href="tel:10001"> 10001</a></td>
+    <th>邮箱：</th>
+    <td><a href="mailto:213@163.com"> 213@163.com</a></td>
+</tr>
+<tr>
+    <th rowspan="1" colspan="1">
+        工作经历：
+    </th>
+    <td  rowspan="1" colspan="3" width="430">
+    工作经历：负责华东地区的市场拓展工作：完成销售任务， 贯彻执行公司的销售策略；因地制宜，制定和实施区域性的市场发展计划；发展和管理经销商，并与其保持良好合作关系；协助经销商建立运作架构，指导和管理其销售队伍。
+</td>
+    </tr> 
+
+<tr>
+    <th rowspan="1" colspan="1">
+        实习经历
+    </th>
+    <td rowspan="1" colspan="3" width="430">
+        1、帮助公司产品营销推广，编辑签约商家的推广内容及项目合约，有效地增加了用户量，平均签约商家30多户；
+        <br>
+        2、 参与创新设计公司第二代会员卡及学生卡卡面内容及外观，获得该项目系统的参与人员一致好评；
+        <br>
+        3、 管理运营公司微信公众号，编辑及发布产品有关内容，涨粉10000+
+    </td>
+</tr>
+    
+</table>
+<br>
+
+   
+
+    <div class="weui-cells__title" style="text-align: center;">留言区</div>
+    <div class="weui-cells weui-cells_form">
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <textarea class="weui-textarea" placeholder="请输入文本" rows="3" id="ly" ></textarea>
+                        <div class="weui-textarea-counter"><span>0</span>/200</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="weui-btn-area">
+        <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips" onclick="f()">提交</a>
+    </div>
+<div class="weui-footer">
+            <p class="weui-footer__links">
+                <a href="https://github.com/erhsilence" class="weui-footer__link">我的github主页</a>
+            </p>
+            <p class="weui-footer__text">Copyright &copy; 2008-2016 weui.io</p>
+        </div>
+</div>
+</body>
+</html>

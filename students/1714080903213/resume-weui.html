@@ -4,6 +4,21 @@
 	<meta charset="utf-8"> 
 	<title>个人简历</title>
 	<link rel="stylesheet" type="text/css" href="weui.min.css">
+	<form action="" onsubmit="return validateForm();" method="post">
+	<script type="text/javascript">
+	function validateForm(){
+	flag=true;
+	var Submit=document.getElementById("Submit").value
+	if(Submit==""){
+		flag=false;
+		alert("留言不能为空");
+	}
+	else{
+		alert("留言成功");
+	}
+} 
+</script>
+
 	<style type="text/css">
 		*{
 			margin: 0px;
@@ -93,11 +108,13 @@
 <div class="weui-cells weui-cells_form">
     <div class="weui-cell">
         <div class="weui-cell__bd">
-            <textarea class="weui-textarea" placeholder="请输入留言内容" rows="3"></textarea>
+            <textarea id="Submit" class="weui-textarea" placeholder="请输入留言内容" rows="3<form action="" onsubmit="return validateForm();" method="post"></textarea>
             <div class="weui-textarea-counter"><span>0</span>/200</div>
          <input type="submit" name="Submit" value="提 交" class="weui-btn weui-btn_primary">
 		</div>
 		
+
+
     </div>
 </div>
 	<div class="weui-footer">	

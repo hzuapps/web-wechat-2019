@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+
+
+ 
+<html>
+
+
+ 
+	<head>
+
+
+ 
+		<meta charset="UTF-8">
+
+
+ 
+		<title>resume-weui</title>
+
+
+ 
+		<link rel="stylesheet" href="weui.min.css" />
+
+
+ 
+		<style type="text/css">
+
+
+ 
+			
+
+
+ 
+			.left{
+
+
+ 
+				display: inline-block;
+
+
+ 
+			}
+
+
+ 
+			.right{
+
+
+ 
+				display: inline-block;
+
+
+ 
+				float:right;
+
+
+ 
+			}
+
+
+ 
+			.gray{
+
+
+ 
+				color:gray;
+
+
+ 
+			}
+
+
+ 
+			#img{
+
+
+ 
+				width:10px;
+
+
+ 
+				height:10px;
+
+
+ 
+			}
+
+
+ 
+			#word{
+
+
+ 
+				float:left;
+
+
+ 
+				line-height: 80px;
+
+
+ 
+			}
+
+
+ 
+			#photo,#word{
+
+
+ 
+				
+
+
+ 
+				height:45px;
+
+
+ 
+				
+
+
+ 
+			}
+
+
+ 
+			
+
+
+ 
+		</style>
+
+
+ 
+		<script type="text/javascript">
+
+
+ 
+			
+
+
+ 
+			function fun(id1,id2){
+
+
+ 
+					if(id2.style.display == "none")
+
+
+ 
+						id2.style.display = "";
+
+
+ 
+					else id2.style.display = "none";
+
+
+ 
+				
+
+
+ 
+			};
+
+
+ 
+			window.onload  = function(){
+
+
+ 
+				
+
+
+ 
+				var contact = document.getElementById("contact");
+
+
+ 
+				var list = document.getElementById("list");
+
+
+ 
+				var close2 = document.getElementById("close2");
+
+
+ 
+				contact.onclick = function () {
+
+
+ 
+					if(close2.innerHTML == "收起")
+
+
+ 
+						close2.innerHTML = "展开";
+
+
+ 
+					else close2.innerHTML = "收起";
+
+
+ 
+					fun(contact,list);
+
+
+ 
+				};
+
+
+ 
+			
+
+
+ 
+				var study = document.getElementById("study");
+
+
+ 
+				var school = document.getElementById("school");
+
+
+ 
+				var close1 = document.getElementById("close1");
+
+
+ 
+				study.onclick = function () {
+
+
+ 
+					if(close1.innerHTML == "收起")
+
+
+ 
+						close1.innerHTML = "展开";
+
+
+ 
+					else close1.innerHTML = "收起";
+
+
+ 
+					fun(study,school);
+
+
+ 
+					
+
+
+ 
+				};
+
+
+ 
+				
+
+
+ 
+				var introduce = document.getElementById("introduce");
+
+
+ 
+				var descript = document.getElementById("descript");
+
+
+ 
+				var close3 = document.getElementById("close3");
+
+
+ 
+				introduce.onclick = function(){
+
+
+ 
+					if(close3.innerHTML == "收起")
+
+
+ 
+						close3.innerHTML = "展开";
+
+
+ 
+					else close3.innerHTML = "收起";
+
+
+ 
+					fun(introduce,descript);
+
+
+ 
+				};
+
+
+ 
+				
+
+
+ 
+				var work = document.getElementById("work");
+
+
+ 
+				var experience = document.getElementById("experience");
+
+
+ 
+				var class4 = document.getElementById("close4");
+
+
+ 
+				work.onclick = function(){
+
+
+ 
+					if(close4.innerHTML == "收起")
+
+
+ 
+						close4.innerHTML = "展开";
+
+
+ 
+					else close4.innerHTML = "收起";
+
+
+ 
+					fun(work,experience);
+
+
+ 
+				};
+
+
+ 
+			};
+
+<script type="text/javascript">
+	   function changecolor(color){
+	   document.bgColor=color;
+	   }
+ 
+		</script>
+
+
+ 
+	</head>
+
+
+ 
+	<body>
+  <input type="button" value="护眼模式" onClick="changecolor('green')">
+	<input type="button" value="红色" onClick="changecolor('red')">
+	<input type="button" value="蓝色" onClick="changecolor('blue')">
+
+ 
+		<div id="body">
+
+
+ 
+			<div class="page__hd">
+
+
+ 
+        	<h1 class="page__title">个人简历</h1>
+
+
+ 
+
+
+
+ 
+    	</div>
+
+
+ 
+		<div class="page">
+
+
+ 
+   			 <div class="page__bd">  
+
+
+ 
+
+
+
+ 
+   			 	<div class="weui-cells weui-cells_radio weui-check__label">
+
+
+ 
+            		<div class="weui-cell weui-check__label"  >
+
+
+ 
+                		<div class="weui-cell__bd">		
+
+
+ 
+                			<div id="word">个人照片</div> 
+
+
+ 
+                			<div id="photo">    		                		
+
+
+ 
+	                       		<a href="#" onclick="window.open('img/00.jpg')"><img class="right" src="00.jpg" width="45px"/></a>			                       		    	
+
+
+ 
+                    		</div>
+
+
+ 
+
+
+
+ 
+           		 	</div>          
+
+
+ 
+       				 </div>
+
+
+ 
+   			 	</div>
+
+
+ 
+        		<div class="weui-cell weui-check__label"  >
+
+
+ 
+            		<div class="weui-cell__bd">
+
+
+ 
+                		<p class="left">姓名</p><p class="right">qupp</p>
+
+
+ 
+            		</div>               
+
+
+ 
+       		 	</div>          
+
+
+ 
+
+
+
+ 
+        		<div class="weui-cell weui-check__label"  >
+
+
+ 
+            		<div class="weui-cell__bd">
+
+
+ 
+                		<p class="left">性别</p><p class="right"男</p>
+
+
+ 
+            		</div>               
+
+
+ 
+       		 	</div>          
+
+
+ 
+
+
+
+ 
+       			<div class="weui-cell weui-check__label"  >
+
+
+ 
+            		<div class="weui-cell__bd">
+
+
+ 
+                		<p class="left">出生年月</p><p class="right">199/05</p>
+
+
+ 
+            		</div>               
+
+
+ 
+       		 	</div>
+
+
+ 
+
+
+
+ 
+       		 	<div class="weui-cell weui-check__label"  >
+
+
+ 
+            		<div class="weui-cell__bd">
+
+
+ 
+                		<p class="left">民族</p><p class="right">汉族</p>
+
+
+ 
+            		</div>               
+
+
+ 
+       		 	</div>   
+
+
+ 
+
+
+
+ 
+       			<div class="weui-cell weui-check__label"  >
+
+
+ 
+            		<div class="weui-cell__bd">
+
+
+ 
+                		<p class="left">籍贯</p><p class="right">广东深圳</p>
+
+
+ 
+            		</div>               
+
+
+ 
+       		 	</div>      		
+
+
+ 
+
+
+
+ 
+       		<a class="weui-cell weui-cell_access" href="javascript:;">
+
+
+ 
+                <div class="weui-cell__bd" id="study">
+
+
+ 
+                    <p class="left">学历</p><p class="right gray" id="close1" >展开</p>
+
+
+ 
+                </div>
+
+
+ 
+                <div class="weui-cell__ft">
+
+
+ 
+                </div>
+
+
+ 
+        	</a>
+
+
+ 
+
+
+
+ 
+            <div id = "school" style="display: none;">	       				       			<div class="weui-cell weui-check__label"  >
+
+
+ 
+	            		<div class="weui-cell__bd gray">
+
+
+ 
+	                		<p class="left">毕业学校</p><p class="right ">本科/惠州学院</p>
+
+
+ 
+	            		</div>               
+
+
+ 
+	       			 </div>  
+
+
+ 
+
+
+
+ 
+	       		 	<div class="weui-cell weui-check__label"  >
+
+
+ 
+	            		<div class="weui-cell__bd gray">
+
+
+ 
+	                		<p class="left">专业</p><p class="right">网络工程</p>
+
+
+ 
+	            		</div>               
+
+
+ 
+	       		 	</div>  
+
+
+ 
+	       		 </div>
+
+
+ 
+
+
+
+ 
+        	<a class="weui-cell weui-cell_access" href="javascript:;">
+
+
+ 
+                <div class="weui-cell__bd" id="contact">
+
+
+ 
+                    <p class="left">联系方式</p><p class="right gray" id="close2" >展开</p>
+
+
+ 
+                </div>
+
+
+ 
+                <div class="weui-cell__ft">
+
+
+ 
+                </div>
+
+
+ 
+        	</a>
+
+
+ 
+
+
+
+ 
+       			<div id="list" class="gray"style="display: none;">
+
+
+ 
+
+
+
+ 
+       				<div class="weui-cell weui-check__label">
+
+
+ 
+	            		<div class="weui-cell__bd ">
+
+
+ 
+	                		<p class="left">手机号</p><p class="right">**********8</p>
+
+
+ 
+	            		</div>               
+
+
+ 
+	       			 </div> 
+
+
+ 
+
+
+
+ 
+	       			<div class="weui-cell weui-check__label"  >
+
+
+ 
+	            		<div class="weui-cell__bd">
+
+
+ 
+	                		<p class="left">微信号</p><p class="right">1***********</p>
+
+
+ 
+	            		</div>               
+
+
+ 
+	       			 </div>  
+
+
+ 
+
+
+
+ 
+	       		 	<div class="weui-cell weui-check__label"  >
+
+
+ 
+	            		<div class="weui-cell__bd">
+
+
+ 
+	                		<p class="left">邮箱</p><p class="right ">*********@qq.com</p>
+
+
+ 
+	            		</div>               
+
+
+ 
+	       		 	</div>  
+
+
+ 
+	       		 </div>
+
+
+ 
+   				 <div class="weui-cell weui-check__label"  >
+
+
+ 
+            		<div class="weui-cell__bd">
+
+
+ 
+                		<p class="left">政治面貌</p><p class="right">共青团员</p>
+
+
+ 
+            		</div>               
+
+
+ 
+       		 	</div>  
+
+
+ 
+
+
+
+ 
+       		 	<a id="introduce" class="weui-cell weui-cell_access" href="javascript:;">
+
+
+ 
+	                <div class="weui-cell__bd" >
+
+
+ 
+	                    <p class="left">个人简介</p><p class="right gray" id="close3" >展开</p>
+
+
+ 
+	                </div>
+
+
+ 
+	                <div class="weui-cell__ft">
+
+
+ 
+	                </div>
+
+
+ 
+        		</a>
+
+
+ 
+        		<!--<div class="weui-cell "  >-->
+
+
+ 
+	            		<div class="weui-cell__bd gray">
+
+
+ 
+	                		<p id="descript" style="display: none;">
+
+
+ 
+	                			&nbsp;&nbsp;&nbsp;本人只想交个作业
+
+
+ 
+	                		</p>
+
+
+ 
+	            		</div>               
+
+
+ 
+	       		<!--</div>-->  
+
+
+ 
+
+
+
+ 
+	       		<a id="work" class="weui-cell weui-cell_access" href="javascript:;">
+
+
+ 
+
+ 
+	                <div class="weui-cell__ft">
+
+
+ 
+	                </div>
+
+
+ 
+        		</a>
+
+
+ 
+        		<!--<div class="weui-cell "  >-->
+
+
+ 
+	            	
+ 
+	            		</div>               
+
+
+ 
+	       		<!--</div>-->  
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+			 <tr>
+	      <th class="weui-cells__title">给我留言</td>
+	      <td colspan="4" align="left" class="weui-cells__tips">&nbsp;<input class="weui-input" type="text"  placeholder="在这里输入留言......" onfocus="javascript:this.value=''" type="text" id="ipt1" height="180"/ >
+	       <input value="提交" type="Submit" id="btn1" onclick="checkform()" />
+	
+	      </td>
+	   </tr>
+ 
+	        <div class="weui-btn-area">
+
+
+ 
+	            <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
+
+
+ 
+	            <input class="weui-btn weui-btn_primary" type="reset" value="重置" />
+
+
+ 
+			</form>
+
+
+ 
+
+
+
+ 
+        </div>
+
+
+ 
+    </div>
+
+
+ 
+
+
+
+ 
+</div>
+
+
+ 
+		</div>
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+	</body>

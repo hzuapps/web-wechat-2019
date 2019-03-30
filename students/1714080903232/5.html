@@ -1,9 +1,15 @@
 <!doctype html>
 <html>
 <head>
-     <meta charset="utf-8" content="text/html;charset=gb2312"/> 
+
+     <meta charset="utf-8" http-equiv="content-Type" content="text/html;charset=gb2312"/> 
      <title> 个人简历</title>
-     <link rel="stylesheet" href="weui.min.css" />
+      <meta name="description" content=event.html"">
+        <meta name="keywords" content="event,html,js">
+     <link rel="stylesheet" href="weui.min.css" / > 
+     
+       
+
      <style type="text/css">
         *{margin: 0px;
           padding: 0px;
@@ -13,8 +19,20 @@
                 float:right;
             }
      </style>
-     <script type="text/javascript">
-        function fun(id1,id2){
+
+     <script type="text/javascript" language="javascript">
+
+        function changeColor(){                       //改变页面颜色
+            for(i=0;i<4;i++)
+                if (forml.color[i].checked) {
+                    document.body.style.background=forml.color[i].value;
+                }
+            }
+
+        </script>
+        <script type="text/javascript">
+
+         function fun(id1,id2){              //展开收起操作
                     if(id2.style.display == "none")
                         id2.style.display = "";
                     else id2.style.display = "none";
@@ -51,8 +69,43 @@
                     };
                 };
         </script>
+        <script type="text/javascript">
+        window.onload = function(){               //留言区
+
+      //找到表单元素对象并增加一个提交表单事件
+        document.getElementById('loginForm').addEventListener("submit",function(m){ 
+        console.log(m); //控制台可以打印出当前执行的事件
+
+        //找到邮件元素对象
+        var messagel = document.getElementById("message");
+
+        //取出它的值
+        // alert(messagel.value);
+        if (messagel.value == "") {
+            alert("您还没有输入留言！");
+           else{  //输入正确，理论上应该可以进行提交
+            alert("留言成功！");
+                this.submit(); //当前元素提交表单
+             }
+       },false;
+        }
+       function submit () {
+         return false;
+        }
+        </script>
 </head>
-<div class="page">
+<body>
+
+<!--颜色-->
+
+<form name="forml">
+<input name="color" type="radio" value="#FFFFFF" onclick="changeColor()">白色
+<input name="color" type="radio" value="#0000FF" onclick="changeColor()">蓝色
+<input name="color" type="radio" value="#00FF00" onclick="changeColor()">绿色
+<input name="color" type="radio" value="#ffff00" onclick="changeColor()">黄色
+</form>
+
+<div class="page" >
     <div class="page__hd">
         <h1 class="page__title">个人简历</h1>
         <p class="page__desc">MY RESUME</p>
@@ -196,8 +249,16 @@
    
 </div>
 
-
-<div class="page">
+<form action="pass.html" method="post" id="loginForm">
+            <!--在以后的开发过程之中，必须要保证id与name属性内容完全一致，否则会出现怪异问题-->
+            留言框：<input type="text" name="email" id="email"></input><br>
+            <button type="submit" id="subBtn">提交</button>
+        </form>
+<br>
+<br>
+<br>
+<br>
+<div>
    
     <div class="page__bd page__bd_spacing">
 
@@ -209,3 +270,7 @@
         </div>
     </div>
 </div>
+
+
+</body>
+</html>

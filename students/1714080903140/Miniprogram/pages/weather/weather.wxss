@@ -1,0 +1,14 @@
+/* pages/weather/weather.wxss */
+.city{padding:0;background: #ddd;}
+.city text{font-size: 16px;color: #666;}
+.city .update{font-size: 12px;float: right;}
+.button{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background-color: gray;
+  border-radius: 0;
+}
+.text{
+  text-align: center;
+}

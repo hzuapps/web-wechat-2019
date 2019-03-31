@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人简历手机版</title>
+	 <link rel="stylesheet" href="https://weui.io/weui.css"/>
+     <link rel="stylesheet" href="https://weui.io/example.css"/>
+	<link rel="stylesheet" type="text/css" href="weui.min.css"/>
+	 <meta http-equiv="Content-Type" content="text/html;charset=gb2312"/>
+    <script type="text/javascript"language="javascript">
+        function changecolor(){
+            for (i=0;i<4;i++) 
+                if (form1.color[i].checked) {
+                    document.body.style.background=form1.color[i].value;
+                }
+                
+            }
+      function $(id){
+                 return document.getElementById(id);
+             }
+             function test(){
+                 var user_name = $("user_name").value;
+                 
+                 if(user_name.length==0){
+                     alert("留言不能为空");
+                 }
+             }
+     </script>
+</head>
+<body>
+  <h1>个人简历</h1>
+		<form name="form1">
+    <input type="radio" name="color" value="#FFFFFF" onclick="changecolor()">white
+    <input type="radio" name="color" value="#0000FF" onclick="changecolor()">blue
+    <input type="radio" name="color" value="#00FF00" onclick="changecolor()">green
+    <input type="radio" name="color" value="#FFFF00" onclick="changecolor()">yellow
+    </form>
+		<hr />
+		 <p class="page__desc">个人照片</p>
+        <div class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+                    <img src="li.jpg" style="width: 130px;display: block"/>
+
+                 </div>
+
+
+ 		        <div class="weui-media-box__bd description">
+					<h2>Li</h2>
+		            <p class="weui-media-box__desc hangjv">man</p>
+		            <p class="weui-media-box__desc hangjv">1998.01.04</p>
+		            <p class="weui-media-box__desc hangjv">我的github：点击头像</p>
+		            <p class="weui-media-box__desc hangjv">Number</p>
+		        </div>
+		</a>
+		<a class="weui-btn weui-btn_default" href="javascript:;">专业信息</a>
+
+ 		<div class="weui-cell">
+		        <div class="weui-cell__bd">
+		            <p>专业</p>
+		        </div>
+		        <div class="weui-cell__ft">Internet</div>
+		</div>
+
+ 	
+
+ 		<div class="weui-cell">
+		        <div class="weui-cell__bd">
+		            <p>学历</p>
+		        </div>
+		        <div class="weui-cell__ft">本科</div>
+		</div>
+
+ 		<a class="weui-btn weui-btn_default" href="javascript:;">求职意向</a>
+
+ 		<div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">目标职位</div>
+                <div class="weui-cell__ft" style="font-size: 0">
+                    <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+                </div>
+        </div>
+
+ 		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">期望薪资</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+
+ 		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">期望地区</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+
+ 		<a class="weui-btn weui-btn_default" href="javascript:;">自我简介</a>
+
+ 		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">专业技能</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+
+ 		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">获奖情况</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+
+ 		<div class="weui-cell weui-cell_access">
+		        <div class="weui-cell__bd">工作经历</div>
+		        <div class="weui-cell__ft" style="font-size: 0">
+		            <span style="vertical-align:middle; font-size: 17px;">详细信息</span>
+		        </div>
+		</div>
+
+ 		
+          <div class="weui-cells weui-cells_form">
+
+ 
+                      <textarea class="weui-textarea" placeholder="请输入文本" rows="3"></textarea>
+                     <div class="weui-textarea-counter"><span>0</span>/200</div>
+             <div class="weui-cells__title">留言</div>
+         <div class="weui-cells weui-cells_form">
+             <div class="weui-cell">
+                 <form onsubmit="return test()">
+                 <div class="weui-cell__bd">
+                     <textarea class="weui-textarea" placeholder="请输入文本" rows="3" id="user_name" ></textarea>                                 
+                 </div> 
+             </div>
+         </div>
+        <div class="weui-btn-area">
+        <input a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips" type="submit"  value="留言" /> </form> 
+        </div>   
+
+ 		<a class="weui-btn weui-btn_primary" href="javascript:;">暂存</a>
+		<a class="weui-btn weui-btn_primary" href="javascript:;">提交</a>	
+</body>
+</html>

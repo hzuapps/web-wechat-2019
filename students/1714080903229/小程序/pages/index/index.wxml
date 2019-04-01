@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="page">
+
+
+<button class="weui-btn mini-btn" type="default" size="mini" bindtap="showmask">添加数据</button>
+<button class="weui-btn mini-btn" type="default" size="mini" bindtap="del">删除数据</button>
+<view class='mask' style='display:{{flag}}'>
+<view class="inputbox" catchtouchmove='prevent'>
+<view style="text-align:center" class='inputtitle'>请输入添加的内容</view>
+<input  class="getinput" placeholder='请输入内容' bindinput='getinput'></input>
+<button class='firstbtn' catchtap='mask'>取消</button>
+<button catchtap='add'>确认</button>
+</view>
+</view>
+<view class='cl'></view>
+<view class='text'>
+<text >{{text}}</text>
+</view>
+
+
+
+</view>

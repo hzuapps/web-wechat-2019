@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/day/day"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FBEFF8",
+    "navigationBarTitleText": "要交作业啦",
+    "navigationBarTextStyle":"black"
+  },
+
+"tabBar": {
+  "color": "#e89abe",
+  "selectedColor": "#8921d3",
+  "borderStyle": "white",
+  "list": [
+    {
+      "selectedIconPath": "pages/img/11.png",
+      "iconPath": "pages/img/1.png",
+      "pagePath": "pages/day/day",
+      "text": "日历"
+    },
+    {
+      "selectedIconPath": "pages/img/22.png",
+      "iconPath": "pages/img/2.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "selectedIconPath": "pages/img/33.png",
+      "iconPath": "pages/img/3.png",
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }
+  ]
+}
+
+}

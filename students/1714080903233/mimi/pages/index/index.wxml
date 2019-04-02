@@ -1,0 +1,84 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class="page">
+  <view class="page__bd">
+    <view class="section section_gap" wx:for="{{array}}" wx:for-item="item">
+      <view class="section__ctn">
+        <image
+          style="width: 200px; height: 200px; background-color: #eeeeee;"
+          mode="{{item.mode}}"
+          src="{{src}}"
+        ></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class="section">
+  <picker mode="date" value="{{date}}" start="2019-04-01" end="2025-12-31" bindchange="bindDateChange">
+    <view class="picker">
+      今天是： {{date}}
+    </view>
+  </picker>
+</view>
+
+
+<view><text>\n写完作业又是一条好汉！\n</text></view>
+
+<view class="group">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="40" />
+  </block>
+</view>
+
+<form>
+  <view class="btn-area">
+    <view class="body-view">
+      <text>{{text}}</text>
+    </view>
+    <view class="section">
+      <input name="input" placeholder="添加作业" bindinput="getInput"/>
+    </view>
+    <view>
+      <button bindtap="add" formType='reset' type='primary'>添加</button>
+      <button bindtap="remove" type='warn'>删除</button>
+    </view>
+  </view>
+</form>
+
+</view>
+
+
+<!--view>
+  <view>今天是:{{year}}年{{month}}月{{day}}日</view>container
+  <picker-view
+    indicator-style="height: 50px;"
+    style="width: 200%; height: 300px;"
+    value="{{value}}"
+    bindchange="bindChange"
+  >
+    <picker-view-column>
+      <view wx:for="{{years}}" style="line-height: 50px">{{item}}年</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{months}}" style="line-height: 50px">{{item}}月</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{days}}" style="line-height: 50px">{{item}}日</view>
+    </picker-view-column>
+  </picker-view>
+</view-->
+
+
+  <!--view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view-->
+  <!--view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view-->

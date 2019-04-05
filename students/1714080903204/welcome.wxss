@@ -1,0 +1,39 @@
+page{
+  background:rgb(255, 215, 221);
+}
+.container
+{
+  display:flex;
+  flex-direction:colum;
+}
+.user-image{
+  width:300rpx;
+  height:300rpx;
+}
+.user-welcome
+{
+  margin-top:100rpx;
+  font-size:32rpx;
+  font-weight:blod;
+}
+.moto-cotainer{
+  margin-top:100rpx;
+  border:1px solid #314154;
+  width:200rpx;
+  height:80rpx;
+  border-radius:5px;
+  text-align:center;
+}
+.moto{
+  font-size:22rpx;
+  font-weight:blod;
+  line-height:80rpx;
+  color:#405f80;
+}
+.myButton{
+  border: 2px solid #70bcf6; 
+  border-radius: 5px;  
+  border-width: 4rpx;
+  background-color: white;
+  text-align:center;
+}

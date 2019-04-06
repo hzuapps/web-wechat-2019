@@ -1,0 +1,22 @@
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.left {
+  width: 25%;
+  float: left
+}
+.right{
+  width: 25%;
+  float: right;
+}
+.zero{
+  width: 50%;
+  float: left;
+}

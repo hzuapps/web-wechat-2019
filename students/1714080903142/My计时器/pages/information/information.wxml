@@ -1,0 +1,14 @@
+<!--pages/information/information.wxml-->
+<view class='juZhong'>
+  <text style=' font-size: 100rpx;'>记录</text>
+</view>
+ <button class='clean' bindtap='onTapDel'>清空</button>
+
+
+ <view>
+   <button bindtap='Add'>添加组件</button>
+   <!-- <button bindtap='onTapDel'>删除Input组件</button> -->
+   <block wx:for="{{obj}}" wx:key>
+      <view class='jilu'>{{item}}>     </view>
+   </block>
+</view>

@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/information/information"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "My计时器",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "borderstyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/time-circle.png",
+        "iconPath": "images/time-circle1.png",
+        "pagePath": "pages/index/index",
+        "text": "计时"
+      },
+      {
+        "selectedIconPath": "images/xiaoxi.png",
+        "iconPath": "images/xiaoxi1.png",
+        "pagePath": "pages/information/information",
+        "text": "记录"
+      }
+    ]
+  }
+}

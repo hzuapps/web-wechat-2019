@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class='countDown' style=' height:{{mySize}};width: {{mySize}};line-height: {{mySize}}; margin:{{myPos}}; border: {{myBorder}};font-size: {{myFont}};'>
+  <text style='color:#1296db'>{{countDownNum}}</text>
+</view>
+<button class='setting' bindtap='setting'>重置时间</button>
+<button class='start' bindtap='start'>开始计时</button>
+<button class='getTime' bindtap='onTapAdd'>记录</button>
+<button class='stop' bindtap='stop'>暂停</button>

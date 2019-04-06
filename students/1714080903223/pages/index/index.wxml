@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<page>
+
+<view class='container'>
+  <view class='user-index'>
+    <text>选择时间日期呀</text>
+  </view >
+  <image class='user-image' src='/image/gl.jpg'></image>
+  <view>
+    <text class='user-index'>Welcome</text>
+  </view>
+  <view class='moto-container'>
+    <text class='moto'>请选择日期</text> 
+  </view>
+  <view class='moto-container'>
+    <text class='moto'>请选择时间</text> 
+  </view>
+</view>
+</page>

@@ -1,0 +1,53 @@
+/**index.wxss**/
+page{
+  background-color:  rgb(112, 245, 216)
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.user-image{
+  margin-top: 0rpx;
+  width: 760rpx;
+  height: 600rpx;
+}
+.user-index{
+  margin-top: 100rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: STXingkai;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.moto-container{
+  margin-top: 100rpx;
+  border: 1px solid black;
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+.moto{
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: black;
+  font-family: STXinwei;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

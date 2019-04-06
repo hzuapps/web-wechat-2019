@@ -1,0 +1,35 @@
+<!--index.wxml-->
+  <view class="userinfo">
+  <text class='user_msg'><text class="shi">食</text></text>
+  <text class='user_msg'><text class="shi">茶</text></text>
+  </view>
+
+
+<view class='fx-zx'>
+<button plain='true' bindtap='jumpPage'><image src='/images/chaju.jpg'></image>
+<view class="userinfo"><text class="sz">茶具</text></view>
+</button>
+</view>
+
+<view class='fx-zx'>
+<button plain='true' bindtap='jumpPage'><image src='/images/chami.jpg'></image>
+<view class="userinfo"><text class="sz">茶米</text></view>
+</button>
+</view>
+
+<view class='fx-zx'>
+<button plain='true' bindtap='jumpPage'><image src='/images/chongcha.jpg'></image>
+<view class="userinfo"><text class="sz">冲茶</text></view>
+</button>
+</view>
+
+<view class='fx-zx'>
+<button plain='true' bindtap='jumpPage'><image src='/images/lishi.jpg'></image>
+<view class="userinfo"><text class="sz">历史</text></view>
+</button>
+</view>
+
+<view class='rowLayout'>
+  <block wx:for='{{views}}'>
+  </block>
+</view>

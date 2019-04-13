@@ -1,0 +1,86 @@
+<view class="container">
+
+  <!-- 
+  swiper 轮播
+  indicator-dots 指示点
+  autoplay 自动播放
+  interval 间隔
+  duration 放动画的时间
+ -->
+  <view class="selection">
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+
+  <view class="searchBar">
+    <view class="search">
+      <text class="btn">搜索</text>
+      <input value="请输入礼物名称" class="search-item">
+        <icon class="search-icon" size="17" type="search"></icon>
+      </input>
+    </view>
+
+    <view class="title1">
+      <text>天降礼鱼</text>
+    </view>
+
+    <view class="title2">
+      <text>你要送给谁？</text>
+    </view>
+
+    
+
+    <view class="chooseWho">
+      <view class="choose">
+          <view class="who">
+            <text>女朋友</text>
+          </view>
+
+          <view class="who">
+            <text>男朋友</text>
+          </view>
+
+          <view class="who">
+            <text>老婆</text>
+          </view>
+
+          <view class="who">
+            <text>老公</text>
+          </view>
+
+          <view class="who">
+            <text>闺蜜</text>
+          </view>
+
+          <view class="who">
+            <text>哥们</text>
+          </view>
+
+          <view class="who">
+            <text>长辈</text>
+          </view>
+
+          <view class="who">
+            <text>领导</text>
+          </view>
+
+          <view class="who">
+            <text>儿童</text>
+          </view>
+      </view>
+
+      
+    </view>
+
+  </view>
+
+  <view class="fish">
+    <image class="fish-icon" src="../../images/liyu.png"></image>
+  </view>
+</view>

@@ -1,0 +1,83 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.cl{
+  clear: both;
+}
+button{
+  overflow: visible;
+}
+.mini-btn{
+    
+    margin:20px 0 0 20px;
+
+}
+.text{
+  margin: 0 0 0 20px;
+}
+
+.mask{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.5);
+}
+.inputbox{
+  width: 80%;
+  position: fixed;
+  left: 50%;
+  margin-left: -40%;
+  top: 25%;
+  background-color: #ffffff;
+  z-index: 1000;
+}
+.inputtitle{
+  background-color: #3197ed;
+  color: #ffffff;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+.getinput{
+    border: 1px solid #ccc;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width:90%;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+.inputbox button{
+  position: static;
+  border-radius: 0;
+  width:49%;
+  float: left;
+  font-size: 14px;
+  margin-left: 5px;
+  background-color: #3197ed;
+  color: #ffffff;
+}
+.inputbox .firstbtn{
+  margin-left: 0;
+}

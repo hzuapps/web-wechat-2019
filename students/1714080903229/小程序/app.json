@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "navigationBarTitleText": "记事本",
+    "navigationBarBackgroundColor": "#3197ed"
+
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/zhuye.png",
+        "selectedIconPath": "images/zhuye2.png",
+        "text": "记事"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/yunduan.png",
+        "selectedIconPath": "images/yunduan2.png",
+        "text": "日志"
+      },
+      {
+        "pagePath" : "pages/setting/setting",
+        "iconPath": "images/shezhi.png",
+        "selectedIconPath": "images/shezhi2.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}

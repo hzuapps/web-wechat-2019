@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+	<title>个人简介</title>
+<style type="text/css">
+				table{		
+					border-collapse: collapse;
+					margin:0 auto;     
+/*						表示横竖都居中，margin: 0 auto表示横居中，竖不居中；*/
+					width:650px;
+				}
+				tr{
+					height: 50px;
+							}
+				td{
+					border: 2px solid black;
+				}
+				th{
+					border: 2px solid black;
+					background-color: #C3C4C7;
+				}
+				
+	#css5{
+		margin:0 auto;
+		width:200px;
+		font-family:"宋体"; 
+	} 
+			</style>
+<link rel="stylesheet" href="../weui-master/weui-master/dist/style/weui.css"/>
+
+<script type="text/javascript">
+   function changecolor(color){
+   document.bgColor=color;
+   }	
+function checkform(){ 
+    if(document.getElementById('ipt1').value.length==0){    
+        alert('输入为空！');
+        document.getElementById('ipt1').focus();
+        return false;
+    }
+    if(document.getElementById('ipt1').value=="请输入搜索内容"){    
+        alert('输入为空！');
+//        document.getElementById('ipt1').focus();
+        return false;
+    }
+	else{
+		  alert('提交成功！');
+}
+}
+</script>
+</head>
+<body class="center'">	
+ <table cellpadding="0" cellspacing="0" border="1" align="center" border="1"  >
+	 <div id="css5"><h1 >个人简介</h1></div>
+ </br></br>
+    <tr >
+      <th  class="weui-cells__title">姓名</td>
+      <td class= "weui-cells__tips">木宸</td>
+      <th class="weui-cells__title">年龄</td>
+      <td class="weui-cells__tips">20</td>
+		 <td width="50" rowspan="3" height="80" bgcolor="#b6b8c4"><p><img src="1.jpg" width="150" height="150" ></p></td>
+    </tr>
+    <tr >
+      <th  class="weui-cells__title">电话</td>
+		<td class="weui-cells__tips">13821463156</td>
+		 <th class="weui-cells__title">住址</td>
+      <td class="weui-cells__tips">湛江市</td>
+    </tr>
+    <tr>
+      <th height="31" class="weui-cells__title">邮箱</td>
+      <td class="weui-cells__tips"> 1234567890@qq.com</td>
+      <th class="weui-cells__title">工作经验</td>
+      <td class="weui-cells__tips">无</td>
+    </tr>
+  <tr>
+      <th class="weui-cells__title">个人主页</td>
+      <td colspan="4" align="left" class="weui-cells__tips"><a href="https://github.com/shinubi1">&nbsp;GitHub主页</a></td>
+   </tr>
+    <tr  >
+      <th class="weui-cells__title">求职意向</td>
+      <td colspan="4" align="left" class="weui-cells__tips" >&nbsp;设计师</td>
+	</tr>
+    <tr>
+      <th  class="weui-cells__title">教育背景</td>
+      <td colspan="4" align="left" class="weui-cells__tips">&nbsp;惠州学院 </td>
+   </tr>
+    <tr >
+      <th class="weui-cells__title">证书</td>
+      <td colspan="4" align="left" class="weui-cells__tips">&nbsp;设计师</td>
+   </tr>
+   </tr>
+    <tr>
+      <th class="weui-cells__title">专业技能</td>
+      <td colspan="4" align="left" class="weui-cells__tips">&nbsp;装修、平面设计，画画</td>
+   </tr>
+  </table>
+<div class="weui-cells__title">留言给我：</div>
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="在这里输入留言......" onfocus="javascript:this.value=''" type="text" id="ipt1" height="180"/ >
+                </div>
+            </div>
+        </div>
+<div class="weui-btn-area">
+<input value="提交" type="Submit" id="btn1" onclick="checkform()" />
+
+        </div>
+</body>
+</html>

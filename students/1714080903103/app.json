@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/index/AddMemorandum/AddMemorandum"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "备忘录",
+    "navigationBarTextStyle": "black"
+  }
+}

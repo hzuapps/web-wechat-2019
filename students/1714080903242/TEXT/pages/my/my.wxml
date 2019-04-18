@@ -1,0 +1,5 @@
+<!--pages/my/my.wxml-->
+<view class="container">  
+    <text>这是我的test页面哦哦！！！</text>  
+</view> 
+

@@ -1,0 +1,15 @@
+<!--logs.wxml-->
+ <view class="page">
+	<view class='mask' style='display:{{flag}}'>
+	<view class="inputbox" catchtouchmove='prevent'>
+	<view style="text-align:center" class='inputtitle'>请输入您现有的金额</view>
+	<input  class="getinput" placeholder='请输入内容' bindinput='getinput'></input>
+	<button class='firstbtn' catchtap='mask'>取消</button>
+	<button catchtap='add'>确认</button>
+	</view>
+	</view>
+	<view class='cl'></view>
+	<view class='text'>
+	<text >{{text}}</text>
+	</view>
+	</view> 

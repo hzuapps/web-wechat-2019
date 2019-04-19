@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/record/record",
+    "pages/play/play",
+    "pages/gameSetout/gameSetout",
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "selectedColor": "blue",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_select.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "记录",
+        "iconPath": "images/record.png",
+        "selectedIconPath": "images/record_select.png",
+        "pagePath": "pages/record/record"
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

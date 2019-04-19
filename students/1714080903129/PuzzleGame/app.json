@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/settings/settings",
+    "pages/game/game"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "Icon/home.jpg",
+        "iconPath":"Icon/home.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/game/game",
+        "selectedIconPath": "Icon/game.png",
+        "iconPath":"Icon/game.png",
+        "text": "开始游戏"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "selectedIconPath": "Icon/Settings.jpg",
+        "iconPath": "Icon/Settings.jpg",
+        "text": "设置"
+      }
+    ]
+    
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "PuzzleGame",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,4 +1,4 @@
-// pages/city/city.js
+// pages/third/third.js
 Page({
 
   /**

@@ -1,0 +1,10 @@
+<!--pages/edit/edit.wxml-->
+<view class='page'>
+  <view class='page-t'>
+    <input type='textarea'  placeholder='请输入文字' value='{{content}}' bindinput='change'/>
+  </view>
+  <view class='btns'>
+    <button class='cancel' bindtap='cancel'>取消</button>
+    <button class='sure' bindtap='sure'>确定</button>
+  </view>
+</view>

@@ -1,4 +1,4 @@
-<!--pages/about/about.wxml-->
+<!--pages/third/third.wxml-->
 <view class='container'>
   <text>第三个页面</text>
 </view>

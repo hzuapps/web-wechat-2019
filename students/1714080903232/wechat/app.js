@@ -5,7 +5,7 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-this.setServerUrl();
+this.setServerUrl;
 this.AppMusic=wx.createInnerAudioContext();
 this.AppMusic.autoplay=true;
 this.AppMusic.loop=true;
@@ -55,5 +55,6 @@ this.AppMusic.loop=true;
   },
   globalData: {
     userInfo: null
+    
   }
 })

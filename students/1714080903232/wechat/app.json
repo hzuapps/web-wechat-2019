@@ -11,6 +11,12 @@
     "backgroundColor": "#99cc00",
     "backgroundTextStyle": "light"
   },
+  
+ 
+    "requiredBackgroundModes": [
+      "audio"
+    ],
+  
   "tabBar": {
     "color": "#99cc00",
     "selectedColor": "#cccc99",

@@ -74,8 +74,6 @@
  .btn2::after {
   border: 0; 
 }
-.img1{
-align-items: center;
-}
+
 
 }

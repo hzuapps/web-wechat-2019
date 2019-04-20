@@ -1,5 +1,6 @@
 <page>
-<image class="img1" src="../../images/bg.jpg" mode="scaleToFill"></image>
+<image src="../../images/bg.jpg" bindload="imageLoad"
+style="width:{{imgwidth}}rpx; height:{{imgheight }}rpx;"></image>
 <button class='btn1' bindtap='gotopage1'>
     <image class='btnImg' src='../../images/add.png'></image>
     <view>Ìí¼Ó¿Î³Ì</view>

@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#436EEE",
+    "navigationBarTitleText": "懒人课表",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/homenor.png",
+        "selectedIconPath": "images/homepre.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于课表",
+        "iconPath": "images/aboutnor.png",
+        "selectedIconPath": "images/aboutpre.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/cxk1.jpg",
+        "iconPath": "images/cxk2.jpg",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      },
+      {
+        "selectedIconPath": "images/cxk2.jpg",
+        "iconPath": "images/cxk2.jpg",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "selectedIconPath": "images/cxk3.jpg",
+        "iconPath": "images/cxk2.jpg",
+        "pagePath": "pages/test/test",
+        "text": "开始游戏"
+      }
+    ]
+  }
+}
+  

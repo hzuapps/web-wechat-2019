@@ -3,13 +3,28 @@ const util = require('../../utils/util.js')
 
 Page({
   data: {
-    logs: []
+    inputShowed: false,
+    inputVal: ""
   },
-  onLoad: function () {
+  showInput: function () {
     this.setData({
-      logs: (wx.getStorageSync('logs') || []).map(log => {
-        return util.formatTime(new Date(log))
-      })
-    })
+      inputShowed: true
+    });
+  },
+  hideInput: function () {
+    this.setData({
+      inputVal: "",
+      inputShowed: false
+    });
+  },
+  clearInput: function () {
+    this.setData({
+      inputVal: ""
+    });
+  },
+  inputTyping: function (e) {
+    this.setData({
+      inputVal: e.detail.value
+    });
   }
 })

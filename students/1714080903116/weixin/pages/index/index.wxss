@@ -1,14 +1,4 @@
 /**index.wxss**/
- page{
-    width: 100%;
-    height: 100%;
-  }
-  .test-bg{
-    width: 100%;
-    height: 200%;
-    background-color: #70c7da;
-  }
-  
 .userinfo {
   display: flex;
   flex-direction: column;

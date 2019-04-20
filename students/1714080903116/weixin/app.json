@@ -1,13 +1,36 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "西洋跳棋",
+    "navigationBarTitleText": "日程与随笔",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "pages/images/home.jpg",
+        "selectedIconPath": "pages/images/home.jpg",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "pages/images/richeng.jpg",
+        "selectedIconPath": "pages/images/richeng.jpg",
+        "pagePath": "pages/logs/logs",
+        "text": "日程"
+      },
+      {
+        "iconPath": "pages/images/suibi.jpg",
+        "selectedIconPath": "pages/images/suibi.jpg",
+        "pagePath": "pages/mine/mine",
+        "text": "随笔"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }

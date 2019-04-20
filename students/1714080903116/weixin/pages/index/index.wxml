@@ -1,19 +1,22 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="test-bg">
   <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 开始游戏 </button>
-    <text>\n</text>
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 退出游戏 </button>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
+     <view class="page__bd page__bd_spacing">
+
+        <view class="button-sp-area">
+            <button class="weui-btn" type="primary" plain="true">开始使用</button>
+
+            <button class="weui-btn" type="default" plain="true">退出使用</button>
+    </view>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+   <view class="usermotto">
+    <text class="user-motto">{{welcome}}</text>
   </view>
   
-    <image src="" class="bg-image" mode="scaleToFill"></image>
-  </view>
 </view>

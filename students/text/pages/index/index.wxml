@@ -1,0 +1,28 @@
+<view class="container">
+    <view class="player player1">
+        <view class="player-body">
+            <button style='transform: rotate(180deg);margin-top: 0rpx;height: 200px;' bindtap="chess" class="btn-player" data-id="-1" disabled="{{curColor==-1||status.isPause}}">{{black.timeDesc}}</button>
+            <view class="player-footer">
+                <view style='transform: rotate(180deg);margin-top: 30rpx;' class='btn-play'>点击{{black.turn}}次</view>
+                <view wx:if="{{ruleType==2}}">补时：{{black.repairTime||0}}秒</view>
+            </view>
+        </view>
+    </view>
+    
+    <view class="player">
+        <view class="player-body">
+            <button style='transform: rotate(180deg);margin-top: 200rpx;height: 200px;' bindtap="chess" class="btn-player" data-id="1" disabled="{{curColor==1||status.isPause}}">{{white.timeDesc}}</button>
+            <view class="player-footer">
+                <view class='btn-play' style='margin-top: 30rpx;' >点击{{white.turn}}次</view>
+                <view wx:if="{{ruleType==2}}">补时：{{white.repairTime||0}}秒</view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="add_btn" style='display:flex;'>
+        <button class='btn_1' bindtap="startRead" wx:if="{{curColor!=0&&status.isPause}}">继续</button>
+        <button class='btn_1' bindtap="stopRead" wx:if="{{curColor!=0&&!status.isPause}}">暂停</button>
+        <button class='btn_1' bindtap="toSetting" style='display: flex;justify-content: center;margin: 0 auto;' >设置</button>
+        <button class='btn_1' bindtap="resetRead" wx:if="{{curColor!=0}}">重置</button>
+    </view>

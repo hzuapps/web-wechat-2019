@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/time/time",
+    "pages/date/date",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    
+    "list": [
+      {
+        "iconPath": "pages/images/time.jpg",
+        "selectedIconPath": "pages/images/time.jpg",
+        "pagePath": "pages/time/time",
+        "text": "倒数"
+      },
+      {
+        "iconPath": "pages/images/date.jpg",
+        "selectedIconPath": "pages/images/date.jpg",
+        "pagePath": "pages/date/date",
+        "text": "日期"
+      },
+      {
+        "iconPath": "pages/images/mine.jpg",
+        "selectedIconPath": "pages/images/mine.jpg",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+<!--pages/date/date.wxml-->
+<text>显示当前日期，可计算指定日期与当前日期的差距天数</text>

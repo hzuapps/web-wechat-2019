@@ -1,0 +1,13 @@
+<view   bindtouchstart="touchStart" bindtouchend="touchEnd">
+
+  <view class='box1' style='width: {{ sysW * 7 }}px'><span bindtap="last">上</span><span bindtap="next">下</span>
+      <view class='dateBox' >{{ year }} - {{ month}}</view>
+      <block wx:for='{{ weekArr }}'>
+        <view style='width: {{ sysW }}px; height: {{ sysW }}px; line-height: {{ sysW }}px;'>{{ item }}</view>
+      </block>
+      <block wx:for='{{ arr }}'>
+        <view style='width: {{ sysW }}px; height: {{ sysW }}px; line-height: {{ sysW }}px;' class='{{ item ==  getDate ? "dateOn" : ""}} {{font==1?item>7?"font-color":"":font==2?item<7?"font-color":"":"" }}'>{{ item }}</view>
+      </block>
+  </view>
+</view>
+

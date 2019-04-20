@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+<text>还没有内容</text>
+  <button class="weui-btn" type="default" bindtap="openLoading">先点我</button>
+  <view class="usermotto">
+    <text class="user-motto">{{welcome}}</text>
+  </view>
+  <button class="weui-btn" type="primary" bindtap="openToast">看看有啥</button>
+ 
+</view>

@@ -1,0 +1,27 @@
+@import "../one/one.wxss";
+.third-container{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.inner-container{
+  margin: 0 auto 20rpx;
+}
+.third-head{
+  padding: 30rpx 20rpx 22rpx;
+}
+.gengxing{
+  font-size: 30rpx;
+}
+.more{
+  float: right;
+}
+.more-text{
+  vertical-align: middle;
+  margin-right: 2rpx;
+  color: #1f4ba5;
+}
+.four-container{
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,8 @@
+<import src="../two/two.wxml"/>
+<template name="one_Template">
+  <view class='one-container'>
+    <image class='one-img' src='http://i0.hdslb.com/bfs/archive/05c39a5153f44d62f95984ab7da88058dd7823a4.jpg'></image>
+    <text class='one-title'>盾之勇者成名录</text>
+    <template is="two_Template"/>
+  </view>
+</template>

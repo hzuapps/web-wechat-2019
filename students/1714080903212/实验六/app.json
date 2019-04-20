@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dongman/dongman",
+    "pages/tupian/tupian",
+    "pages/xioashuo/xiaoshuo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#66ccff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/shou_ye1.png",
+      "selectedIconPath": "images/shou_ye2.png"
+    },
+    {
+      "pagePath": "pages/dongman/dongman",
+      "text": "动漫",
+      "iconPath": "images/dong_man1.png",
+      "selectedIconPath": "images/dong_man2.png"
+    },
+    {
+      "pagePath": "pages/tupian/tupian",
+      "text": "图片",
+      "iconPath": "images/tu_pian1.png",
+      "selectedIconPath": "images/tu_pian2.png"
+    },
+    {
+      "pagePath": "pages/xioashuo/xiaoshuo",
+      "text": "小说",
+      "iconPath": "images/xiao_shuo1.png",
+      "selectedIconPath": "images/xiao_shou2.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,19 @@
+<import src="../one/one.wxml"/>
+<template name="third_Template">
+  <view class='third-container'>
+    <view class='inner-container'>
+      <view class='third-head'>
+        <text class='gengxing'>番剧更新</text>
+        <view  class='more'>
+          <text class='more-text'>查看更多番剧</text>
+        </view>
+      </view>
+      <view class='four-container'>
+        <!--加载三个-->
+        <template is="one_Template"/>
+        <template is="one_Template"/>
+        <template is="one_Template"/>
+      </view>
+    </view>
+  </view>
+</template>

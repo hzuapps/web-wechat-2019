@@ -1,0 +1,5 @@
+<!--pages/dongman/dongman.wxml-->
+<import src="../template/third/third.wxml"/>
+<template is="third_Template"/>
+<template is="third_Template"/>
+<template is="third_Template"/>

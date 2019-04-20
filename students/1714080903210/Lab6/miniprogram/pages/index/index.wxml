@@ -1,0 +1,51 @@
+<!--pages/wxml/index.wxml-->
+<!--这里留着以后做标题
+
+-->
+
+<!--view class="font-loaded">
+        <text wx:if="{{!loaded}}" > {{ fontFamily }}</text>
+        <text wx:else>{{ fontFamily }}</text>
+</view-->
+
+  <!--view class="page__desc">功能主页</view-->
+ 
+<!--view class="page">
+    <view class="page__hd">
+
+    </view>
+    <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="*this">
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/imag/Normal/pintu.png" />
+                    <view class="weui-grid__label">图片拼接</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+</view-->
+
+<navigator url="" class="weui-grid" hover-class="weui-grid_active">
+  <image class="weui-grid__icon" src="/imag/Normal/pintu2.png" />
+  <view class="weui-grid__label">图片拼接</view>
+</navigator>
+
+<navigator url="" class="weui-grid" hover-class="weui-grid_active">
+  <image class="weui-grid__icon" src="/imag/Normal/toushi.png" />
+  <view class="weui-grid__label">装饰头像</view>
+</navigator>
+
+<navigator url="" class="weui-grid" hover-class="weui-grid_active">
+  <image class="weui-grid__icon" src="/imag/other/erweima.png" />
+  <view class="weui-grid__label">自定义二维码</view>
+</navigator>
+
+<navigator url="" class="weui-grid" hover-class="weui-grid_active">
+  <image class="weui-grid__icon" src="/imag/Normal/construction.png" />
+  <view class="weui-grid__label">正在施工</view>
+</navigator>
+      
+<!--view class="btn-area">
+  <button style="display:block;margin:0 auto" type="primary" bindtap="loadFontFace" class="weui-btn mini-btn" size="mini">加载字体</button>
+</view-->

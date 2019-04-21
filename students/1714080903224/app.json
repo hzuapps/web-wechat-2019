@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#CDBA96",
+    "navigationBarTitleText": "食茶",
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar": {
+    "color": "#8B795E",
+    "selectedColor": "#8FBC8F",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/d1.jpg",
+        "iconPath": "images/d2.jpg",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/d3.jpg",
+        "iconPath": "images/d4.jpg",
+        "pagePath": "pages/logs/logs",
+        "text": "关于"
+      }
+    ]
+  }
+  }

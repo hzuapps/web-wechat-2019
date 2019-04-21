@@ -1,0 +1,17 @@
+<!--pages/mine/mine.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__desc">随心染墨，下笔从心</view>
+    </view>
+    <view class="page__bd page__bd_spacing">
+
+        <view class="button-sp-area">
+            <button class="weui-btn" type="primary" plain="true">提笔</button>
+
+            <button class="weui-btn" type="default" plain="true">收墨</button>
+            
+            <button class="weui-btn mini-btn" type="primary" size="mini">管理</button>
+            <button class="weui-btn mini-btn" type="default" size="mini">设置</button>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/seccend/seccend",
+    "pages/third/third",
+    "pages/edit/edit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "图文便签",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffe999",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#13227a",
+    "backgroundColor": "#ffe999",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "首页",
+        "iconPath": "image/first1.png",
+        "selectedIconPath": "image/first2.png"
+      },
+      {
+        "pagePath": "pages/seccend/seccend",
+        "text": "便签",
+        "iconPath": "image/seccend1.png",
+        "selectedIconPath": "image/seccend2.png"
+      },
+      {
+        "pagePath": "pages/third/third",
+        "text": "关于我",
+        "iconPath": "image/third1.png",
+        "selectedIconPath": "image/third2.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

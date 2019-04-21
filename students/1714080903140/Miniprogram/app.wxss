@@ -1,0 +1,11 @@
+/**app.wxss**/
+.container {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+} 
+.title{
+  font-size: 14px;
+  font-weight: bold;
+}
+

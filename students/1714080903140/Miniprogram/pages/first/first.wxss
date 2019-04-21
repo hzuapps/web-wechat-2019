@@ -1,0 +1,47 @@
+/* pages/first/first.wxss */
+.page{
+  position: relative;
+}
+.lists{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.list-i{
+  width: 100%;
+  height: 200rpx;
+  background: #eee;
+  display: flex;
+  margin: 10rpx 0;
+  flex-direction: column;
+}
+.content{
+  height: 110rpx;
+  border-bottom:1px solid red;
+  line-height: 110rpx;
+  padding: 0 20rpx;
+}
+.time{
+  color: #1674d4;
+  line-height: 90rpx;
+  padding: 0 20rpx;
+}
+.add{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 80rpx;
+  bottom: 80rpx;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #efefef;
+}
+.add image{
+  width: 40rpx;
+  height: 40rpx;
+}

@@ -1,0 +1,4 @@
+/* pages/seccend/seccend.wxss */
+.page {
+  position: relative;
+}

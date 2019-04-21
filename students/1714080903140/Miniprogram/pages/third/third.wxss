@@ -1,0 +1,5 @@
+/* pages/third/third.wxss */
+.text{
+  text-align: center;
+  font-size: 14px;
+}

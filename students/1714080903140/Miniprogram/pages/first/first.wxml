@@ -1,0 +1,14 @@
+<!--pages/firstfirst.wxml-->
+<image class='des-image' src='{{image}}' ></image>
+<view>
+  <scroll-view class='list-i'>
+    <block wx:for="{{lists}}">
+    <view class='list'>
+      <view class='content' bindtap='edit' data-id="{{item.id}}" >{{item.content}}</view>
+      <view class='time'>创建时间：{{item.time}}</view>
+    </view>
+    </block>
+  </scroll-view>
+</view>
+<view class='add' bindtap='add'>+</view>
+    

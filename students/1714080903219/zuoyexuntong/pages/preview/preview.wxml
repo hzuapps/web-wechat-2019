@@ -1,0 +1,28 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">我的作业情况</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-form-preview">
+
+            <view class="weui-form-preview__bd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">班级：</view>
+                    <view class="weui-form-preview__value">2017网络工程2班</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">作业期限：</view>
+                    <view class="weui-form-preview__value">2019.00.00-2019.05.05</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">任课老师</view>
+                    <view class="weui-form-preview__value">曾少宁</view>
+                </view>
+            </view>
+            <view class="weui-form-preview__ft">
+                <navigator url="" class="weui-form-preview__btn weui-form-preview__btn_primary "hover-class="weui-form-preview__btn_active">查看作业详细</navigator>
+            </view>
+        </view>
+
+    </view>
+</view>

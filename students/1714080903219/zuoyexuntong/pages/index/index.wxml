@@ -1,0 +1,13 @@
+<!--index.wxml-->
+    
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">检测到您未加入任何班级</view>
+        <view class="page__desc">是否选择创建或者加入一个班级</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-btn-area">
+            <button type="default" bindtap="open">选择</button>
+        </view>
+    </view>
+</view>

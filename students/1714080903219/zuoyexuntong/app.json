@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/preview/preview",
+    "pages/wode/wode"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#DDDDDD",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+"tabBar":{
+  "color":"",
+  "selectedColor":"red",
+  "list":[
+    {
+      "iconPath":"pages/images/shouye.png",
+      "selectedIconPath":"pages/images/shouye_1.png",
+      "pagePath":"pages/index/index",
+      "text":"首页"
+    },
+    {
+      "iconPath": "pages/images/xiaoxi.png",
+      "selectedIconPath": "pages/images/xiaoxi_1.png",
+      "pagePath":"pages/preview/preview",
+      "text": "作业"
+    },
+    {
+      "iconPath": "pages/images/wode.png",
+      "selectedIconPath": "pages/images/wode_1.png",
+      "pagePath": "pages/wode/wode",
+      "text": "个人"      
+    }
+  ]
+}
+}

@@ -1,8 +1,0 @@
-<template name="zan-stepper">
-    <view class="zan-stepper {{type==='H'?'zan-stepper-h':''}} {{size==='small'?'zan-stepper--small':''}}">
-        <view class="title" wx:if="{{title}}">{{title}}</view>
-        <view bindtap="_handleZanStepperPlus" class="zan-stepper__minus {{disabled?'zan-stepper--disabled':''}}" data-component-id="{{componentId}}" data-disabled="{{disabled}}" data-max="{{max}}" data-min="{{min}}" data-name="{{name}}" data-stepper="{{stepper}}">+</view>
-        <input bindblur="_handleZanStepperBlur" class="zan-stepper__text {{disabled?'zan-stepper--disabled':''}}" data-component-id="{{componentId}}" data-max="{{max}}" data-min="{{min}}" data-name="{{name}}" disabled="true" type="number" value="{{stepper}}"></input>
-        <view bindtap="_handleZanStepperMinus" class="zan-stepper__plus {{disabled?'zan-stepper--disabled':''}}" data-component-id="{{componentId}}" data-disabled="{{disabled}}" data-max="{{max}}" data-min="{{min}}" data-name="{{name}}" data-stepper="{{stepper}}">-</view>
-    </view>
-</template>

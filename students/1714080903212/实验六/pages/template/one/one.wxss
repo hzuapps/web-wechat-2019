@@ -1,0 +1,15 @@
+@import "../two/two.wxss";
+.one-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 22rpx;
+}
+.one-img{
+  width: 200rpx;
+  height: 270rpx;
+  padding-bottom: 20rpx;
+}
+.one-title{
+  margin-bottom: 16rpx;
+  font-size: 24rpx;
+}

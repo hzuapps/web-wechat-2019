@@ -1,0 +1,9 @@
+.two-container{
+  display: flex;
+  flex-direction: row;
+}
+.two-jishu{
+  font-size: 25rpx;
+  color: #F08080;
+  vertical-align: middle;
+}

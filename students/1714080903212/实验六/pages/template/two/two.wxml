@@ -1,0 +1,5 @@
+<template name="two_Template">
+  <view class='two-container'>
+    <text class='two-jishu'>第15话</text>
+  </view>
+</template>

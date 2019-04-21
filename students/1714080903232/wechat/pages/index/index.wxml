@@ -1,0 +1,16 @@
+<!--pages/logs/index.wxml-->
+<view class='imagesize'>
+  <image src="/images/22.png"  >
+  </image>
+</view>
+<view class='music {{on? "on": ""}}'>
+    <image src='/images/music1.png' style='width: 60rpx;height: 60rpx;' bindtap='stop'></image>
+</view>
+
+
+<view class='A1' >
+  <text class='A'>A NICE DAY</text>
+</view>
+<view class='B1'>
+<text class='B'>随写吧之旅</text>
+</view>

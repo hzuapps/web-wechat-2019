@@ -1,0 +1,56 @@
+/* pages/logs/index.wxss */
+page{
+  background-color:pink
+}
+.music{
+  display: inline-block;
+  width: 60rpx;
+  height: 60rpx;
+  position: fixed;
+  top: 40rpx;
+  right: 40rpx;
+  z-index: 9999;
+}
+
+.on{
+  animation:rotating 2.5s linear infinite;
+}  
+
+@keyframes rotating{
+from{transform:rotate(0)}
+to{transform:rotate(360deg)}
+}
+
+.imagesize{
+ display:flex;                  
+ justify-content: center; 
+ flex-direction: column      
+}
+.imagesize image { 
+  width:800rpx;
+  height:400rpx;
+
+  }
+  .A1{
+     text-align: center
+  }
+  .A{margin-top: 100px;
+     font-size: 50rpx;
+     font-weight: Roman;
+    
+  }
+  .B1{
+    margin-top: 100rpx;
+    border: 1px solid navajowhite;
+    width: 200rpx;
+    height:80rpx;
+    border-radius: 5px;
+    text-align: center; 
+  }
+  .B{
+    font-size: 30rpx;
+    font-weight: blod;
+    line-height: 80rpx;
+    color: paleturquoise;
+    text-align: center
+  }

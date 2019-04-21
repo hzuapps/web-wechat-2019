@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/dynamic/dynamic",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#4c4e5d",
+    "navigationBarTitleText": "詹姆斯迷弟",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "iconPath":"pages/image/lbj3.jpg",
+        "pagePath": "pages/dynamic/dynamic",
+        "text": "动态"
+       
+      },
+      {
+          "iconPath":"pages/image/lbj2.jpg",
+        "pagePath": "pages/about/about",
+        "text": "关于"
+       
+      }
+    ]
+  }
+}
+  

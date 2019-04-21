@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFE4C4",
+    "navigationBarTitleText": "趣意小工具",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath":"imag/Normal/列表.png",
+        "selectedIconPath":"imag/HL/列表.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "imag/Normal/关于.png",
+        "selectedIconPath": "imag/HL/关于.png"
+      }
+    ]
+  }
+}

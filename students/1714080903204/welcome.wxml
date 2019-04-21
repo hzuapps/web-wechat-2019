@@ -1,0 +1,18 @@
+<view class='container'>
+<image class="user-image" src="/image/001.JPG"></image>
+<view>
+<text>-占卜屋欢迎你-</text>
+</view>
+<view class="moto-container">
+<text class='moto'>也许今天运气不错？</text>
+</view>
+</view>
+<view class="myButton">
+<text class='moto'>   查看今日运势</text>
+</view>
+<view class="myButton">
+<text class='moto'>  恋爱烦恼？</text>
+</view>
+<view class="myButton">
+<text class='moto'>   交际烦恼？</text>
+</view>

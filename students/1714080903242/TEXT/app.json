@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "佛系GO旅游",
+    "navigationBarTextStyle":"black"
+  },
+"tabBar":{
+  "color":"black",
+  "selectedColor":"green",
+  "backgroundColor":"white",
+  "list":[
+    {
+  "pagePath": "pages/index/index",
+  "text": "首页",
+  "iconPath":"images/icon_API.png",
+  "selectedIconPath":"images/icon_API_HL.png"
+    },
+  {
+    "pagePath": "pages/logs/logs",
+    "text": "推荐行程",
+    "iconPath": "images/1.png",
+    "selectedIconPath": "images/2.png"
+  },
+  {
+    "pagePath": "pages/my/my",
+    "text": "设置",
+      "iconPath": "images/捕获.png",
+      "selectedIconPath": "images/捕获.png" 
+  }
+  ]
+}
+}

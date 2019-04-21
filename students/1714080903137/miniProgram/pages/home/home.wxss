@@ -1,0 +1,9 @@
+/* pages/home/home.wxss */
+.page__hd{
+  height: 60px;
+  background-color:#F0F8FF;
+  font-size: 18px;
+  text-align: center;
+  line-height: 60px;
+
+}

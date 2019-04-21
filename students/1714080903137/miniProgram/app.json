@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/clock/clock"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#000000",
+    "backgroundColor": "#F0F8FF",
+    "list": [
+      {
+        "iconPath": "imgs/home.jpg",
+        "selectedIconPath": "imgs/home.jpg",
+        "pagePath": "pages/home/home",
+        "text": "Home"
+      },
+      {
+        "iconPath": "imgs/clock.jpg",
+        "selectedIconPath": "imgs/clock.jpg",
+        "pagePath": "pages/clock/clock",
+        "text": "Clock"
+      },
+      {
+        "iconPath": "imgs/my.png",
+        "selectedIconPath": "imgs/my.png",
+        "pagePath": "pages/my/my",
+        "text": "My"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

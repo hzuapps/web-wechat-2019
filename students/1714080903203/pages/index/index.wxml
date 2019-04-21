@@ -1,0 +1,52 @@
+    
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                    <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                        <icon type="clear" size="14"></icon>
+                    </view>
+                </view>
+                <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+                    <icon class="weui-icon-search" type="search" size="14"></icon>
+                    <view class="weui-search-bar__text">搜索</view>
+                </label>
+            </view>
+            <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+        </view>
+        <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>
+<form>
+		<view class="weui-cells__title">我要发布</view>
+        <view class="weui-cells weui-cells_form" >
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd" value='{{inputVal}}'>
+                    <textarea bindinput="liu" class="weui-textarea" class="Error" placeholder="在这里输入发布信息..." rows="2" autofocus></textarea>
+                    <view class="weui-textarea-counter"><span>0</span>/200</view>
+                </view>
+            </view>
+        </view>
+         <button class="weui-btn weui-btn_mini" type="primary" bindtap='tijiao'>确认发布</button>
+</form>
+ <view class="send-box">
+  
+ <!--bindtap相当于onclick-->
+ </view>
+ <text class="msg-info" wx:if="{{msgData.length==0}}">暂无发布信息^_^</text>   <!--当留言列表为空时显示本句-->
+ <!--留言列表 -->
+  <view class="list-view">
+  <view class="item" wx:for="{{msgData}}" wx:key="{{index}}"><!--循环显示msgData中的数据，key是必须的，否则会出现警告-->
+   <text class='text1'>{{item.msg}}</text> <!--item是固定的，msg对应msgData中的名-->
+   <icon data-index="{{index}}" class="close-btn" bindtap='deleMsg' type="cancel"></icon>
+   </view>
+ </view>

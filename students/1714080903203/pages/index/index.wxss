@@ -1,0 +1,79 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+
+
+.usermotto {
+  margin-top: 200px;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+/**index.wxss**/
+/*实现样式，类似于css*/
+.msg-box{
+ padding: 20px;
+}
+.send-box{
+ display: flex;
+}
+.input{
+ border: 1px solid #ccc;
+ padding: 5px;
+ border-radius: 5px;
+}
+.msg-info{
+ display: block;
+ margin: 10px 0 0 0;
+ color: #339900;
+}
+.place-input{
+ color: salmon;
+}
+.list-view{
+ margin: 20px 0 0 0;
+}
+.item{
+ overflow: hidden;
+ border-bottom: 1px dashed #ccc;
+ height: 30px;
+ line-height: 30px;
+}
+.text1{
+ float: left;
+}
+.close-btn{
+ float: right;
+ margin: 5px 5px 0 0;
+}
+.placeholder{
+margin: 5px;
+padding: 0 10px;
+text - align: center;
+background - color: #EBEBEB;
+height: 2.3em;
+line - height: 2.3em;
+color: #cfcfcf;
+}

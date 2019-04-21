@@ -1,0 +1,196 @@
+/* pages/Timer/Timer.wxss */
+/*显示区包含块*/
+.wrap{
+  position: absolute;
+  width: 100%;
+  height: 73%;
+  /* background-color: white; */
+}
+/*不转圈样式*/
+.wrap .ZhuanQuan_Stop{
+
+}
+/*转圈样式*/
+.wrap .ZhuanQuan_Active{
+ 
+}
+.zhuanquan{
+  width: 360rpx;
+  height: 360rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+}
+
+/*让数字不会跳来去*/
+.juzhon{
+  width:272rpx;
+  /* background-color:red; */
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  text-align: left;
+}
+/*显示状态*/
+.xianshi{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  font-Size:20px;
+  color: white;
+  transition: 0.3s;
+}
+.xianshi_JiCi{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  font-Size:14px;
+  color: white;
+  transition: 0.62s;
+}
+
+/*正常的时间样式*/
+.wrap > .Timer_Normal{
+  width: 360rpx;
+  height: 360rpx;
+  background-color: rgba(255, 255, 255, 0); /*圆环里面*/
+  /* border: 4rpx solid white; */
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+
+  text-align: center;
+  line-height: 360rpx;
+
+  color: white;
+}
+/*开始时的时间样式*/
+.wrap .Timer_Start{
+  width: 360rpx;
+  height: 360rpx;
+  background-color: rgba(255, 255, 255, 0);
+  /* border: 24rpx double black; */
+  /* border-bottom: 12rpx dotted white;
+  border-left: 11rpx dotted white;
+  border-right: 11rpx dotted white; */
+  border-radius: 50%;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+
+  text-align: center;
+  line-height: 360rpx;
+
+  color: white;
+}
+/*计次时的时间样式*/
+.wrap .Timer_JiCi{
+  width: 100%;
+  height: 25%;
+  background-color: black;
+  border-bottom: 2rpx solid #a3a3a3;
+  border-radius: 0;
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate3d(-50%,0,0);
+
+  text-align: center;
+  line-height: 240rpx;
+
+  color: white;
+}
+
+
+
+
+
+
+
+/*计次显示前的样式*/
+.wrap .JiCi_Normal{
+  display: block;
+
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  border-top: 2rpx solid rgba(255, 255, 255, 0);
+
+  width: 100%;
+  height: 0;
+  font-size: 1spx;
+  overflow: scroll;
+}
+/*计次显示区显示后的样式*/
+.wrap .JiCi_Active{
+  display: block;
+
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  border-top: 2rpx solid #a3a3a3;
+
+  width: 100%;
+  height: 75%;
+
+  font-size: 30px;
+  overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*按钮包含模块*/
+.btnWrap{
+  position: absolute;
+  height: 27%;
+  width: 100%;
+  background-color: black;
+  border-top: 2rpx solid #a3a3a3;
+  bottom: 0px;
+}
+.btnWrap .btn{
+  width: 440rpx;
+  height: 200rpx;
+  /* background-color: #b2b2b2; */
+  position: absolute;
+  top: 50rpx;
+  left: 50%;
+  transform: translate3d(-50%,0,0);
+}
+.btnWrap .btn button{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+
+  /* background-color: white; */
+  /* text-align: center; */
+  line-height: 180rpx;
+  
+  float: left;
+  margin: 10rpx 20rpx;
+  
+}
+

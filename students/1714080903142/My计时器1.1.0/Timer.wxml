@@ -1,0 +1,56 @@
+<!--pages/Timer/Timer.wxml-->
+<!-- 要求：包裹块在上方固定位置，占1/3，计时显示是个圆，在计时时有动画；按钮在下方固定位置；显示在中间固定位置，可以滑动 -->
+
+<!-- 包裹显示部分的块 -->
+<view class='wrap' style="background-color:black;transition: {{transTime}};" >
+
+  <!-- 转圈 -->
+  <!-- <view class="{{isTimerStart? (isTimerJiCi? 'ZhuanQuan_Stop':'ZhuanQuan_Active'):'ZhuanQuan_Stop'}}"></view> -->
+  <view class='zhuanquan' style='border:{{Bsize}} {{Bx}} {{Bcolor}};transition:1s;'></view>
+
+
+  <!-- 包裹计时器的块 -->
+  <view class="{{isTimerStart? (isTimerJiCi? 'Timer_JiCi':'Timer_Start'):(isTimerJiCi? 'Timer_JiCi':'Timer_Normal')}}"  style="font-Size:80rpx;transition: {{transTime}};"><!--这里的时间是边框变化的-->
+     <view class='juzhon'>{{minute}}:{{second}}.{{ten_mesc}}</view>             
+  </view><!--包裹计时器的块结束-->
+  <!--状态显示-->
+  <view class="{{isTimerJiCi? 'xianshi_JiCi':'xianshi'}}" style="display:{{isTimerStart? 'block':'none'}};">正在计时</view>
+  <view class="{{isTimerJiCi? 'xianshi_JiCi':'xianshi'}}" style="display:{{isTimerStart? 'none':'block'}};">停止状态</view>
+
+  <!-- 显示计次的模块 -->
+  <scroll-view scroll-y="{{true}}" scroll-top="{{scrollTop}}" class="{{isTimerJiCi? 'JiCi_Active':'JiCi_Normal'}}" style="transition:{{isTimerJiCi? ' 0.5s':' 0.3s'}};">
+    <block wx:for="{{record}}" wx:key>
+      <view style='padding-top:7px;padding-left:220px;border-bottom:1px solid #131313;'>
+
+        <view style='float:left;margin-left:-200px;'>   <!--下标-->
+         {{(index+1)>=10 ? (index+1):('0'+(index+1))}}
+        </view>
+
+        <!--<view style='float:left;margin-left:-100px;font-Size:18px;'>时间间隔
+          {{m}}:{{s}}.{{t}}
+        </view>-->
+
+        {{item}}    <!--时间-->
+      </view> 
+      <!--{{index? '{{marginTop}}':'0px'}}--->
+
+    </block>
+    <!-- <text decode='{{true}}'>&ensp;&ensp;&ensp;&ensp;</text>多个空格 -->
+  </scroll-view><!-- 显示计次的模块结束 -->
+
+</view><!-- 包裹显示部分的块结束 -->
+
+
+
+<!-- 按钮模块 -->
+<!--按开始：开始和重置不显示，暂停和计次显示
+    按暂停：开始和重置显示，暂停和计次不显示
+-->
+<view class='btnWrap'>
+  <view class='btn'>
+    <button bindtap='Reset'style="display:{{isTimerStart? 'none':'block'}}">重置</button>
+    <button bindtap='Start' style="display:{{isTimerStart? 'none':'block'}}">开始</button>
+    <button bindtap='JiCi'style="display:{{isTimerStart? 'block':'none'}}">计次</button>
+    <button bindtap='Stop'style="display:{{isTimerStart? 'block':'none'}}">暂停</button>
+  </view>
+</view>

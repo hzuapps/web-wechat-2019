@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/Timer/Timer",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "My计时器1.1.0",
+    "navigationBarTextStyle": "white"
+  }
+}

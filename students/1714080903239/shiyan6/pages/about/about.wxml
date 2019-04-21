@@ -1,8 +1,0 @@
-<view class='container'>
-  <image class='about-banner'
-   src="/image/t0138416d729499ee9f.jpg"></image>
-  <text style='font-weight:bold; font-size:60rpx;'>湖人总冠军</text>
-  <navigator url='/pages/weekly/weekly'
-   hover-class='nav-after' class='nav-before' >Kobebryant</navigator>
-
-</view>

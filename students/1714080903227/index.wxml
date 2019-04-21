@@ -1,0 +1,13 @@
+<page>
+<image src="../../images/bg.jpg" bindload="imageLoad"
+style="width:{{imgwidth}}rpx; height:{{imgheight }}rpx;"></image>
+<button class='btn1' bindtap='gotopage1'>
+    <image class='btnImg' src='../../images/add.png'></image>
+    <view>添加课程</view>
+ </button>
+
+  <button class='btn2' bindtap='gotopage2'>
+    <image class='btnImg' src='../../images/time.png'></image>
+    <view>当前学期</view>
+ </button>
+</page>

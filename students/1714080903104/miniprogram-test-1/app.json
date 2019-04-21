@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/Budget/Budget",
+    "pages/Month/Month",
+    "pages/Today/Today"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#07bbbb",
+    "navigationBarTitleText": "记账小助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "black",
+    "list": [
+      {
+        "iconPath":"account/1.jpg",
+        "selectedIconPath":"account/3.jpg",
+        "pagePath": "pages/Today/Today",
+        "text": "Today"
+      },
+      {
+        "iconPath":"account/1.jpg",
+        "selectedIconPath":"account/2.jpg",
+        "pagePath": "pages/Month/Month",
+        "text": "Month"
+      },
+      {
+        "iconPath":"account/1.jpg",
+        "selectedIconPath":"account/4.jpg",
+        "pagePath": "pages/Budget/Budget",
+        "text": "Budget"
+      }
+    ]
+  }
+}

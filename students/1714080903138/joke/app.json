@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF7017",
+    "navigationBarTitleText": "Joke collection",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#FF7017",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "趣事",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "添加",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/4.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/5.png",
+        "selectedIconPath": "images/6.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

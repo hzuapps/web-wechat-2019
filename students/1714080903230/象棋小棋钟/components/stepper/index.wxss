@@ -1,0 +1,68 @@
+.zan-stepper {
+    color: #666;
+    padding: 5px;
+}
+
+.zan-stepper view {
+    display: block;
+    line-height: 20px;
+    padding: 8px 0;
+    text-align: center;
+    min-width: 50px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #F7F7F7;
+}
+
+.zan-stepper.zan-stepper-h view {
+    display: inline-block;
+}
+
+.zan-stepper .title {
+    border: none;
+    margin-bottom: 5px;
+}
+
+.zan-stepper .zan-stepper__minus {
+    background: rgba(54,60,68,0.6);
+}
+
+.zan-stepper.zan-stepper-h .zan-stepper__minus {
+}
+
+.zan-stepper .zan-stepper__text {
+    background: rgba(255,255,255,0.1);
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    width: 50px;
+    min-height: auto;
+    font-size: 12px;
+    line-height: 30px;
+    color: #F7F7F7;
+}
+
+.zan-stepper .zan-stepper__plus {
+    background: rgba(54,60,68,0.6);
+}
+
+.zan-stepper.zan-stepper-h .zan-stepper__plus {
+}
+
+.zan-stepper .zan-stepper--disabled {
+    background: #f8f8f8;
+    color: #bbb;
+    border-color: #e8e8e8;
+}
+
+.zan-stepper--small view {
+    min-width: 36px;
+    line-height: 18px;
+}
+
+.zan-stepper--small .zan-stepper__text {
+    width: 36px;
+    line-height: 28px;
+    height: 28px;
+}

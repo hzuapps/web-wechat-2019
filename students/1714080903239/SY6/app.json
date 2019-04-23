@@ -1,0 +1,29 @@
+{
+  "pages":["pages/about/about","pages/weekly/weekly","pages/my/my"],
+
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "black",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/about/about",
+        "text": "湖人",
+        "iconPath": "image/select.png",
+        "selectedIconPath": "image/selected.png"
+      },
+      {
+        "pagePath": "pages/weekly/weekly",
+        "text": "KOBE",
+        "iconPath": "image/kobeselected.png",
+        "selectedIconPath": "image/kobeselect.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "比赛",
+        "iconPath": "image/nbaselect.png",
+        "selectedIconPath": "image/nbaselected.png"
+      }
+    ]
+  }
+}

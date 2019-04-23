@@ -1,0 +1,60 @@
+@import "../../components/stepper/index.wxss";
+
+page {
+    height: 100%;
+    position: fixed;
+}
+
+.panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.panel .panel-header {
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 5px;
+}
+
+.panel .panel-body {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-group {
+    display: flex;
+    height: 20%;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    padding: 10%;
+}
+
+.radio-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.gd-2 {
+    flex-grow: 2;
+    width: 60%;
+}
+
+.gd-1 {
+    flex-grow: 1;
+    width: 40%;
+}

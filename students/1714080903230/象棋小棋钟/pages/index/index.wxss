@@ -1,0 +1,42 @@
+/* pages/index/index.wxss */
+page{
+  height: 100%;
+}
+.btn-player{
+  width: 100%;
+  height: 8rem;
+  margin-top: 0rpx;
+  
+  line-height: 350rpx;
+  text-align: center;
+  background-color: #FFCC00;
+  color: #FFF;
+}
+
+view{
+  height: 55%;
+}
+.btn{
+   width: 100%;
+    height: 10%;
+    position: absolute;
+    text-align: center;
+}
+.btn-play{
+  height: 50%;
+  text-align: center;
+  transform: rotate(0deg);
+}
+
+
+.add_btn{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0rpx;
+}
+.btn_1{
+
+    width: 300rpx;
+
+}

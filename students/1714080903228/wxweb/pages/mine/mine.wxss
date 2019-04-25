@@ -1,0 +1,29 @@
+/* pages/mine/mine.wxss */
+
+image{
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+#userwelcome{
+  position: relative;
+left: 20px;
+}
+#userimg{
+  position: relative;
+}
+#welcome{
+  position: absolute;
+  left: 80px;
+  top: 10px;
+}
+
+#username{
+  font-size: 20px;
+  font-weight: 600;
+}
+#custom{
+  margin-top: 36px;
+}

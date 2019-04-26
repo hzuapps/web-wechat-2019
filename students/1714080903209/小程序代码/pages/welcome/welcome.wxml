@@ -1,6 +1,0 @@
-<view class='container'>
-<image class='user-image' src='/image/timg2.jpg'></image>
-<view>
-<text class='user-welcome'>Welcome to EP.sharing</text>
-</view>
-</view>

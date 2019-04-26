@@ -1,0 +1,17 @@
+
+
+<view id='userwelcome'>
+<view id='userimg'>
+  <image src='{{userInfo.avatarUrl}}'></image>
+</view>
+<view id='welcome'>
+   欢迎你，
+   <view id='username'>
+      {{userInfo.nickName}}
+   </view>
+   
+</view>
+</view>
+<view>
+<button type='prmary' bindtap='jumpPage' id='custom'>定制站点</button>
+</view>

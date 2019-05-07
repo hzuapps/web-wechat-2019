@@ -1,3 +1,0 @@
-
-<view class='top'></view>
-<button type='primary' bindtap='gotoCalendar'>点击查看日历</button>

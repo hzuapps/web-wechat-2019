@@ -19,7 +19,7 @@ Page({
     },
     onShareAppMessage: function(e) {
         return "button" === e.from && console.log(e.target), {
-            title: "象棋小棋钟",
+            title: "象棋棋钟",
             path: "/pages/index/index",
             success: function(e) {},
             fail: function(e) {}
@@ -131,6 +131,12 @@ Page({
         });
     },
     playSound: function(i) {
-        
+        if (e.globalData.isPlay) {
+            var a = wx.createInnerAudioContext();
+            a.autoplay = !0, a.src = "https://share.yikeweiqi.com/static/golinks/sounds/" + i + ".mp3", 
+            a.onPlay(function() {}), setTimeout(function() {
+                a.destroy(), a = null;
+            }, 2e3);
+        }
     }
 });

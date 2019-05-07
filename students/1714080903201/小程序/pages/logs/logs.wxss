@@ -1,0 +1,110 @@
+.container{
+  display: flex;
+  display: -webkit-flex;
+  align-items: left;
+  margin: 2%;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.userinfo {  
+  position: relative;  
+  width: 750rpx;  
+  height: 270rpx;  
+  color: #fff;  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+}  
+  
+.userinfo-avatar {  
+  overflow:hidden;  
+  display: block;  
+  width: 180rpx;  
+  height: 180rpx;  
+  margin: 20rpx;  
+  margin-top: 50rpx;  
+  border-radius: 50%;  
+  border: 2px solid #fff;  
+  box-shadow: 3px 3px 10px #ffffff(0, 0, 0, 0.2);  
+}  
+  
+.userinfo{  
+  color: #fff; 
+  font-size: 14px;  
+  background-color: #ffffff;  
+  border-radius:40%;  
+}  
+.Order {
+    display: flex;
+    margin-left: 35rpx;
+}
+
+.MyOrder {
+    margin-right: 30rpx;
+}
+
+.AllofOrder {
+    margin-left: 380rpx;
+    font-size: 30rpx;
+    color: gray;
+    padding-top: 7rpx;
+}
+
+.State {
+    margin-top: 20rpx;
+    display: flex;
+    margin: 25rpx;
+}
+
+.Sta {
+    margin: 37rpx;
+}
+
+.Center {
+    text-align: center;
+    font-size: 20rpx;
+    color: gray;
+}
+
+.Mine {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50rpx;
+    margin-left: 35rpx;
+}
+
+.Trans {
+    display: flex;
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+}
+.Instru {
+    margin-left: 500rpx;
+    width: 50rpx; 
+    height: 50rpx;
+}
+.Sta image {
+    width: 100rpx;
+    height: 100rpx;
+    background-color: #000;
+    border-radius: 50rpx;
+}
+.Instr{
+    width: 50rpx;
+    height: 50rpx;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}

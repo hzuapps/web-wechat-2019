@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/user/userInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "日程事项",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/arrowright.png",
+        "selectedIconPath": "image/green_tri.png",
+        "text": "日程事项"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

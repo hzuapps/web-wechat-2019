@@ -1,13 +1,12 @@
 {
-  "pages": [
+  "pages":[
     "pages/index/index",
     "pages/logs/logs",
     "pages/setting/setting"
   ],
-  "window": {
-    "navigationBarTitleText": "记事本",
+  "window":{
+    "navigationBarTitleText": "标签日记",
     "navigationBarBackgroundColor": "#3197ed"
-
   },
   "tabBar": {
     "color": "#dddddd",
@@ -18,19 +17,13 @@
         "pagePath": "pages/index/index",
         "iconPath": "images/zhuye.png",
         "selectedIconPath": "images/zhuye2.png",
-        "text": "记事"
+        "text": "日记"
       },
       {
         "pagePath": "pages/logs/logs",
         "iconPath": "images/yunduan.png",
         "selectedIconPath": "images/yunduan2.png",
-        "text": "日志"
-      },
-      {
-        "pagePath" : "pages/setting/setting",
-        "iconPath": "images/shezhi.png",
-        "selectedIconPath": "images/shezhi2.png",
-        "text": "设置"
+        "text": "记录"
       }
     ]
   },

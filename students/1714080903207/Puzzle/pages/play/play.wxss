@@ -1,44 +1,71 @@
-page {
-  min-height: auto;
-  height: auto;
+/* pages/play/play.wxss */
+.container{
+     height: 100vh;
+     justify-content: space-between;
 }
 
-.cropper-wrapper {
-  background: #fff;
+.imgView{
+     width: 100%;  
+     position: relative;
+     height: 300px;
+}
+.imgView>image{
+    position: absolute; 
+    top: 1px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #aaa; 
+    box-shadow: 10px 10px 5px #888;
+    /* padding: 1px; */
+}
+.imgView #gridding{
+    position: absolute;
+    top: 0px;
+    border: 1px solid #aaa;
+    width: 302px;
+    height: 302px;
+    box-sizing: border-box;
+}
+.griddingView{
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+
+    overflow: hidden;
+
+    position: absolute;
+}
+.hover{
+    border-color: red;
+}
+.griddingView image{
+    width: 300px;
+    height: 300px;
+    position: absolute;
 }
 
-.getCropperImage {
-  text-align: center;
-  font-size: 32rpx;
-  display: flex;
-  justify-content: space-around;
-  position: absolute;
-  bottom: 0;
-  width: 750rpx;
-  padding: 40 0rpx;
-  background: #000;
-  z-index: 9999;
-  color: #fff;
-  align-items: center;
+.success{
+    margin:130px auto 0;
+    width: 90vw;
 }
-
-.getCropperImage > view {
-  padding: 0 40rpx;
-  height: 60px;
+.success .creater{
+    display: flex;
+    justify-content: flex-end;
+}
+.userinfo-nickname {
+  color: #aaa;
   line-height: 60px;
+  height: 60px;
+}
+.userinfo-avatar {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50%;
 }
 
-.cropper-wrapper-bg {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: rgb(0, 0, 0);
-  z-index: 22;
-}
-
-.rotate {
-  width: 44rpx;
-  height: 44rpx;
+.handleView{
+    width: 100vw;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
 }

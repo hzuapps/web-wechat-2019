@@ -1,0 +1,23 @@
+<!--pages/newJigsaw/newJigsaw.wxml-->
+<view class="container">
+    <view class="imgView" style="height:{{iwidth+2}}px">
+        <image id="oriImg" src="{{imgUrl}}" mode="aspectFit" style="left:{{left}}px;width:{{iwidth}}px;height:{{iwidth}}px"></image>
+        <view id="gridding" style="left:{{left-1}}px;width:{{iwidth+2}}px;height:{{iwidth+2}}px;">
+            <view class="griddingView" id='0' style="width:{{mwidth}}px;height:{{mheight}}px;" bindtap='changeBlank'></view>
+            <view class="griddingView" id='1' style="width:{{mwidth}}px;height:{{mheight}}px;" bindtap='changeBlank'></view>
+            <view class="griddingView" id='2' style="width:{{mwidth}}px;height:{{mheight}}px;" bindtap='changeBlank'></view>
+            <view class="griddingView" id='3' style="width:{{mwidth}}px;height:{{mheight}}px;" bindtap='changeBlank'></view>
+            <view class="griddingView" id='4' style="width:{{mwidth}}px;height:{{mheight}}px;" bindtap='changeBlank'></view>
+            <view class="griddingView" id='5' style="width:{{mwidth}}px;height:{{mheight}}px;" bindtap='changeBlank'></view>
+            <view class="griddingView" id='6' style="width:{{mwidth}}px;height:{{mheight}}px;" bindtap='changeBlank'></view>
+            <view class="griddingView" id='7' style="width:{{mwidth}}px;height:{{mheight}}px;" bindtap='changeBlank'></view>
+            <view class="griddingView" id='8' style="width:{{mwidth}}px;height:{{mheight}}px;" bindtap='changeBlank'></view>
+        </view>
+    </view>
+
+    <view class="handleView">
+        <button size="mini" type='default' bindtap='cancel' wx:if="{{!isShare}}">取 消</button>
+        <button size="mini" type='primary' bindtap='begin'>开始</button>
+    </view>
+    
+</view>

@@ -1,4 +1,8 @@
 /**index.wxss**/
+.container{
+    height: 100vh;
+    justify-content: space-around;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -8,21 +12,37 @@
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
-  /* margin: 20rpx; */
+  margin: 20rpx;
   border-radius: 50%;
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #fff;
 }
 
-.usermotto {
-  margin-top: 50px;
+.handle{
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
 }
 
-.selection_button {
-  height: 50px; 
-  width: 200px;
-  margin-bottom:20px;
-  background: beige;
+
+
+
+.weui-uploader {
+    box-sizing:border-box;
+    width: 90%;
+    border:1px solid #ddd;
+    padding: 0 12px;  
+    overflow: auto;
+}
+.weui-uploader .weui-uploader__hd{
+    width: 100%;
+}
+.weui-uploader .weui-uploader__bd {
+    width: 100%;
+}
+.weui-uploader .weui-uploader__bd .weui-uploader__input-box,.weui-uploader  .weui-uploader__file .weui-uploader__img{
+    width: 118px;
+    height: 118px;
 }

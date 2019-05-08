@@ -1,12 +1,15 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/shoppingCart/shoppingCart",
+    "pages/youhui/youhui"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "礼鱼首页",
+    "navigationBarTitleText": "礼鱼",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -15,21 +18,21 @@
     "borderStyle": "white",
     "list": [
       {
-        "selectedIconPath": "images/shouye.png",
-        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/首页man.png",
+        "iconPath": "images/首页.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "selectedIconPath": "images/gouwuche.png",
-        "iconPath": "images/gouwuche.png",
-        "pagePath": "pages/index/index",
-        "text": "购物车"
+        "selectedIconPath": "images/liwuman.png",
+        "iconPath": "images/liwu.png",
+        "pagePath": "pages/shoppingCart/shoppingCart",
+        "text": "推荐"
       },
       {
-        "selectedIconPath": "images/yonghu.png",
+        "selectedIconPath": "images/yonghumingman.png",
         "iconPath": "images/yonghu.png",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/user/user",
         "text": "我的"
       }
     ]

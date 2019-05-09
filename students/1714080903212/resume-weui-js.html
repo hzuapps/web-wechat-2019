@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>css美化个人简历</title>
+	<link rel="stylesheet" type="text/css" href="weui.min.css">
+	<script type="text/javascript" language="javascript" src="myforms.js"></script>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body,html{
+			height: 100%;
+		}
+		.center{
+			width: 400px;
+			height: 300px;
+			margin: 0px auto;
+		}
+	</style>
+</head>
+<body>
+	 <div class="weui-cells__title" style="text-align: center">个人简历</div>
+	<div class="weui-cell">
+	    <div class="weui-cell__hd"><label class="weui-label">个人照片</label></div>
+	    <img src="ccg.jpg" style="width: 8w;
+	        height: 10vw;vertical-align: bottom;margin-left: 8w;">
+		<br/>
+	</div>
+	 <div class="weui-panel__bd">
+        <div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title" >姓名</h4>
+            <p class="weui-media-box__desc">ccg</p>
+        </div>
+        <div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">出生年月</h4>
+            <p class="weui-media-box__desc">xxx年xx月xx日</p>
+        </div>
+    </div>
+	 <div class="weui-panel__bd">
+        <div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title" >性别</h4>
+         <div class="weui-media-box__desc">
+            <select class="weui-select" name="select2">
+                <option value="1">男</option>
+                <option value="2">女</option>
+            </select>
+        </div>
+        </div>
+		<div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">身份证号</h4>
+            <p class="weui-media-box__desc" > 17网络工程</p>
+        </div>
+		<div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">手机号</h4>
+            <p class="weui-media-box__desc">1714080903212</p>
+        </div>
+		<div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">邮箱地址</h4>
+            <p class="weui-media-box__desc">xxxx@qq.com</p>
+        </div>
+		<div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">地址</h4>
+            <p class="weui-media-box__desc" >惠州学院</p>
+        </div>
+		<div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">工作经验</h4>
+            <p class="weui-media-box__desc" >在xxx公司工作xxx年，有xxx的工作经验<br/>
+			.....&nbsp;<br/></p>
+        </div>
+		<div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">获奖情况</h4>
+            <p class="weui-media-box__desc">xxxx年，获得xxx奖；xxxx年，获得xx特等奖...<br/>
+			....&nbsp;<br/></p>
+        </div>
+		<div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">职位薪资</h4>
+            <p class="weui-media-box__desc">希望做xx工作,薪资在xxx以上...<br/>
+			&nbsp;<br/></p>
+        </div>
+		<div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">兴趣爱好</h4>
+            <p class="weui-media-box__desc"> 探讨如何让公司变得更好...<br/>
+			....&nbsp;<br/></p>
+        </div>
+		<div class="weui-media-box weui-media-box_text">
+            <h4 class="weui-media-box__title">自我评价</h4>
+            <p class="weui-media-box__desc">....<br/>
+			....&nbsp;<br/></p>
+        </div>
+	</div>
+<div class="weui-cells__title">留言内容</div>
+<div class="weui-cells weui-cells_form">
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+            <textarea id="info"  name="info" class="weui-textarea" placeholder="请输入留言内容" rows="3"></textarea>
+            <div class="weui-textarea-counter"><span>0</span>/200</div>
+          <button type="button" class="weui-btn weui-btn_primary" onClick="myforms()">提交</button>
+		</div>
+		
+    </div>
+</div>
+	<div class="weui-footer">	
+    <p class="weui-footer__text">Bcwsdnr ccg &copy; My resume</p>	
+</div>	
+<div class="weui-footer">	
+    <p class="weui-footer__links">	
+        <p>welcome to<a href="https://github.com/ccgcgh?tab=repositories" class="weui-footer__link">my github</a></p>	
+    </p>
+</div>	
+</body>
+</html>

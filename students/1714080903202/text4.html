@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <script>
+            function form2()
+            {  var x=document.getElementById("import").value;
+               if(x=="")
+                {
+                    alert("请输入留言！");
+                }
+                else
+                {
+                    alert("留言成功!");
+                } 
+            }
+            function changColor()
+            {
+                for(i=0; i<4; i++)
+                    if(form1.color[i].checked){
+                    document.body.style.background = form1.color[i].value;
+                    }
+            }
+    </script>
+</head>
+<body>
+    <table width="800" border="50" align="center" cellpadding="10" cellspacing="0" >
+        <caption><h3>个人简历</h3></caption>
+        <tr>
+            <td colspan="3" bgcolor="#458">个人资料</td>
+        </tr>
+        <tr>
+            <td>姓 名：黄桂鑫</td>
+            <td>婚姻状况：未婚</td>
+            <td rowspan="5"><img src="http://04.imgmini.eastday.com/mobile/20180113/20180113003433_71874bcd43cf1c0a2b16a02a3f25a33a_5.jpeg" width=300 height=200></td>
+        </tr>
+        <tr>
+            <td>出 生：1997.11.23</td>
+            <td>政治面貌：群众</td>
+        </tr>
+        <tr>
+            <td>性 别：男</td>
+            <td>民 族：汉</td>
+        </tr>
+        <tr>
+            <td>学 位：本科</td>
+            <td>移动电话：137********</td>
+        </tr>
+        <tr>
+            <td>专 业：网络工程</td>
+            <td>电子邮件：2420193942@qq.com</td>
+        </tr>
+        <tr>
+            <td colspan="3">地址：惠州学院</td>
+        </tr>
+        <tr>
+            <td colspan="3" bgcolor="#9FCDEA">任职经历</td>
+        </tr>
+        <tr>
+            <td colspan="3">无</td>
+        </tr>
+        <tr>
+            <td colspan="3" bgcolor="#9FCDEA">特长及兴趣爱好</td>
+        </tr>
+        <tr>
+            <td colspan="3">篮球</td>
+        </tr>
+        <tr>
+            <td colspan="3" bgcolor="#9FCDEA">计算机能力</td>
+        </tr>
+        <tr>
+            <td colspan="3">精通html</td>
+        </tr>
+        <tr>
+            <td colspan="3" bgcolor="#9FCDEA">外语水平</td>
+        </tr>
+        <tr>
+            <td colspan="3">通过英语专业四</td>
+        </tr>
+    </table>
+        <form name="form1" align="right">
+            <input name="color" type="radio" value="#613030" onclick="changColor()">深红
+            <input name="color" type="radio" value="#93FF93" onclick="changColor()">浅绿
+            <input name="color" type="radio" value="#6B238E" onclick="changColor()">紫色
+            <input name="color" type="radio" value="#000000" onclick="changColor()">看不见
+         </form>
+    <form name="form" method="post" action="program.asp">
+        留言:<input type="text" name="username" id="import">
+    </form>
+    <input type="submit" name="submit" value="提交" onclick="form2()">
+    <br></br>
+    <a href="https://github.com/jiaojiren/web-wechat-2019">
+        Github个人主页
+    </a>
+    </body>
+</html>

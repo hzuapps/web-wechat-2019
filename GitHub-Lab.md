@@ -2,7 +2,7 @@
 
 ## 1. 注册GitHub帐号
 
-- 打开 https://github.com，注册（Signup）新帐号；
+- 打开 https://github.com ，注册（Signup）新帐号；
 - 在设定的邮箱接收激活邮件，点击激活链接，激活新帐号。
 
 ## 2. Fork 实验库
@@ -16,7 +16,7 @@ https://github.com/你的帐号名/web-wechat-2019
 
 ## 3. 安装 Git 工具
 
-- 打开 https://git-scm.org，下载适合本机版本（32位或64位）；
+- 打开 https://git-scm.org ，下载适合本机版本（32位或64位）；
 - 双击 exe 文件将工具安装到本机上；
 - 从开始菜单打开 Git-Shell。
 
@@ -24,7 +24,7 @@ https://github.com/你的帐号名/web-wechat-2019
 
 - 用 cd 命令切换到保存代码的路径上，如切换到D盘：   
 ```   
-$ cd D:\ 
+$ cd d: 
 ```   
 - 用 clone 命令将个人库的代码克隆到本地磁盘：  
 ```   
@@ -38,12 +38,12 @@ $ cd web-wechat-2019
 ## 5. 编写代码
 
 - 选择下载并安装一个网页编辑工具，如：Sublime-text
-- 打开资源浏览器，在项目中创建个人学号目录，如：web-wechat-2019/students/net123456/
+- 打开资源浏览器，在项目中创建个人学号目录，如：web-wechat-2019/students/123456/
 - 或者直接在命令行里，使用 mkdir 命令创建目录：  
 ```   
-$ mkdir students/net123456 
+$ mkdir students/123456 
 ```   
-- 编写一个网页文件，如： students/net123456/index.html   
+- 编写一个网页文件，如： students/123456/index.html   
 ```  
 <!DOCTYPE html>
 <html>
@@ -58,7 +58,7 @@ $ mkdir students/net123456
 ## 6. 提交代码
 
 ```  
-$ git add students/net123456/index.html
+$ git add students/123456/index.html
 $ git commit -m "创建首页"
 $ git push
 ```  
@@ -71,6 +71,21 @@ $ git commit -m "创建首页"
 $ git push
 ``` 
 
+注意：提交代码可以用通配符（你们竟然没有学过Windows搜索吗？） 
+
+```  
+$ git add students/com123456/**
+```  
+
+注意：删除多余文件或文件夹的命令；即使硬盘里面已经删掉也要执行命令（想想为什么？）。
+
+```  
+$ git rm -rf students/学号目录/你不要的文件
+$ git rm -rf 你传错或不要的文件夹/**
+$ git commit -m "删除不必要的文件"
+$ git push
+```  
+
 ## 7. 发送合并请求
 
 - 打开个人项目库：https://github.com/你的帐号名/we-wechat-2019 ；
@@ -82,4 +97,9 @@ Title：#1 提交实验一代码
 Leave a comment：选填
 ```  
 
-## 8. 实验完成，等待老师审批
+## 8. 最后一步
+
+Pull request发送之后，一定要自己查看自己修改过的文件，看看有没有改错文件（Files changed）。
+
+![image](https://user-images.githubusercontent.com/627946/54257709-37355400-459b-11e9-8547-f03935f07a61.png)
+

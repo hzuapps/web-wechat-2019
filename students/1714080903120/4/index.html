@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<form action="" onsubmit="return validateForm();" method="get">
+		<script type="text/javascript">
+			window.onload = function(){
+				var bt1 = document.getElementById("bt1");
+				var bt2 = document.getElementById("bt2");
+				var bt3 = document.getElementById("bt3");
+				var bt4 = document.getElementById("bt4");
+				var bt5 = document.getElementById("bt5");
+				var body = document.getElementsByTagName("body")[0];
+				bt1.onclick = function(){
+					body.style.background = "white";
+				}
+				bt2.onclick = function(){
+					body.style.background = "red";
+				}
+				bt3.onclick = function(){
+					body.style.background = "blue";
+				}
+				bt4.onclick = function(){
+					body.style.background = "greenyellow";
+				}
+				bt5.onclick = function(){
+					body.style.background = "yellow";
+				}
+				
+				var bt6 = document.getElementById("bt6");
+				var bt7 = document.getElementById("bt7");
+				var mt = document.getElementById("messlist textareas");
+				bt6.onclick = function(){
+					var s = mt.value;
+					if (s == ""){
+						alert("留言不能为空！！！");
+					}else{
+						alert("提交成功： " + s);
+						bt7.click();
+					}
+				}
+				bt7.onclick = function(){
+					mt.value = "";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<button id='bt1'>更改背景颜色为白色</button>
+		<button id='bt2'>更改背景颜色为红色</button>
+		<button id='bt3'>更改背景颜色为蓝色</button>
+		<button id='bt4'>更改背景颜色为绿色</button>
+		<button id='bt5'>更改背景颜色为黄色</button>
+		<hr />
+		 <div >
+			<textarea placeholder="留言内容" id="messlist textareas"></textarea>
+			<br />
+			<button id='bt6'>提交</button>
+			<button id='bt7'>重置</button>
+	     </div>
+
+	</body>
+</html>

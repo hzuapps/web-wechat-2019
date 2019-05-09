@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        个人简历
+    </title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="weui.css">
+    <script type="text/javascript">
+    function validateForm(){
+    flag=true;
+    var Submit=document.getElementById("Submit").value
+    if(Submit==""){
+        flag=false;
+        alert("留言不能为空")
+    }
+    else{
+        alert("留言成功");
+    }
+} 
+</script>
+</head>
+<body>
+    <div class="weui-cells__title">我的简历</div>
+    <div class="weui-cells weui-check__label">
+        <div class="weui-cell weui-check__label">
+        <div class="weui-cell__bd">
+                <div id="word">个人照片</div> 
+                <div id="photo">                                    
+                    <img class="right" src="捕获.PNG" width="45px"/>
+                </div>
+            </div>
+        </div>
+        <div class="weui-cell weui-check__label">
+            <div class="weui-cell__bd">
+                <p>姓名</p><p>爱新觉罗凌乱</p>
+            </div>               
+        </div>
+        <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>性别</p><p>男</p>
+            </div>               
+        </div>
+        <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>出生年月日</p><p>1996/02/23</p>
+       </div>               
+        </div>
+        <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>民族</p><p>蒙古族</p>
+            </div>               
+        </div> 
+         <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>身高</p><p>180cm</p>
+          </div>
+        </div> 
+         <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>体重</p><p>65kg</p>
+          </div>
+        </div>   
+        <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>联系方式</p><p>12636216286</p>
+            </div>               
+        </div>
+        <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>学历</p><p>本科</p>
+          </div>
+       </div>
+           <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>专业</p><p>软件工程</p>
+          </div>
+        </div> 
+         <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>家庭住址</p><p>内蒙古呼和浩特</p>
+          </div>
+        </div>  
+         <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>政治面貌</p><p>团员</p>
+          </div>
+        </div>  
+         <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>婚姻状态</p><p>未婚</p>
+          </div>
+        </div> 
+         <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>教育经历</p>
+            <p>曾获无数次全国性大奖，因学习成绩优异而直接保送清华，并且求学期间获得了总计几十多万奖学金</p>
+          </div>
+        </div> 
+        <div class="weui-cell weui-check__label"  >
+            <div class="weui-cell__bd">
+                <p>个人评价</p>
+            <p>能吃苦耐劳，对待工作，学习有一种执着的热爱，对人生积极乐观。诚实守信，集体荣誉感强，有坚韧的性格、强烈的责任心以及超强的专业知识，对自己有很强的自信心，具有团队协作能力和创新能力。</p>
+            </div> 
+      </div> 
+    </div>
+    <div class="weui-cells">
+        <a class="weui-cell weui-cell_access" href="https://github.com/menglixunchen">
+        <div class="weui-cell__bd">
+            <p>我的个人主页</p>
+        </div></a>
+    </div>
+        <div class="weui-cell__bd">
+            <textarea class="weui-textarea" placeholder="请注意自己简历填写是否正确，确保在正确情况下提交简历" rows="3"></textarea>
+            <div class="weui-textarea-counter"><span>0</span>/200</div>
+            <label for="info">留言内容：</label><br />
+            <textarea  name="info" id="info" rows="10" cols="110" style="border:none;background-color: #eeeeee; resize: none;width:99.8%;"></textarea>
+         <input type="submit" name="Submit" value="确 认 提 交" class="weui-btn weui-btn_primary">
+        </div>
+</body>
+</html>

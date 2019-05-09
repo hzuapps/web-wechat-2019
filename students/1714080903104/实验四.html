@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<style type="text/css">
+		.left{
+				display: inline-block;
+			}
+		.right{
+				display: inline-block;
+				float:right;
+			}
+		#photo{
+			height: 45px;
+		}
+	</style>
+	<form action="" onsubmit="return validateForm();" method="get">
+	<script type="text/javascript">
+    function validateForm(){
+    flag=true;
+    var Submit=document.getElementById("Submit").value
+    if(Submit==""){
+        flag=false;
+        alert("留言不能为空");
+    }
+    else{
+        alert("留言成功");
+    }
+} 
+</script>
+	<head>
+		<meta charset="utf-8" />
+		<title>resume-weui</title>
+		<link rel="stylesheet" href="css/weui.min.css" />
+	</head>
+	<body>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">个人头像</p>
+				<div id="photo">    		                		
+	                <a href="#" onclick="window.open('img/B1028.jpg')"><img class="right" src="img/B1028.jpg" width="45px"/></a>			                       		    	
+                </div>
+			</div>
+		</div>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">姓名</p>
+				<p class="right">吴润乔</p>
+			</div>
+		</div>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">出生年月</p>
+				<p class="right">1998年10月</p>
+			</div>
+		</div>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">性别</p>
+				<p class="right">女</p>
+			</div>
+		</div>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">民族</p>
+				<p class="right">汉族</p>
+			</div>
+		</div>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">籍贯</p>
+				<p class="right">广东汕头</p>
+			</div>
+		</div>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">政治面貌</p>
+				<p class="right">共青团员</p>
+			</div>
+		</div>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">毕业学校</p>
+				<p class="right">惠州学院</p>
+			</div>
+		</div>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">联系方式</p>
+				<p class="right">1234567890</p>
+			</div>
+		</div>
+		<div class="weui-cell weui-check__label">
+			<div class="weui-cell__bd">
+				<p class="left">电子邮箱</p>
+				<p class="right">1234567890@qq.com</p>
+			</div>
+		</div>	
+		<div class="weui-cells__title" style="font-weight:b">留言区</div>
+            <div class="weui-cells weui-cells_form">
+                <div class="weui-cell">
+                  	<div class="weui-cell__bd">
+                        <textarea id="Submit" class="weui-textarea" placeholder="请输入留言" rows="3"></textarea>
+                        <input type="submit" name="Submit" value="提 交" class="weui-btn weui-btn_primary">
+                        <a class="weui-btn weui-btn_primary" href="javascript:;"s> 重置</a>
+                    </div>
+                </div>
+            </div>
+	</body>
+</html>

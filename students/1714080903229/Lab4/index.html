@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>个人简历</title>
+		<link rel="stylesheet" href="weui.css">
+		<style>
+			#img {
+				text-align: center;
+			}
+
+			img {
+				width: 100px;
+				height: 100px;
+			}
+			.w{
+				width: 25%;
+				margin: 0 auto;
+			}
+			.first{
+				text-align: left;
+				margin-left: 25px;
+			}
+			.change button{
+				width: 50px;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				border: 1px solid #ccc;
+				font-size: 14px;
+				-webkit-border-radius: 8px;
+				-moz-border-radius: 8px;
+				border-radius: 8px;
+				outline: 0;
+				cursor: pointer;
+			}
+			#showTooltips{
+				width: 370px;
+				height: 40px;
+				background-color: greenyellow;
+				border: 0;
+				-webkit-border-radius: 8px;
+				-moz-border-radius: 8px;
+				border-radius: 8px;
+				color: #000;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="change">
+		改变背景颜色：
+		<button>白色</button>
+		<button>蓝色</button>
+		<button>绿色</button>
+		<button>黄色</button>
+	</div>
+	<div class="w">
+		<div id="img">
+			<img src="images/touxiang.jpg" alt="">
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<p>姓名</p>
+			</div>
+			<div class="weui-cell__ft">Morpwin</div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<p>出身年月</p>
+			</div>
+			<div class="weui-cell__ft">1998/07/17</div>
+		</div>
+				<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<p>政治面貌</p>
+			</div>
+			<div class="weui-cell__ft">团员</div>
+		</div>
+				<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<p>教育背景</p>
+			</div>
+			<div class="weui-cell__ft">计算机系本科毕业，网路工程专业</div>
+		</div>
+				<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<p>项目经历</p>
+			</div>
+			<div class="weui-cell__ft first" >某音乐网站使用vue框架,以及vue-router构建单页面应用。项目采用vuex处理各组件间的通讯,使用mint-ui组件库中部分功能进行快速开发,通过vue-cli 快速搭建开发环境。 </div>
+		</div>
+				<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<p>获奖情况</p>
+			</div>
+			<div class="weui-cell__ft">蓝桥杯三等奖、计算机设计大赛三等奖</div>
+		</div>
+				<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<p>开发技术</p>
+			</div>
+			<div class="weui-cell__ft">熟练掌握C++、java、HTML/CSS</div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<p>拥有证书</p>
+			</div>
+			<div class="weui-cell__ft">英语四级，计算机二级，PS二级</div>
+		</div>
+						<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<p>求职意向</p>
+			</div>
+			<div class="weui-cell__ft">前端开发工作</div>
+		</div>
+		<form action="form1.html">
+		 <div class="weui-cells__title">留言板</div>
+        <div class="weui-cells weui-cells_form">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <textarea class="weui-textarea liuyan" placeholder="请输入你的留言" rows="3"></textarea>
+                    <div class="weui-textarea-counter"><span>0</span>/200</div>
+                </div>
+            </div>
+        </div>
+		        <div class="weui-btn-area">
+					<input type="submit" value="提交" id="showTooltips">
+        </div>
+		</form>
+		<p style="margin-left: 13px;">如需了解更多请访问<a href="https://github.com/" style="text-decoration: underline;">我的github主页</a></p>
+        <br>
+        <br>
+        <div class="weui-footer">
+            <p class="weui-footer__links">
+                <a href="javascript:void(0);" class="weui-footer__link">底部链接</a>
+            </p>
+            <p class="weui-footer__text">Copyright &copy; 2008-2016 weui.io</p>
+        </div>
+	</div>
+	</body>
+</html>
+<script>
+	var btns = document.getElementsByClassName("change")[0].children;
+	for(var i = 0;i<btns.length;i++){
+	    btns[i].index = i;
+	    btns[i].onclick = function () {
+			if(this.index ==0){
+			    document.body.style.backgroundColor = "#ffffff";
+			}
+			else if(this.index ==1){
+                document.body.style.backgroundColor = "#0000ff";
+			}
+			else if(this.index ==2){
+                document.body.style.backgroundColor = "#00ff00";
+			}
+			else{
+                document.body.style.backgroundColor = "#ffff00";
+			}
+        }
+	}
+	var liuyan = document.getElementsByClassName("liuyan")[0];
+	var ready = document.getElementById("showTooltips");
+	ready.onclick = function (ev) {
+	    if(liuyan.value==""){
+	        alert("您的留言为空，不能发送");
+	        ev.preventDefault();
+		}
+	}
+</script>

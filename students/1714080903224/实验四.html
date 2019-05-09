@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>施展的个人简历</title>
+	<link href="weui.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="weui.css">
+    <link rel="stylesheet" href="weui.min.css">
+	 <script>
+        function isNull() {
+            var Text = document.getElementById("text")
+            var str = Text.value.replace(/(^\s*)|(\s*$)/g, '');//去除空格;
+            if (str == "" || str == null || str == undefined)
+                alert("输入为空，请重新输入")
+            else
+                alert("提交成功")
+        }
+        function changeColor() {
+                var form2 = document.getElementsByName("color")
+            for ( i=0;i<3;i++)
+                if(form2[i].checked){
+                    document.body.style.background = form2[i].value;
+                }
+        }
+    </script>
+</head>
+<body bgcolor="#E5E5E5">
+	<form name="form1" align="center">
+        <input name="color" type="radio" value="#FFF0F5" onclick="changeColor()">粉色
+        <input name="color" type="radio" value="#E0EEE0" onclick="changeColor()">绿色
+        <input name="color" type="radio" value="#D1EEEE" onclick="changeColor()">蓝色
+    </form>
+
+	<div class="page">
+		<div class="page__hd">
+			<h1 align="center" class="page__title">个人简历</h1>
+		</div>
+
+		<div class="page__bd">
+			<div class="weui-cells">
+
+	    	    <div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>个人图片</b></p>
+					</div>
+					<div class="weui-cell__ft"><img alt="相片" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553156011669&di=430a7e8e4048fdeb415a3f63859a343a&imgtype=0&src=http%3A%2F%2Fwx2.sinaimg.cn%2Forj360%2F007kZzXGly1fwcu90rcq9j30ks112dmq.jpg" height="100"></div>
+				</div>
+
+            <div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>姓名</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">施展</div>
+				</div>
+
+			<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>性别</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">男</div>
+				</div>
+
+			<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>出生日期</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">1998.5</div>
+				</div>
+
+			<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>民族</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">汉族</div>
+				</div>
+
+
+			<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>籍贯</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">重庆</div>
+				</div>
+
+			<div class="weui-cell weui-cell_select weui-cell_select-after">
+                	<div class="weui-cell__hd">
+                    	<label for="" class="weui-label"><b>联系方式</b></label>
+                		</div>
+                	
+            <div class="weui-cell__bd" >
+                    	<select class="weui-select" name="select2">
+                        <option value="1">电话 123456789</option>
+                        <option value="2">邮箱 shizhan@163.com</option>
+                        <option value="3">微信 shizhan</option>
+                    	</select>
+                		</div>
+            	</div>
+        </div>
+    </div>
+</div>
+
+	<div class="page__bd">
+			<div class="weui-cells">
+		
+			<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p><b>个人经历</b></p>
+					</div>
+					<div class="weui-cell__ft">展开</div>
+				</a>
+			<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p><b>自我评价</b></p>
+					</div>
+					<div class="weui-cell__ft">展开</div>
+				</a>
+			<a class="weui-cell weui-cell_access" href="javascript:;">
+					<div class="weui-cell__bd">
+						<p><b>他人评价</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla">喇叭精</div>
+				</a>
+        	</div>
+        </div>
+	
+
+    <div class="page__bd">
+			<div class="weui-cells">
+		
+			<div class="weui-cell">
+					<div class="weui-cell__bd">
+						<p><b>GitHub主页</b></p>
+					</div>
+					<div class="weui-cell__ft" id="bla"><a href="https://github.com/zhouzzfs">我的GiTHub</a></div>
+				</div>
+        	</div>
+        </div>
+   
+
+			<div class="weui-cells__title">留言板</div>
+			<div class="weui-cells weui-cells_form">
+				<div class="weui-cell">
+					<div class="weui-cells__bd">
+						<textarea id="text" class="weui-textarea" placeholder="请输入文本" rows="3"></textarea>
+					</div>
+				</div>
+			</div>
+            <div class="weui-btn-area" align="center">
+                <input id="btn" type="button" value="提交" class="weui-btn weui-btn_mini weui-btn_primary" onclick="isNull()" >
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

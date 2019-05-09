@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="https://weui.io/weui.css"/>
+    <link rel="stylesheet" href="https://weui.io/example.css"/>
+     <script>
+     function $(id){
+                return document.getElementById(id);
+            }
+            function test(){
+                var user_name = $("user_name").value;
+                
+                if(user_name.length==0){
+                    alert("留言不能为空");
+                }
+            }
+    </script>
+</head>
+<body ontouchstart>
+  
+ 
+        <h1 class="page__title">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553319535821&di=1f81894efa3ced91a2fe0839a8d19dad&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D2115988491%2C414370916%26fm%3D214%26gp%3D0.jpg" width=1900 height=300       height="21px" />
+        </h1>
+        
+  
+
+
+         
+                <div class="weui-cell__bd">
+                    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553319380903&di=b38b0c56c021983ba22c13a730034206&imgtype=0&src=http%3A%2F%2Fpic.97uimg.com%2Fback_pic%2F20%2F15%2F09%2F21%2F2bed85a7047fdb95180aaa2064852418.jpg" width=1900 height=300>
+              
+            </div>
+
+
+
+        <div class="weui-cells weui-cells_form">
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">姓名</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="请输入姓名"/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">性别</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="请输入性别"/>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_vcode">
+                <div class="weui-cell__hd">
+                    <label class="weui-label">联系方式</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="tel" placeholder="请输入联系方式"/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">邮箱</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="请输入邮箱"/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label for="" class="weui-label">出生年月</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="date" value=""/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">民族</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="请输入民族"/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">籍贯</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="请输入籍贯"/>
+                </div>
+            </div>
+            
+          <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">学历</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="请输入学历"/>
+                </div>
+           </div>
+           <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">学校</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="请输入学校"/>
+                </div>
+            </div>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">特长</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="text"  placeholder="请输入特长"/>
+                </div>
+            </div>
+
+  
+ 
+        <div class="weui-cells weui-cells_form">
+           
+               
+                    <textarea class="weui-textarea" placeholder="请输入文本" rows="3"></textarea>
+                    <div class="weui-textarea-counter"><span>0</span>/200</div>
+            <div class="weui-cells__title">留言</div>
+        <div class="weui-cells weui-cells_form">
+            <div class="weui-cell">
+                <form onsubmit="return test()">
+                <div class="weui-cell__bd">
+                    <textarea class="weui-textarea" placeholder="请输入文本" rows="3" id="user_name" ></textarea>                                 
+                </div> 
+            </div>
+        </div>
+       <div class="weui-btn-area">
+       <input a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips" type="submit"  value="留言" /> </form> 
+       </div>   
+           
+  
+        <div class="weui-cells__title">个人主页</div>
+        <div class="weui-cells">
+            <div class="weui-cell">
+                <div class="weui-cell__bd">
+                    <a href="https://github.com/lijinggen/web-wechat-2019">我的github主页</a>
+                </div>
+            </div>
+        
+        
+</body>
+</html>
+

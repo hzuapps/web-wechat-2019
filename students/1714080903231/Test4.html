@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>简历</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="weui.css">
+    <link rel="stylesheet" href="weui.min.css">
+    <script>
+        function isNull() {
+            var Text = document.getElementById("text")
+            var str = Text.value.replace(/(^\s*)|(\s*$)/g, '');//去除空格;
+            if (str == "" || str == null || str == undefined)
+                alert("输入为空，请重新输入")
+            else
+                alert("提交成功")
+        }
+        function changeColor() {
+                var form2 = document.getElementsByName("color")
+            for ( i=0;i<3;i++)
+                if(form2[i].checked){
+                    document.body.style.background = form2[i].value;
+                }
+        }
+    </script>
+</head>
+<body>
+<div align="center" >
+    <form name="form1">
+        <input name="color" type="radio" value="#0000FF" onclick="changeColor()">蓝色
+        <input name="color" type="radio" value="#00FF00" onclick="changeColor()">绿色
+        <input name="color" type="radio" value="#FFFF00" onclick="changeColor()">黄色
+    </form>
+
+    <table  width="800" align="center">
+        <tr>
+
+            <td class=" weui-icon-waiting" align="center"><p>个人简历</p>
+            </td>
+            <td >
+
+                <img src="timg.jpg" width="130" height="130" alt="图片" align="right">
+            </td>
+        </tr>
+
+
+    </table>
+
+    <table  align="center" width="800">
+
+        <hr width="700" align="center">
+        <tr>
+            <td class="weui-icon_msg-primary ">陈宇</td>
+            <td width="100" height="50"></td>
+
+            <td class="weui-cells__title">性别：男</td>
+            <td class="weui-cells__tips"></td>
+            <td class="weui-cells__tips">民族：汉族</td>
+            <td width="100" height="50"></td>
+        </tr>
+        <tr>
+            <td class="weui-cells__tips">出生年月：19990215</td>
+            <td width="100" height="50"></td>
+
+            <td class="weui-cells__tips">联系电话：135**********</td>
+            <td width="100" height="50"></td>
+            <td class="weui-cells__title">工作经验：暂无</td>
+            <td width="100" height="50"></td>
+        </tr>
+        <tr>
+            <td class="weui-cells__title">学历：本科</td>
+            <td width="100" height="50"></td>
+
+            <td class="weui-cells__title">专业：网络工程</td>
+            <td width="100" height="50"></td>
+            <td class="weui-cells__title">毕业学校：惠州学院</td>
+            <td width="100" height="50"></td>
+        </tr>
+        <tr>
+            <td class="weui-cells__title">
+                住址：惠州学院18栋
+            </td>
+            <td height="50"></td>
+        </tr>
+
+        <tr>
+            <td class="weui-cells__title">电子邮箱：330874054@qq.com</td>
+            <td height="50"></td>
+        </tr>
+        <tr>
+            <td class="weui-cells__title">求职意向：网络维护</td>
+            <td height="50"></td>
+        </tr>
+    </table>
+    <hr width="800" align="center">
+    <table align="center" width="800">
+        <tr>
+            <td class="weui-cells__title">目标职位：网络工程师</td>
+            <td height="50"></td>
+        </tr>
+        <tr>
+            <td class="weui-cells__title">目标行业：网络</td>
+            <td height="50"></td>
+        </tr>
+        <tr>
+            <td class="weui-cells__title">期望薪资：4000</td>
+            <td height="50"></td>
+        </tr>
+        <tr>
+            <td class="weui-cells__title">期望地区：无</td>
+            <td height="50"></td>
+        </tr>
+        <tr>
+            <td class="weui-cells__tips"> 爱好特长：打球 游戏</td>
+            <td height="50"></td>
+        </tr>
+    </table>
+
+    <hr width="800" align="center">
+
+    <div class="weui-cells__title">留言板</div>
+    <div class="weui-cells weui-cells_form">
+        <div class="weui-cells">
+            <div class="weui-cells__bd">
+                <textarea id="text" class="weui-textarea" placeholder="请输入留言" rows="3"></textarea>
+                <input id="btn" type="button" value="提交" class="weui-btn weui-btn_mini weui-btn_primary" onclick="isNull()" >
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html

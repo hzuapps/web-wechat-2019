@@ -1,0 +1,7 @@
+<!--pages/see1/see3.wxml-->
+<image src='/images/joke1.jpg' class='picture'></image>
+<image src='/images/joke2.jpg' class='picture'></image>
+<image src='/images/joke3.jpg' class='picture'></image>
+<image src='/images/joke4.jpg' class='picture'></image>
+<image src='/images/joke5.jpg' class='picture'></image>
+<image src='/images/joke6.jpg' class='picture'></image>

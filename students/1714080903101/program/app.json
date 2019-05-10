@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "page/recorder/index",
+       "page/media/index",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/mytext/mytext",
+        "pages/plan/plan"
+       
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ffc64b",
+        "navigationBarTitleText": "pooh's memo",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#fbed90"
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "page/recorder/index",
+            "iconPath": "images/2645.png",
+            "selectedIconPath": "images/264.png",
+            "text": "录音记事"
+          },
+          
+          {
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "iconPath": "images/5.png",
+            "selectedIconPath": "images/6.png"
+          },
+       
+        {
+          "pagePath": "pages/mytext/mytext",
+          "text": "我的",
+          "iconPath": "images/1.png",
+          "selectedIconPath": "images/2.png"
+        }]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "debug": false
+}

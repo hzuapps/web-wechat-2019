@@ -6,34 +6,34 @@
 			"src": "https://m10.music.126.net/20190510200117/cab661a414c3b413eefaf3e3a911d815/ymusic/0e0c/0109/055f/9fd9924d616c9c17add0254948e25e3d.mp3"
 		},
 		{
-			"pub_time": "https://p2.music.126.net/xJmb740nKXk8paKRHg7Yqg==/109951163440366031.jpg?param=34y34",
-			"resour": "影子小姐",
-			"title": "洛天依",
-			"url": "https://m701.music.126.net/20190510200512/b130b4e079014819dafd015d845bcc5c/jdyyaac/025f/010e/5358/55be419a516d15356363d21bdc96cd59.m4a"
+			"poster": "https://p2.music.126.net/xJmb740nKXk8paKRHg7Yqg==/109951163440366031.jpg?param=34y34",
+			"name": "影子小姐",
+			"author": "洛天依",
+			"src": "https://m701.music.126.net/20190510200512/b130b4e079014819dafd015d845bcc5c/jdyyaac/025f/010e/5358/55be419a516d15356363d21bdc96cd59.m4a"
 		},
 		{
-			"pub_time": "https://p2.music.126.net/eMyCr0gv0kPGlew9XTNjyA==/109951163944178164.jpg?param=34y34",
-			"resour": "勾指起誓",
-			"title": "洛天依",
-			"url": "https://m10.music.126.net/20190510200740/82f32b4fb4c7cc8225199662c9e50e91/ymusic/5552/0f53/5308/b841995f9d89d31f6697dbd6c093287a.mp3"
+			"poster": "https://p2.music.126.net/eMyCr0gv0kPGlew9XTNjyA==/109951163944178164.jpg?param=34y34",
+			"name": "勾指起誓",
+			"author": "洛天依",
+			"src": "https://m10.music.126.net/20190510200740/82f32b4fb4c7cc8225199662c9e50e91/ymusic/5552/0f53/5308/b841995f9d89d31f6697dbd6c093287a.mp3"
 		},
 		{
-			"pub_time": "https://p2.music.126.net/ZpcOx5dbNTRK94vSIM20PQ==/768558627827568.jpg?param=34y34",
-			"resour": "遇见",
-			"title": "孙燕姿",
-			"url": "https://m10.music.126.net/20190510200953/0c4260b3f96bf3b74032b2c058a85b35/ymusic/7c93/5d46/9f82/d9a801a4b57d25e6dd58171a33aaf961.mp3"
+			"poster": "https://p2.music.126.net/ZpcOx5dbNTRK94vSIM20PQ==/768558627827568.jpg?param=34y34",
+			"name": "遇见",
+			"author": "孙燕姿",
+			"src": "https://m10.music.126.net/20190510200953/0c4260b3f96bf3b74032b2c058a85b35/ymusic/7c93/5d46/9f82/d9a801a4b57d25e6dd58171a33aaf961.mp3"
 		},
 		{
-			"pub_time": "https://p2.music.126.net/WafK2OQfEtqXitdDXJ772Q==/109951163252847249.jpg?param=34y34",
-			"resour": "可不可以",
-			"title": "张紫豪",
-			"url": "https://m801.music.126.net/20190510201416/53f778fda1b4a47f71d3c4be690386f8/jdyyaac/025f/5108/550f/55b3631b50fb21a9c1aebe8f98e8325c.m4a"
+			"poster": "https://p2.music.126.net/WafK2OQfEtqXitdDXJ772Q==/109951163252847249.jpg?param=34y34",
+			"name": "可不可以",
+			"author": "张紫豪",
+			"src": "https://m801.music.126.net/20190510201416/53f778fda1b4a47f71d3c4be690386f8/jdyyaac/025f/5108/550f/55b3631b50fb21a9c1aebe8f98e8325c.m4a"
 		},
 		{
-			"pub_time": "23:30",
-			"resour": "bilibili",
-			"title": "RobiHachi",
-			"url": "http://i1.hdslb.com/bfs/archive/7649d17c62ebc9666a4768da8c28e0ad040b2888.jpg"
+			"poster": "23:30",
+			"name": "bilibili",
+			"author": "RobiHachi",
+			"src": "http://i1.hdslb.com/bfs/archive/7649d17c62ebc9666a4768da8c28e0ad040b2888.jpg"
 		}
 	]
-}// JSON Document
+}

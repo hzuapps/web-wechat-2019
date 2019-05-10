@@ -1,0 +1,63 @@
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      获取头像昵称
+    </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+
+<view class="weui-cells__title">优惠</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="../youhui/youhui?=" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src="http://wx1.sinaimg.cn/large/0060lm7Tly1g2lyoasuyxj305k05kwem.jpg" style="margin-right: 5px;vertical-align: middle;width: 20px;height: 20px"></image>
+    </view>
+    <view class="weui-cell__bd">
+      优惠券
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+
+<view class="weui-cells__title">通用</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="../daigou/daigou?=" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src="http://wx2.sinaimg.cn/large/0060lm7Tly1g2lyovodi6j305k05k3yl.jpg" style="margin-right: 5px;vertical-align: middle;width: 20px;height: 20px"></image>
+    </view>
+    <view class="weui-cell__bd">
+      添加代购
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+
+  <navigator url="../yijian/yijian?=" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src="http://wx4.sinaimg.cn/large/0060lm7Tly1g2lypcwajdj305k05kjrb.jpg" style="margin-right: 5px;vertical-align: middle;width: 20px;height: 20px"></image>
+    </view>
+    <view class="weui-cell__bd">
+      意见与反馈
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+
+<view class="weui-cells__title">关于</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="../guanyu/guanyu?=" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src="http://wx1.sinaimg.cn/large/0060lm7Tly1g2lypqom2qj305k05kaa8.jpg" style="margin-right: 5px;vertical-align: middle;width: 20px;height: 20px"></image>
+    </view>
+    <view class="weui-cell__bd">
+      关于小程序
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>

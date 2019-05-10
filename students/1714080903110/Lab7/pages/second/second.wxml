@@ -1,0 +1,27 @@
+<!--pages/second/second.wxml-->
+
+<view class="weui-cell">
+  <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+    <image  style="width: 50px; height: 50px; display: block" src='../../image/icon.jpg'/>
+  </view>
+
+  <view class="weui-cell__bd">
+      <view>过小虎</view>
+      <view style="font-size: 13px;color: #888888;">签名</view>
+  </view>
+</view>
+
+<view class="weui-article__h1" style='margin-top:20px'>关于小程序：</view>
+
+<view class="weui-article__p">
+                        本小程序为惠州学院信息科学技术学院17网络工程1班学生过小虎本学期高级网页设计的课程设计作业
+                    </view>
+<view class="weui-article__p">
+                        它是一款简易的疫苗记录提醒小程序。
+                    </view>
+<view class="weui-article__h1" style='margin-top:20px'>邮箱：</view>
+                    <view class="weui-article__p">
+                        312182471@qq.com
+                    </view>
+                    
+                        

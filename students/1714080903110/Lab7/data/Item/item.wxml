@@ -1,0 +1,44 @@
+<template name="vaccineItem">
+
+  <view class="page__bd" class='box'>
+    <view class="weui-form-preview">
+        <view class="weui-form-preview__hd">
+            <view class="weui-form-preview__item">
+                <view class="weui-form-preview__label">疫苗名称：</view>
+                <view class="weui-form-preview__value_in-hd">{{name}}</view>
+            </view>
+        </view>
+        <view class="weui-form-preview__bd">
+            <view class="weui-form-preview__item">
+                <view class="weui-form-preview__label">时间：</view>
+                <view class="weui-form-preview__value">{{time}}</view>
+            </view>
+            
+            <view class="weui-form-preview__item">
+                <view class="weui-form-preview__label">备注：</view>
+                <view class="weui-form-preview__value">{{desc}}</view>
+            </view>
+        </view>
+        
+          <!-- 开关 -->
+          <view class="weui-form-preview__ft">
+              <view class="weui-cells weui-cells_after-title">
+                  <view class="weui-cell weui-cell_switch">
+                      <view class="weui-cell__ft">
+                          <switch checked bindchange='sth'/>
+                          <!-- 这个按钮丑死了，怎么调 -->
+                          <!-- <button bindtap='cancelBtn' data-id='{{id}}' class='btn2'>
+                            X
+                          </button> -->
+                          <image bindtap='cancelBtn' data-id='{{id}}' src='../../image/del.png' mode="widthFix" class='img'></image>
+                      </view>
+                  </view>
+              </view>
+          </view>
+        
+        
+          
+    </view>
+  </view>
+
+</template>

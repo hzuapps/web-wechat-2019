@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/second/second",
+    "pages/addItem/addtem"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "疫苗",
+        "iconPath": "image/vaccine1.png",
+        "selectedIconPath": "image/vaccine.png"
+      },
+      {
+        "pagePath": "pages/second/second",
+        "text": "我的",
+        "iconPath": "image/me1.png",
+        "selectedIconPath": "image/me.png"
+      }
+    ]
+  }
+}

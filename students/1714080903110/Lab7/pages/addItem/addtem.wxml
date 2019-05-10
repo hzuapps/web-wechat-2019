@@ -1,0 +1,37 @@
+<!--pages/addItem/addtem.wxml-->
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+            <view class="weui-label">疫苗名：</view>
+        </view>
+        <view class="weui-cell__bd">
+            <input class="weui-input" placeholder="请输入疫苗名" bindinput='getName'/>
+        </view>
+    </view>
+
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+            <view class="weui-label">日期：</view>
+        </view>
+        <view class="weui-cell__bd">
+            <picker mode="date" value="{{date}}" start="2015-09-01" end="2100-09-01" bindchange="bindDateChange">
+                <view class="weui-input">{{date}}</view>
+            </picker>
+        </view>
+    </view>
+
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+          <view class="weui-cell__bd">
+              <textarea class="weui-textarea" placeholder="备注：" style="height: 3.3em"
+              bindinput='getDesc'/>
+              <view class="weui-textarea-counter">0/200</view>
+          </view>
+      </view>
+    </view>
+
+    <view class="weui-btn-area">
+        <button class="weui-btn" type="primary" bindtap="showTopTips">确定</button>
+    </view>
+
+</view>

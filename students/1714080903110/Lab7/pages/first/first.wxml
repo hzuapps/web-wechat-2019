@@ -1,0 +1,26 @@
+<!--pages/first/first.wxml-->
+<view class="page">
+
+  <!-- ListView -->
+  <import src="../../data/Item/item.wxml"/>
+  <view>
+    <!-- 这里两个for是什么意思？？for-item后面为什么是跟着dataItem？？ -->
+    <block wx:for="{{dataList}}" wx:for-item="dataItem">
+      <template is="vaccineItem" data="{{...dataItem}}"></template>
+    </block >
+    
+  </view>
+
+
+  <view wx:if="{{f}}" class ='aa'>
+    <text class='bb'>还没有添加疫苗噢，点击右下角开始添加吧~</text>
+  </view>
+
+
+  <view class='add_btn'>
+      <button class='btn' bindtap='btnAdd'>
+          +
+      </button>
+  </view>
+
+</view>

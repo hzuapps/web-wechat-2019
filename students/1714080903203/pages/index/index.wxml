@@ -26,12 +26,21 @@
         </view>
     </view>
 </view>
+<view class="userinfo">
+<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"> 获取头像昵称 </button>
+<block wx:else>
+<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+</block>
+</view>
 <form>
-		<view class="weui-cells__title">我要发布</view>
+		<view>我要发布</view>
+
         <view class="weui-cells weui-cells_form" >
             <view class="weui-cell weui-cell_input">
                 <view class="weui-cell__bd" value='{{inputVal}}'>
-                    <textarea bindinput="liu" class="weui-textarea" class="Error" placeholder="在这里输入发布信息..." rows="2" autofocus></textarea>
+                    <textarea bindinput="fabu" class="weui-textarea" value="{{savedate}}" class="Error" placeholder="在这里输入发布信息..." rows="2" autofocus></textarea>
                     <view class="weui-textarea-counter"><span>0</span>/200</view>
                 </view>
             </view>
@@ -42,11 +51,12 @@
   
  <!--bindtap相当于onclick-->
  </view>
- <text class="msg-info" wx:if="{{msgData.length==0}}">暂无发布信息^_^</text>   <!--当留言列表为空时显示本句-->
+ <text class="msg-info" wx:if="{{msgData.length==0}}" >暂无发布信息⊙∀⊙！</text>   <!--当留言列表为空时显示本句-->
  <!--留言列表 -->
   <view class="list-view">
   <view class="item" wx:for="{{msgData}}" wx:key="{{index}}"><!--循环显示msgData中的数据，key是必须的，否则会出现警告-->
-   <text class='text1'>{{item.msg}}</text> <!--item是固定的，msg对应msgData中的名-->
+   <text class='text1' >{{item.msg}}</text> <!--item是固定的，msg对应msgData中的名-->
    <icon data-index="{{index}}" class="close-btn" bindtap='deleMsg' type="cancel"></icon>
+   <view value="{{savedate}}"></view>
    </view>
  </view>

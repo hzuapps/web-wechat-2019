@@ -1,7 +1,17 @@
+<!--logs.wxml
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view>
+-->
  <view class="page__bd page__bd_spacing">
         <view class="weui-flex">
             <view class="weui-flex__item"><view class="placeholder">排行榜</view></view>
         </view>
+</view>
+<view>
+  <button class="weui-btn mini-btn" type='primary' bindtap='send' size="mini">刷新</button>
 </view>
     <view class="page__bd">
         <view class="weui-loadmore">

@@ -1,0 +1,16 @@
+page{
+  background-color:rgb(195, 245, 56);
+  height: 100%;
+}
+.imagesize{
+position: fixed;
+  text-align: center;
+  bottom: 30rpx;
+  left: 0;
+  right: 0;
+
+}
+.imagesize image{
+  width:300rpx;
+  height:300rpx;
+}

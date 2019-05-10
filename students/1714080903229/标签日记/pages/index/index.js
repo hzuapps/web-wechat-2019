@@ -126,18 +126,6 @@ Page({
         taglist: this.data.taglist
       })
     }
-    // else{
-    //   for (i = 0; i < this.data.taglist.length; i++) {
-    //     if (this.data.taglist[i].tip == obj.tip) {
-    //       break
-    //     }
-    //   }
-    //   if(i>=this.data.taglist.length)
-    //   this.data.taglist.push(obj)
-    //   this.setData({
-    //     taglist: this.data.taglist
-    //   })
-    // }
   },
   shuaxin:function(){
     wx.showModal({
@@ -158,34 +146,51 @@ Page({
     });
   },
   openAlert: function () {
+    if (this.data.title == "请输入标题" || this.data.title == "" || this.data.content == "") {
+      wx.showModal({
 
-    wx.showModal({
+        content: '标题或内容不能为空',
 
-      content: '提交成功',
+        showCancel: false,
 
-      showCancel: false,
+        success: function (res) {
 
-      success: function (res) {
+          if (res.confirm) {
 
-        if (res.confirm) {
-          
-          console.log('用户点击确定')
-          wx.switchTab({
-            url: '../logs/logs',
-          })
+          }
+        }
+      });
+      return 0
+    }
+    else{
+      wx.showModal({
 
+        content: '提交成功',
+
+        showCancel: false,
+
+        success: function (res) {
+
+          if (res.confirm) {
+
+            wx.switchTab({
+              url: '../logs/logs',
+            })
+
+          }
+
+        },
+        fail: function (res) {
+          console.log(res)
         }
 
-      }
+      });
+    }
 
-    });
     var id = wx.getStorageSync('id') || []
     var title = wx.getStorageSync('title') || []
     var content = wx.getStorageSync('content') || []
     var time = wx.getStorageSync('time') || []
-    // app.globalData.listtitle.push(title)
-    // app.globalData.listcontent.push(content)
-    // app.globalData.time.push(time)
     var date = new Date
     var year = date.getFullYear()
     var month = date.getMonth() + 1

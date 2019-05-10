@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    welcome: 'Hello WeChat Mini Program',
+    welcome: '',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -50,5 +50,22 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  //操作代码
+  onTouch : function(e){
+    wx.showLoading({
+      title: '加载中',
+      icon: 'success',
+      success: function(){
+        wx.switchTab({
+          url: '../logs/logs'
+        })
+      }
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 1000)
+
   }
 })

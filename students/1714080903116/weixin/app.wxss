@@ -9,3 +9,8 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+page, .page {
+  width: 100%;
+  height: 100%;
+}

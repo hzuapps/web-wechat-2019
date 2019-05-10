@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0ff",
+    "navigationBarTitleText": "材料计算器",
+    "navigationBarTextStyle": "black",
+    "backgroundColor":"#000"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"img/3.jpg",
+        "selectedIconPath":"img/4.jpg"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath":"img/1.jpg",
+        "selectedIconPath": "img/4.jpg"
+      }
+    ]
+  }
+}

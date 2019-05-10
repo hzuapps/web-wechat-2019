@@ -1,0 +1,26 @@
+<!--ge_qu/ge_qu.wxml-->
+
+<view class="page">
+  <view class="weui-panel">
+    <view class="weui-panel__hd">歌曲列表</view>
+    <view class="weui-panel__bd">
+      <view class="weui-media-box weui-media-box_small-appmsg">
+        <view class="weui-cells weui-cells_in-small-appmsg">
+          <block wx:for="{{gequ}}" wx:key="*this">
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__hd">
+                <image src="{{item.poster}}" style="width: 20px;height: 20px;margin-right: 5px" />
+              </view>
+              <view class="weui-cell__bd weui-cell_primary">
+                <view>{{item.name}} {{item.author}}</view>
+              </view>
+            </navigator>
+            <audio id="myAudio" poster="{{item.poster}}" name="{{item.name}}" author="{{item.author}}" src="{{item.src}}"></audio>
+            <button class="weui-btn mini-btn" type="primary" size="mini" bindtap="audioPlay" class='bofan'>播放</button>
+            <button class="weui-btn mini-btn" type="default" size="mini" bindtap="audioPause" class='zanti'>暂停</button>
+            </block>
+        </view>
+      </view>
+    </view>
+  </view>
+    </view>

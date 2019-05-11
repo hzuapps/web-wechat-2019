@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/snake/snake",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0000ff",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "image/首页.png",
+        "selectedIconPath": "image/首页.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "image/我的.png",
+        "selectedIconPath": "image/我的.png"
+      },
+      {
+        "pagePath": "pages/snake/snake",
+        "text": "游戏",
+        "iconPath": "image/游戏.png",
+        "selectedIconPath": "image/游戏.png"
+      }
+    ]
+  }
+}

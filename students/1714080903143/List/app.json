@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",  
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "愿望清单",
+    "navigationBarTextStyle":"black"
+  }
+}

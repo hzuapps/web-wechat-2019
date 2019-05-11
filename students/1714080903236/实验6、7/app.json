@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/yasuo/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "图片压缩",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+
+"tabBar": {
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/yasuo/index",
+      "text": "压缩"
+    }
+  ]
+},
+"networkTimeout": {
+  "request": 10000,
+  "downloadFile": 10000
+},
+"debug": true,
+"navigateToMiniProgramAppIdList": [
+  "wxe5f52902cf4de896"
+]
+}

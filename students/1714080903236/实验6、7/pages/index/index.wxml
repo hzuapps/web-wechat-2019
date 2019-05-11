@@ -1,0 +1,9 @@
+<view class="container">
+    <image  src="../../img/123.jpg" mode="aspectFill">  
+
+     </image> 
+    
+    <view class="usermotto">
+        <text class="user-motto">{{motto}}</text>
+    </view>
+</view>

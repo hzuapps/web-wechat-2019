@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/source/source",
+    "pages/calculator/calculator",
+    "pages/test1/test1",
+    "pages/test/test",
+    "pages/pintu/pintu",
+    "pages/123/123",
+    "pages/jiaohu/jiaohu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "ee0000",
+    "backgroundColorTop": "234",
+    "navigationStyle": "default",
+    "backgroundColorBottom": "432",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 30,
+    "pageOrientation": "portrait",
+    "disableSwipeBack": "false",
+    "usingComponents": {}
+  },
+  "tabBar": {
+    "selectedColor": "#02c25a",
+    "color": "#409efe",
+    "backgroundColor": "000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/家庭按钮黑.png",
+        "selectedIconPath": "images/家庭按钮.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/使用文档黑.png",
+        "selectedIconPath": "images/记录.png",
+        "text": "访问记录"
+      },
+     
+      {
+        "pagePath": "pages/jiaohu/jiaohu",
+        "iconPath": "images/user黑.png",
+        "selectedIconPath": "images/user绿.png",
+        "text": "交互"
+      }
+    ]
+  }
+}

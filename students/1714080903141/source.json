@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "智能计算器"
+  },
+  "tabBar": { 
+    "color": "#ff69b4",
+    "selectedColor": "#0000ff",
+    "backgroundColor": "#ffff00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "计 算 机"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "回家"
+      }
+    ]
+  }
+}

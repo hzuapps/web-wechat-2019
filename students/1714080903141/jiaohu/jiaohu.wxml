@@ -1,0 +1,5 @@
+<!--pages/jiaohu/jiaohu.wxml-->
+<text>点击消息按钮，出现消息提示框20s，点击隐藏按钮，提前关闭消息提示框</text>
+<button catchtap='oneTap'>消息</button>
+<button catchtap='twoTap'>隐藏</button>
+

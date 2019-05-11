@@ -1,0 +1,16 @@
+{
+  "backgroundTextStyle": "light",
+  "backgroundColor": "eeee22",
+  "navigationBarBackgroundColor": "#409efe",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "智能计算器",
+  "navigationStyle": "custom",
+  "usingComponents": {},
+  "backgroundColorTop": "123455",
+  "backgroundColorBottom": "423432",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 60,
+  "pageOrientation": "auto",
+  "disableScroll": false,
+  "disableSwipeBack": true
+}

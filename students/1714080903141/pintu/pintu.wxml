@@ -1,0 +1,81 @@
+<!--pages/test1/test1.wxml-->
+<template name="calculator-key">
+  <button hover-start-time="{{5}}" hover-stay-time="{{100}}" hover-class="calculator-key-hover" data-key="{{className}}" class="calculator-key {{className}}">{{display}}</button>
+</template>
+
+<view class="calculator">
+	<view class="calculator-display">
+
+    <view class='calculator-display-text'>result {{result}}</view>
+		<view class="calculator-display-text">expression {{experssion}}</view>
+    <view class="calculator-display-text">左括号未匹配的个数：{{accumulator}}</view>
+	</view>
+
+	<view class="operator-keys right" catchtap="onTapOperator">
+    
+		<template is="calculator-key" data="{{className: 'key-divide3', display: '÷'}}"/>
+		<template is="calculator-key" data="{{className: 'key-multiply2', display: '×'}}"/>
+		<template is="calculator-key" data="{{className: 'key-subtract1', display: '−'}}"/>
+		<template is="calculator-key" data="{{className: 'key-add0', display: '+'}}"/>
+		<template is="calculator-key" data="{{className: 'key-equals4', display: '='}}"/>
+    <template is="calculator-key" data="{{className: 'key-left5', display: '('}}"/>
+    <template is="calculator-key" data="{{className: 'key-right6', display: ')'}}"/>
+	</view>
+
+	<view class="calculator-keypad">
+		<view class="input-keys">
+		<!--onTapFunction 触发函数-->
+			<view class="function-keys" catchtap="onTapFunction">
+				<view class='left'>
+					<template is="calculator-key" data="{{className: 'key-clear', display: clearDisplay ? 'AC' : 'AC'}}"/><!--清空,双击效果不同-->
+				</view>
+				<view class='left'><!--正负号-->
+					<template is="calculator-key" data="{{className: 'key-sign', display: '+/-'}}"/>
+				</view>
+				<view class='right'><!--百分数-->
+					<template is="calculator-key" data="{{className: 'key-percent', display: '%'}}"/>
+				</view>
+			</view>
+		</view>
+
+		<view class="digit-keys" catchtap="onTapDigit">
+			<view class='left'>
+				<template is="calculator-key" data="{{className: 'key-7', display: '7'}}"/>
+				<template is="calculator-key" data="{{className: 'key-4', display: '4'}}"/>
+				<template is="calculator-key" data="{{className: 'key-1', display: '1'}}"/>
+			</view>
+			<view class='left'>
+				<template is="calculator-key" data="{{className: 'key-8', display: '8'}}"/>
+				<template is="calculator-key" data="{{className: 'key-5', display: '5'}}"/>
+				<template is="calculator-key" data="{{className: 'key-2', display: '2'}}"/>
+			</view>
+			<view class='right'>
+				<template is="calculator-key" data="{{className: 'key-9', display: '9'}}"/>
+				<template is="calculator-key" data="{{className: 'key-6', display: '6'}}"/>
+				<template is="calculator-key" data="{{className: 'key-3', display: '3'}}"/>
+			</view>
+			<view class='zero'>
+				<template is="calculator-key" data="{{className: 'key-0', display: '0'}}"/>
+			</view>
+			<view class='right'>
+				<template is="calculator-key" data="{{className: 'key-dot', display: '.'}}"/>
+			</view>
+			
+		</view>
+	</view>
+</view>
+<!--
+/*value: null, // 上次计算后的结果，null表示没有上次计算的结果
+    experssion: '0', // 显示表达式
+    operator: "null", // 上次计算符号，null表示没有未完成的计算
+    prevOperator: "0",
+    waitingForOperand: false, // 前一按键是否为计算符号
+    number: '0',//收集左括号前的一个数值
+    alone: '0',//当前输入值
+    lastAlone: '0',//上一数值
+    //mysize:"20rpx",利用函数调用，可以动态变换大小，把{{mysize}}赋值给xxx
+    */
+-->
+
+
+

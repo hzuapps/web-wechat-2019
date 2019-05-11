@@ -7,13 +7,13 @@
 
  <button bindtap='onclick' class='btn1' open-type='openSetting' size="{{miniSize}}">
     <image class='btnImg' src="https://img.icons8.com/dusk/100/000000/edit.png"></image>
+
     <view>设置课程信息</view>
  </button>
  <text>\n</text>
 <text>\n</text>
 
 <view class='tr'>
-
 <view class='th'>周一</view>
 <view class='th'>周二</view>
 <view class='th'>周三</view>

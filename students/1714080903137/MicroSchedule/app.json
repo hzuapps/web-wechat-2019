@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting"
+  ],
+  "window": {
+   "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#F0F8FF",
+  "navigationBarTitleText": "Micro Schedule",
+  "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#B5B5B5",
+    "selectedColor": "#000000",
+    "backgroundColor": "#F0F8FF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home-selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "记录",
+        "iconPath": "image/faxian.png",
+        "selectedIconPath": "image/faxian-selected.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "image/setting.png",
+        "selectedIconPath": "image/setting-selected.png"
+      }
+    ]
+  }
+}

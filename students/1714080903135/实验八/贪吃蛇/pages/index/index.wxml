@@ -1,0 +1,12 @@
+<!-- index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <button bindtap='gotoPage1'>开始游戏</button>
+  <view class="usermotto">
+    <view class="user-motto">历史最高分</view>
+    <view class="user-motto">100</view>
+  </view>
+</view>

@@ -1,22 +1,25 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/settings/settings",
-    "pages/game/game"
+    "pages/game/game",
+    "pages/newgame/newgame",
+    "pages/oldgame/oldgame"
   ],
   "tabBar": {
+    "backgroundcolor":"#F6F6F6",
     "list": [
       {
         "pagePath": "pages/index/index",
         "selectedIconPath": "Icon/home.jpg",
-        "iconPath":"Icon/home.jpg",
+        "iconPath": "Icon/home.jpg",
         "text": "首页"
       },
       {
         "pagePath": "pages/game/game",
         "selectedIconPath": "Icon/game.png",
-        "iconPath":"Icon/game.png",
+        "iconPath": "Icon/game.png",
         "text": "开始游戏"
       },
       {
@@ -26,12 +29,12 @@
         "text": "设置"
       }
     ]
-    
   },
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F0FFFF",
     "navigationBarTitleText": "PuzzleGame",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
 }

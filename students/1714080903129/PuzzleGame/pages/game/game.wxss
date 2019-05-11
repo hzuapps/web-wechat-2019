@@ -1,1 +1,21 @@
 /* pages/game/game.wxss */
+@import "../../style/weui.wxss";
+.page__bd {
+    padding-bottom: 40rpx;
+    margin: 80rpx 50rpx;
+}
+.page__bd_spacing {
+    padding-left: 15rpx;
+    padding-right: 15rpx;
+}
+Page{
+  background: #FFEFDB;
+}
+.text{
+  text-align: center;
+  margin-top: 150rpx;
+}
+.image{
+  margin: 
+}
+

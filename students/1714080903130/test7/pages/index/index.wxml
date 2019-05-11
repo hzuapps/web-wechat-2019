@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="weui-cells__title">输入数据</view>
+<view class="weui-cell__bd weui-cell__bd_in-select-before">
+  <input class="weui-input" bindinput="bindKeyInput" value="{{inputValue}}" type="number" placeholder="请输入号码" />
+ </view>
+
+
+ <view><text>显示上面输入的号码\n{{addTel}}</text></view>
+ 
+<button class="weui-btn" bindtap="ontouch1" type="primary" >数据(存储)</button>
+
+<text>\n</text>
+<button class="weui-btn" bindtap="ontouch2" type="primary" >下载(网络)</button>
+
+<text>\n</text>
+<button class="weui-btn" bindtap="ontouch3" type="primary" >用户交互</button>
+<swiper indicator-dots="{{indicatorDots}}"
+ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+ <block wx:for="{{imgUrls}}" wx:key="unique">
+  <swiper-item>
+   <image src="{{item}}" class="slide-image"/>
+  </swiper-item>
+ </block>
+</swiper>

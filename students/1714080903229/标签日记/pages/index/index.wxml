@@ -1,0 +1,22 @@
+<!-- <view class='head'>记录每天心情!!!</view> -->
+<view>
+  <input class="title" value="{{title}}" bindinput='title'/>
+</view>
+<view  class='btnbox'>
+<button wx:for="{{list}}" wx:key="index" class='btn' bindtap='addtag' id='{{index}}'>{{item.tag}}</button>
+<view class='cl'></view>
+</view>
+
+<view class='tip'>Tip:选择标签可以获得日记提示哦！</view>
+<view class='shuaxin' bindtap='shuaxin'>换一组</view>
+<view class='content'>
+  <textarea wx:for="{{taglist}}" wx:key="index" value='{{item.tip}}' class='content-input' bindinput='content'></textarea>
+</view>
+<button class="sub"  bindtap="openAlert">提交</button>
+<!-- <button class='sub' bindtap='submit'>提交</button> -->
+<!-- <view class='tag'>
+  标签:
+</view>
+<view wx:for="{{list}}">
+<button class='btn'>{{item.tag}}</button>
+</view> -->

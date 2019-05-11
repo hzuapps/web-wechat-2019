@@ -1,0 +1,22 @@
+<!--logs.wxml-->
+<!-- <button bindtap='cl'>清除数据</button> -->
+<view class='keywordbox'>
+<image src='../../images/sousuo.png'></image>
+<input value='请输入标题关键词搜索日记' class='keywordinput' bindinput='keyword'></input>
+</view>
+<view class='cl'></view>
+<view>
+<block wx:for="{{diary}}" wx:key='index' wx:for-item="item">
+<view class='logsbox' style='display:{{item.isshow}}'>
+<view class='title'>{{item.title}}</view>
+<view class='content'>{{item.content}}</view>
+<button class="del" bindtap="del" data-id="{{item.id}}">删除</button>
+<button class="lookall" bindtap="show" data-id="{{item.id}}">查看全文</button>
+<view class='time'>{{item.time}}</view>
+<view class='showall' style='display:{{item.flag}}'>{{item.content}}
+<button class='hideall' bindtap="hide" data-id="{{item.id}}">关闭</button>
+</view>
+</view>
+</block>
+</view>
+

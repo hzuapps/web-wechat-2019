@@ -1,0 +1,25 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background: #2397d3;
+}
+
+.bd-bottom {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.pull-left {
+    justify-content: flex-start;
+}
+
+.pull-right {
+    justify-content: flex-end;
+}
+
+.pull-center {
+    justify-content: center;
+}

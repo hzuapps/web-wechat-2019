@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#CDBA96",
+    "navigationBarTitleText": "贪吃蛇",
+    "avigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [ 
+      {"iconPath":"pages/images/1.jpg",
+      "selectedIconPath":"pages/images/5.jpg",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {"iconPath": "pages/images/2.jpg",
+      "selectedIconPath": "pages/images/5.jpg",
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      },
+      {"iconPath": "pages/images/3.jpg",
+      "selectedIconPath": "pages/images/5.jpg",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  }
+}

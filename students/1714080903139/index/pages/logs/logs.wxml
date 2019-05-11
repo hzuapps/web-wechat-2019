@@ -45,8 +45,6 @@
 <textarea id='7' value='{{item.date7}}' disabled='{{alter}}' bindinput='ab' data-index="{{index}}"></textarea>
 </view>
 </view>
-
-
 </view>
 <view>
 <text>\n</text>

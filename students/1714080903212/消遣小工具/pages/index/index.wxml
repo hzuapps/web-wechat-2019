@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="weui-cells__title-l">
+  动漫滚动</view>
+  <view class="slider-wrapper">
+    <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls_1}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  
+  <view class="weui-cells__title-l">
+  音乐滚动</view>
+  <view class="slider-wrapper">
+    <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls_2}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+<!-- 需要使用 button 来授权登录 -->
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class="weui-btn btn" type="primary">
+  授权登录
+</button>
+<view wx:else>请升级微信版本</view>

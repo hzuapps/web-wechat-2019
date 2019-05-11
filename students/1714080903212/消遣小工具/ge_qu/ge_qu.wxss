@@ -1,0 +1,8 @@
+/* ge_qu/ge_qu.wxss */
+/* cc/cc.wxss */
+button[type=primary]{
+  background-color: #66ccff
+}
+button[type=default]{
+  background-color: #4EEE94
+}

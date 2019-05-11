@@ -35,5 +35,39 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+
+  /**
+     * 用户点击右上角分享
+     */
+  onShareAppMessage: function () {
+    wx.showShareMenu({
+      withShareTicket: true
+    })
+
+    return {
+      title: '测试小程序',//分享内容
+      path: '/pages/index/index',//分享地址
+      imageUrl: '/images/img_share.png',//分享图片
+      success: function (res) {
+        if (res.errMsg == 'shareAppMessage:ok') {//判断分享是否成功
+          if (res.shareTickets == undefined) {//判断分享结果是否有群信息
+            //分享到好友操作...
+          } 
+          else {
+            //分享到群操作...
+            var shareTicket = res.shareTickets[0];
+            wx.getShareInfo({
+              shareTicket: shareTicket,
+              success: function (e) {
+                //当前群相关信息
+                var encryptedData = e.encryptedData;
+                var iv = e.iv;
+              }
+            })
+          }
+        }
+      }
+    }
   }
 })

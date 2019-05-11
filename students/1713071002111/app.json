@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/tab1/tab1"
+    "pages/tab1/tab1",
+    "pages/tab2/tab2"
   ],
   "tabBar": {
     "list": [
@@ -17,6 +18,12 @@
         "text": "时钟",
         "iconPath": "pages/img/2.jpg",
         "selectedIconPath": "pages/img/2.jpg"
+      },
+      {
+       "pagePath": "pages/tab2/tab2",
+       "text": "倒计时",
+       "iconPath": "pages/img/3.jpg",
+        "selectedIconPath": "pages/img/3.jpg"
       }
     ]
   },

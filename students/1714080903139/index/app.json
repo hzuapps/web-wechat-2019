@@ -1,39 +1,32 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/txt/txt"
+    "pages/logs/logs"
     
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#ececec",
+    "navigationBarTitleText": "study",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "black",
-    "selectedColor": "blue",
+    "selectedColor": "#999",
     "list": [
       {
-        "iconPath": "pages/img/home.jpg",
-        "selectedIconPath": "pages/img/home.jpg",
+        "iconPath": "pages/img/math2.png",
+        "selectedIconPath": "pages/img/math1.png",
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "计算器"
       },
       {
-        "iconPath": "pages/img/txt.jpg",
-        "selectedIconPath": "pages/img/txt.jpg",
-        "pagePath": "pages/txt/txt",
-        "text": "日程"
-      },
-      {
-        "iconPath": "pages/img/find.jpg",
-        "selectedIconPath": "pages/img/find.jpg",
+        "iconPath": "pages/img/book1.png",
+        "selectedIconPath": "pages/img/book2.png",
         "pagePath": "pages/logs/logs",
-        "text": "发现"
+        "text": "课程表"
       }
-   
+      
     ]
   }
 }

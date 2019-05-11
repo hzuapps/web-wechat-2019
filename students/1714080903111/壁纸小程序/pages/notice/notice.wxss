@@ -1,0 +1,41 @@
+page{
+  background-color: #F8F8F8;
+}
+.contanier{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.content{
+  width: 600rpx;
+  height: 1000rpx;
+  background-color: white;
+  border-radius: 3%;
+  margin-top: 30rpx;
+  box-shadow:0px 1px 2px 2px #bebebe;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text_content{
+  font-size: 26rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  
+}
+
+.avater{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50rpx;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.avater image{
+  width: 100px;
+  height: 100px;
+  
+}

@@ -1,0 +1,11 @@
+<view class='contanier'>
+  <view class='content'>
+    <view class='avater'><image src='http://bmob-cdn-20513.b0.upaiyun.com/2018/09/06/e66274e840a4af2680b272c7aeb95468.png' /></view>
+    <view class='text_content'>
+      <form bindsubmit="formSubmit" report-submit="true">
+        <textarea bindblur="bindTextAreaBlur" name="words"  placeholder="有什么要和我说的吗" placeholder-style="color:#bebebe;" />
+        <button   formType="submit" type='primary' style='width:50%;margin-top:30rpx;'>提交</button>
+      </form>
+    </view>
+  </view>
+</view>

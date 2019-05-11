@@ -1,0 +1,22 @@
+<scroll-view scroll-y style="height: 1200rpx;"  bindscrolltolower="lower" lower-threshold="50" >
+  <view class='header flex-tab flex-wrp'>
+    <navigator class='flex-item' url='../notice/notice'>
+      <image src='http://bmob-cdn-20513.b0.upaiyun.com/2018/09/06/3587de62407c13468018770be7e63a6e.png' />
+      <view><text>公告说明</text></view>
+    </navigator>
+    <navigator class='flex-item' url='../words/words'>
+      <image src='http://bmob-cdn-20513.b0.upaiyun.com/2018/09/08/a320e38c40299ed38092b4b19038d4aa.png' />
+      <view><text>给我留言</text></view>
+    </navigator>
+   
+  </view>
+
+
+  <view class="content">
+    <view class="content_item" wx:for="{{results}}" hover-class="navigator-hover"  >
+          <image src="{{item.url}}" data-imgsrc="{{item.url}}" bindtap="bindPicture" mode='aspectFit' />      
+    </view>
+  </view>
+</scroll-view>
+
+

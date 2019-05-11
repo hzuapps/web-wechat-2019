@@ -9,9 +9,7 @@
      <view class="page__bd page__bd_spacing">
 
         <view class="button-sp-area">
-            <button class="weui-btn" type="primary" plain="true">开始使用</button>
-
-            <button class="weui-btn" type="default" plain="true">退出使用</button>
+            <button class="weui-btn" type="primary" plain="true" bindtap='onTouch'>开始使用</button>
     </view>
     </view>
   </view>

@@ -2,11 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/mine/mine"
+    "pages/add/add",
+    "pages/list/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "skyblue",
     "navigationBarTitleText": "日程与随笔",
     "navigationBarTextStyle": "black"
   },
@@ -27,7 +28,7 @@
       {
         "iconPath": "pages/images/suibi.jpg",
         "selectedIconPath": "pages/images/suibi.jpg",
-        "pagePath": "pages/mine/mine",
+        "pagePath": "pages/list/list",
         "text": "随笔"
       }
     ]

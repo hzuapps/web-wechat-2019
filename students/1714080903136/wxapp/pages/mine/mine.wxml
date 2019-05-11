@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="classname">
+  <view class='text'>关于本小程序：本人作为17网络工程1班的成员，将此小程序作为我的网页设计作业。本小程序针对日常生活中的流水记账需求，完成了最基础的记账功能，用户可使用此小程序，对不同的消费类型进行选择，然后通过自带的键盘键入消费的金额，且能对记录进行备注。除此之外，小程序还可按年、月、日分类显示用户的消费金额，最后还支持最基础的转发功能。功能基本完备</view>
+  </view>
+  <view class="weui-cells__title zuozhe">作者：陈林涛</view>
+<view class="weui-cells weui-cells_after-title">
+<navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+<view class="weui-cell__bd">
+WX
+</view>
+<view class="weui-cell__ft">t929749918</view>
+</navigator>
+<navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+<view class="weui-cell__bd">
+QQ邮箱
+</view>
+<view class="weui-cell__ft">929749918@qq.com</view>
+</navigator>
+</view>
+</view>

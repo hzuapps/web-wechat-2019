@@ -1,6 +1,5 @@
 page{
-  background-color:rgb(195, 245, 56);
-  height: 100%;
+
 }
 .imagesize{
 position: fixed;

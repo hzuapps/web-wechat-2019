@@ -1,0 +1,6 @@
+<!--pages/see1/see2.wxml-->
+
+<image src='/images/delight1.jpg' class='picture'></image>
+<image src='/images/delight2.jpg' class='picture'></image>
+<image src='/images/delight3.jpg' class='picture'></image>
+<image src='/images/delight4.jpg' class='picture'></image>

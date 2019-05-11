@@ -1,0 +1,10 @@
+/* pages/see1/see4.wxss */
+
+.cente{
+  font-size: 30px;
+  text-align: center;
+}
+
+.ind{
+  text-indent: 15px;
+}

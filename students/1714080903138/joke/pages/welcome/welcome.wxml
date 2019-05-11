@@ -1,0 +1,17 @@
+<!--pages/welcome/welcome.wxml-->
+
+<view class='container'>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="weui-btn" type="primary" plain="true" style='margin-top: 45px;'> 点击授权信息</button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+<view wx:if="{{hasUserInfo && canIUse}}">
+  <view class="button-sp-area">
+    <button class="weui-btn" type="primary" plain="true" bindtap='jumpIndex'>进入</button>
+  </view>
+</view>
+

@@ -1,0 +1,8 @@
+/* pages/see1/see2.wxss */
+
+.picture{
+  display: block;
+  width:  375rpx;
+  height:  375rpx;
+  float:left;
+}

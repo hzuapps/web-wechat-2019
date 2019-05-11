@@ -1,0 +1,15 @@
+<view class='container'>
+<image class="user-image" src="/image/timg.jfif">
+</image>
+<view>
+ <text class="user-welcome">welcome</text>
+</view>
+<view class="moto-container">
+<text>开启小程序之旅</text>
+<view class='imagesize'>
+  <image src="/images/zan.eps" class='in-image'   >
+  </image>
+  </view>
+</view>
+ <button type="primary" bindtap="start"> play game </button>
+</view>

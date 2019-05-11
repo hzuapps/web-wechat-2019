@@ -1,0 +1,10 @@
+<view class='imagesize'>
+
+
+     <image src="/images/find.jfif" class='in-image' mode='widthFix'> </image>
+<text class="neirong">
+
+ 真抱歉，你被戏耍了
+
+</text>
+</view>

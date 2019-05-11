@@ -1,19 +1,25 @@
 <!--index.wxml-->
-<page>
-
-<view class='container'>
-  <view class='user-index'>
-    <text>选择时间日期呀</text>
-  </view >
-  <image class='user-image' src='/image/gl.jpg'></image>
+<view class="container index-wrap">
+  <view class='index-head-wrap'>
+    <text class='index-head-text'>猪年是人生的转折点,最有望咸鱼翻身!</text>
+    <text class='index-head-text' style='margin-top:14rpx;'>不同的姓名都预示着不同的运势</text>
+  </view>
   <view>
-    <text class='user-index'>Welcome</text>
+    <image class='index-head-slogan-img' src='{{indexHeadBgSrc}}'></image>
   </view>
-  <view class='moto-container'>
-    <text class='moto'>请选择日期</text> 
+
+  <view class='index-head-input-wrap'>
+    <image class='index-head-input-img' src='{{indexHeadInputBgSrc}}'></image>
+    <view class='index-head-input-context'>
+      <text class='index-head-text index-head-input-title'>请输入你的名字</text>
+      <input class='fortune-input' bindinput="bindNameInput" style='text-align:center;'></input>
+      <button class='btn' style='margin-top:56rpx;width:324rpx;' bindtap="getUserFortune"> 测一测 </button>
+      <text class='index-head-text index-head-input-title-desc'>点击[测一测]按钮，查看你的猪年运势</text>
+    </view>
   </view>
-  <view class='moto-container'>
-    <text class='moto'>请选择时间</text> 
+
+  <view>
+    <image class='index-logo-img' src='{{indexLogoSrc}}'></image>
   </view>
+  
 </view>
-</page>

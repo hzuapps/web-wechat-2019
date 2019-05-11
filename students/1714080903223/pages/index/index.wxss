@@ -1,53 +1,61 @@
 /**index.wxss**/
-page{
-  background-color:  rgb(112, 245, 216)
+.index-head-wrap{
+  margin-top: 50rpx;
 }
-.container{
-  display: flex;
-  flex-direction: column;
+.index-wrap{
+  height: 100%;
+  background-image: linear-gradient(-180deg, #0E128D 1%, #0B1068 55%);
 }
-.user-image{
-  margin-top: 0rpx;
-  width: 760rpx;
-  height: 600rpx;
-}
-.user-index{
-  margin-top: 100rpx;
-  font-size: 45rpx;
-  font-weight: bold;
-  font-family: STXingkai;
-}
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.moto-container{
-  margin-top: 100rpx;
-  border: 1px solid black;
-  width: 200rpx;
-  height: 80rpx;
-  border-radius: 5px;
+.index-head-text{
+  display: block;
   text-align: center;
+  font-size: 28rpx;
+  line-height: 34rpx;
+  color: #F7F7FA;
 }
-.moto{
-  font-size: 36rpx;
-  font-weight: bold;
-  line-height: 80rpx;
-  color: black;
-  font-family: STXinwei;
+.index-head-slogan-img{
+  width: 620rpx;
+  height: 386rpx;
 }
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.index-head-input-img{
+  width: 662rpx;
+  height: 554rpx;
+}
+.index-head-input-wrap{
+  position: relative;
+}
+.index-head-text{
+  color: #F7F7FA;
+}
+.index-head-input-title{
+  margin-top: 116rpx;
+  margin-bottom:37rpx;
+  font-size: 40rpx;
+  line-height:46rpx;
+}
+.index-head-input-title-desc{
+  margin-top: 40rpx;
+  font-size: 22rpx;
+}
+.index-head-input-context{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.fortune-input{
+  margin-top: 60rpx;
+  /*border: 1rpx solid #aaa;*/
+  width:472rpx;
+  margin:0 auto;
+  height:88rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.index-logo-img{
+  display: block;
+  margin-top:40rpx;
+  width: 174rpx;
+  height: 48rpx;
 }

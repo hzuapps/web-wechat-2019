@@ -1,4 +1,4 @@
-// pages/custom/custom.js
+// pages/abdominalmuscle/abdominalmuscle.js
 Page({
 
   /**

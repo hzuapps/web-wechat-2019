@@ -1,0 +1,82 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">胸肌锻炼</view>
+        
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">俯卧撑</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">标准俯卧撑</view>
+                    <view class="weui-article__p">
+                   1.两手支撑在地上或支架上，两手间距比肩膀稍宽些，全臂伸直，两肩和胸略向前，使肩关节的垂直线与地面呈10度～15度角，两腿并拢，以脚趾点地支撑。躯干保持挺胸收紧腰。
+                     </view>
+                    <view class="weui-article__p">
+                   
+ 
+2.抬头前引，使胸大肌有充分的伸展感，处于“顶峰收缩”位，稍停。向上撑起时，始终保持身体的姿势，直至两臂伸直。重复
+
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/1.gif" mode="aspectFit" style="height: 180px" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">上斜俯卧撑</view>
+                    <view class="weui-article__p">
+                    垫高双手的位置，适合初学者、力量不大的人
+                    </view>
+                          
+                </view>
+            </view>
+        </view>
+         <view class="weui-article">
+            <view class="weui-article__h1">哑铃卧推</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">平板哑铃卧推</view>
+                    <view class="weui-article__p">
+                   1.仰卧在平凳上，两脚平踏在地上；两肘弯曲，握住哑铃，拳眼相对，手心朝腿部的方向，哑铃的轴线位于乳头上方（胸肌中部），抵住胸部。
+
+                     </view>
+                    <view class="weui-article__p">
+                   
+ 
+2.向上推起，两肘内收，夹肘的同时夹胸。哑铃向上的同时略向前偏，呈抛物线的运动轨迹。两臂伸直时，哑铃重心接近处于肩关节的支撑点上。但不要正好位于肩关节的支撑点上，这样会使骨骼支撑住哑铃的重量（这种由骨骼而不是肌肉支撑重量的情况称为“锁定”），使得胸肌放松，影响锻炼效果。然后，使两直臂向两侧张开，两臂慢慢弯屈，哑铃垂直落下，下降至最低处时，即做上推动作。重复。
+                    </view>
+                     <view class="weui-article__p">
+                   
+ 
+3.呼吸方法：上推时用鼻子呼气，还原时用口吸气。
+
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/3.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">下斜哑铃卧推</view>
+                    <view class="weui-article__p">
+                  基本雷同平板哑铃卧推，以下是不同的地方：
+                    </view>
+                    <view class="weui-article__p">
+                  1.仰卧的斜板的角度控制在15-30度之间，角度太大不易控制，也锻炼不到胸大肌，哑铃的轴线位于胸肌下部。
+                    </view>
+                    <view class="weui-article__p">
+                  2.注意哑铃或杠铃下放到最下面的肋骨两侧，不要放到胸大肌中间部位，以免给肩关节造成压力。
+                    </view>
+                    <view class="weui-article__p">
+                  3.勾脚和斜板要安全、牢固，上推时肱三头肌不要主动用力。
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/4.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    
+</view>

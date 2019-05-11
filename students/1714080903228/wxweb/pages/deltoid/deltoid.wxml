@@ -1,0 +1,68 @@
+<!--pages/deltoid/deltoid.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">三角肌锻炼</view>
+        <view class="page__desc">文章</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">直臂前平举</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+
+                    <view class="weui-article__p">
+                   1.自然站立，或紧靠45度斜登站立，两手正握杠铃或哑铃垂于腿前，握距与肩同宽。
+                     </view>
+                    <view class="weui-article__p">
+              2.把杠铃（或哑铃）向前上方举起（肘部稍屈），直至高于视线平行高度。然后，慢慢放下还原；重复。
+
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/5.gif" mode="aspectFit" style="height: 180px" />
+                    </view>
+                </view>
+
+            </view>
+        </view>
+         <view class="weui-article">
+            <view class="weui-article__h1">哑铃交替前举</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                  1.自然站立，或紧靠45度斜凳站立，两手各持哑铃下垂于腿前。
+                     </view>
+                    <view class="weui-article__p">
+                    2.把左手哑铃向前上方举起（肘部稍屈），直至高于视线平行高度。然后，慢慢放下还原；放下左手哑铃同时向前方举起右手哑铃，依次交替重复做。
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/6.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+
+            </view>
+        </view>
+          <view class="weui-article">
+            <view class="weui-article__h1">俯卧侧平举</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                  1.面朝下躺在一个较高的平凳上。双手握哑铃，掌心相对，手臂向下垂，手臂伸直但手肘不要完全锁定。
+                     </view>
+                    <view class="weui-article__p">
+                   2.用哑铃划个半圆的动作向两侧抬高到肩膀的高度，最高点跟耳朵位于同一水平线；慢慢下降至起始位置再重复。
+                    </view>
+                    <view class="weui-article__p">
+                   3.呼吸要领：向上抬臂时吸气，放松还原时呼气。
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/7.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+                
+            </view>
+        </view>
+    </view>
+    
+</view>

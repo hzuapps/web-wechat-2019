@@ -1,0 +1,33 @@
+<!--pages/bicepsbrachii/bicepsbrachii.wxml-->
+<!--pages/deltoid/deltoid.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">拉伤</view>
+      
+    </view>
+    <view class="page__bd">
+     
+         <view class="weui-article">
+           
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+如果锻炼中身体某部位感到某种异常的疼痛，而不是肌肉酸疼，那就别再做下去了，选择彻底放松和休息对于初级健身者来说是一个最稳妥的办法。
+                     </view>
+                       
+                    <view class="weui-article__p">
+                   必须很仔细的测定受伤的部位，寻找一种能很轻柔地活动受伤部位的动作，以促进血液循环，以补充新鲜养料，清除废弃物质。%的重量。
+                    </view>
+                    
+                     <view class="weui-article__p">
+                  冰敷是受伤当时临场的急救的方法，一般受伤后的48小时内，用冰敷可减轻肿胀。
+                    </view>
+                  
+                </view>
+
+            </view>
+        </view>
+  
+    </view>
+    
+</view>

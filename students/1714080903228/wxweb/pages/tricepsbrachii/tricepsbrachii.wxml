@@ -1,0 +1,47 @@
+<!--pages/bicepsbrachii/bicepsbrachii.wxml-->
+<!--pages/deltoid/deltoid.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">肱三头肌锻炼</view>
+        
+    </view>
+    <view class="page__bd">
+     
+         <view class="weui-article">
+            <view class="weui-article__h1">窄距俯卧撑</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+1. 与普通式俯卧撑基本相同，不再详述。
+但要注意两手撑地距离比肩窄，两臂屈肘时两上臂靠近体侧内夹。
+                     </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/10.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+
+            </view>
+        </view>
+          <view class="weui-article">
+            <view class="weui-article__h1">哑铃颈后臂屈伸</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                  1.两手合握一个哑铃，将其高举过顶后，屈肘，让前臂向后下垂。
+                     </view>
+                    <view class="weui-article__p">
+                  2.两上臂贴近两耳，保持竖直，不摇动；收缩三头肌，逐渐伸展肘关节，把前臂向上挺伸，直到臂部完全伸直，三头肌彻底收紧；静止一秒钟，再屈肘，让前臂徐徐下垂到开始位置，使三头肌尽量伸展。
+                    </view>
+                 
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/11.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+                
+            </view>
+        </view>
+    </view>
+    
+</view>

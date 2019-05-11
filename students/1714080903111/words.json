@@ -1,0 +1,27 @@
+{
+  "tabBar": {
+    "color": "#9DACB7F",
+    "selectedColor": "#78C652",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "返回",
+        "iconPath": "images/返回.png",
+        "selectedIconPath": "images/返回1.png"
+      },
+      {
+        "pagePath": "pages/notice/notice",
+        "text": "公告说明",
+        "iconPath": "images/公告.png",
+        "selectedIconPath": "images/公告(1).png"
+      },
+      {
+        "pagePath": "pages/words/words",
+        "text": "留言",
+        "iconPath": "images/信息.png",
+        "selectedIconPath": "images/信息1.png"
+      }
+    ]
+  }
+}

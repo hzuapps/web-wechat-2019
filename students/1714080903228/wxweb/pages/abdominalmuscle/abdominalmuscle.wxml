@@ -1,0 +1,60 @@
+<!--pages/bicepsbrachii/bicepsbrachii.wxml-->
+<!--pages/deltoid/deltoid.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">腹肌锻炼</view>
+      
+    </view>
+    <view class="page__bd">
+     
+         <view class="weui-article">
+            <view class="weui-article__h1">仰卧起坐</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+1.身体仰卧于地垫上，膝部屈曲成90度左右，放松背肌和脊柱，两腿并拢并伸直，脚部平放在地上。
+                     </view>
+                    <view class="weui-article__p">
+                    2.然后身体抬起，但臀臀部不能离地，脚部也不能移动或者抬起，直到身体与底面成90°为止，然后重复。
+                    </view>
+                    
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/12.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+
+            </view>
+        </view>
+          <view class="weui-article">
+            <view class="weui-article__h1">卷腹</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                  1.身体仰卧于地垫上，膝部屈曲成90度左右，放松背肌和脊柱，两腿并拢并伸直，脚部平放在地上。
+                     </view>
+                    <view class="weui-article__p">
+                   2.利用腹直肌收缩的力量抬起上背卷曲身体。下背部不离地
+                    </view>
+                 
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/13.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                     <view class="weui-article__h1">
+                   注意事项：
+                    </view>
+                    <view class="weui-article__p">
+                   1.注意卷腹、仰卧起坐的区别：抬起身体时，仰卧起坐臀部不能离地，而卷腹要求下背部不离地，因此卷腹要比仰卧起坐幅度要小，安全可靠，而且对腹部刺激更持续，因为抬起身体超过30°，腹部基本不受力。
+                    </view>
+                    <view class="weui-article__p">
+                2.卷腹，最好不要抱头，以免造成颈椎受伤。
+                    </view>
+                 
+                </view>
+                
+            </view>
+        </view>
+    </view>
+    
+</view>

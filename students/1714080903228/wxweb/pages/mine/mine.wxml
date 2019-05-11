@@ -1,5 +1,3 @@
-
-
 <view id='userwelcome'>
 <view id='userimg'>
   <image src='{{userInfo.avatarUrl}}'></image>
@@ -13,5 +11,6 @@
 </view>
 </view>
 <view>
-<button type='prmary' bindtap='jumpPage' id='custom'>定制站点</button>
+<button style='margin-top:90px;' type='prmary' bindtap='jumpinjured' >受伤处理方法</button>
+<button  type='prmary' bindtap='jumpabout' >关于</button>
 </view>

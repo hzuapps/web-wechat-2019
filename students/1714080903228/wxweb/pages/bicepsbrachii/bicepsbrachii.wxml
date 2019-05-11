@@ -1,0 +1,52 @@
+<!--pages/bicepsbrachii/bicepsbrachii.wxml-->
+<!--pages/deltoid/deltoid.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">肱二头肌锻炼</view>
+        
+    </view>
+    <view class="page__bd">
+     
+         <view class="weui-article">
+            <view class="weui-article__h1">单臂哑铃蹲坐弯举</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+1. 起始姿势：蹲在地上或坐在凳上，一手握哑铃，让上臂肘部贴在同侧大腿内侧，前臂向下直垂放松。另一只手手指向内扶压在另一大腿上，手微曲
+                     </view>
+                    <view class="weui-article__p">
+                    2.动作过程：收缩握铃一臂的二头肌将前臂向上弯起，到可能的最高点时，彻底收缩二头肌1-2秒钟，然后伸展肘关节，让哑铃徐徐下落到开始位置。练完一侧，换练另一侧。如此反复练习。
+                    </view>
+                     <view class="weui-article__p">
+                    3.呼吸方法：弯起前臂时吸气，到最高点时开始呼气直到最低点。
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/8.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+
+            </view>
+        </view>
+          <view class="weui-article">
+            <view class="weui-article__h1">哑铃斜托弯举</view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                  1.胸部抵住上斜板板面保持背部挺直，膝关节微曲将被腋窝置于斜板的顶部，三头肌置于下斜板板面之上，另一只手扶在斜板的顶端。手握哑铃中间部分，眼睛看着哑铃下方的地板有助干你集中精力。
+                     </view>
+                    <view class="weui-article__p">
+                   2.匀速弯举哑铃，不要发力过猛也不要刻意放慢节奏。单纯凭借二头肌力量，不要借助身体惯性。顶点时强力收缩二头肌，停留一至两秒后慢慢恢复到初始位置。
+                    </view>
+                 
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../img/9.gif" mode="aspectFit" style="height: 180px" />
+                        
+                    </view>
+                </view>
+                
+            </view>
+        </view>
+    </view>
+    
+</view>

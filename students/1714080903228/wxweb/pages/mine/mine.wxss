@@ -26,4 +26,5 @@ left: 20px;
 }
 #custom{
   margin-top: 36px;
+  width: 200px;
 }

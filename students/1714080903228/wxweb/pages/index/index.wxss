@@ -19,14 +19,3 @@
 .usermotto {
   margin-top: 200px;
 }
-.demo{
-  text-align: center;
-  height: 80px;
-  width: 250px;
-  background-color: #fcc;
-  margin: 0 auto;
-  border-style: solid;
-  border-color: #fff;
-  border-width: 1px;
-  border-bottom-width: 20px;
-}

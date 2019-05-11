@@ -1,6 +1,6 @@
-<view class='demo'>demo</view>
-<view class='demo'>demo</view>
-<view class='demo'>demo</view>
-<view class='demo'>demo</view>
-<view class='demo'>demo</view>
-<view class='demo'>demo</view>
+ <image class="weui-article__img" src="../img/kick.jpg" mode="aspectFit" style="height: 180px"/>
+<button type='prmary' bindtap='jumppectorales' >胸肌</button>
+<button type='prmary' bindtap='jumpdeltoid' >三角肌</button>
+<button type='prmary' bindtap='jumpbicepsbrachii' >肱二头肌</button>
+<button type='prmary' bindtap='jumptricepsbrachii' >肱三头肌</button>
+<button type='prmary' bindtap='jumpabdominalmuscle' >腹肌</button>

@@ -12,9 +12,9 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.2",
-	"appid": "wx5ab6b652dd9cc091",
-	"projectname": "wxweb",
+	"libVersion": "2.6.6",
+	"appid": "wxcaed10e5b1b338a8",
+	"projectname": "%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

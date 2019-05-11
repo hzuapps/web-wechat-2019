@@ -1,0 +1,33 @@
+<!--pages/bicepsbrachii/bicepsbrachii.wxml-->
+<!--pages/deltoid/deltoid.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">关于</view>
+      
+    </view>
+    <view class="page__bd">
+     
+         <view class="weui-article">
+           
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+肌肉锻炼可以燃烧热量、增强骨密度、减少受伤，尤其是关节受伤的几率，还能预防骨质疏松。
+                     </view>
+                        <image class="weui-article__img" src="../img/ti.jpg" mode="aspectFit" style="height: 180px"/>
+                    <view class="weui-article__p">
+                   在做举重运动前，先测一下，如果连续举8次你最多能举多重的东西，就从这个重量开始练习。当你可以连续12次举起这个重量时，试试增加5%的重量。
+                    </view>
+                    
+                     <view class="weui-article__p">
+                  注意每次练习时，要连续举8—12次，这样可以达到肌肉最大耐力的70%—80%，锻炼效果较好。每周2—3次，但要避免连续两天锻炼同一组肌肉群， 以便让肌肉有充分的恢复时间。
+                    </view>
+                  
+                </view>
+
+            </view>
+        </view>
+  
+    </view>
+    
+</view>

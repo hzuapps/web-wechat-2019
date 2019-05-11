@@ -1,0 +1,31 @@
+<!--input.wxml-->
+<view class="section">
+  <input placeholder="" auto-focus />
+</view>
+<view class="section">
+  <input placeholder="" focus="{{focus}}" />
+  <view class="btn-area">
+    <button bindtap="bindButtonTap">点击输入</button>
+  </view>
+</view>
+
+
+
+<view class="tui-content">
+  
+ 
+ 
+ 
+  <view class="tui-show-name">
+    <text class="tui-card-btn" bindtap="showToast">提交</text>
+  </view>
+  
+  <view class="tui-show-name">
+    <text>{{msg}}</text>
+  </view>
+</view>
+
+
+
+
+

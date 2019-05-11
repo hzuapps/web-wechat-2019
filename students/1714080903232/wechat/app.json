@@ -11,29 +11,32 @@
     "backgroundColor": "#99cc00",
     "backgroundTextStyle": "light"
   },
-  
- 
-    "requiredBackgroundModes": [
-      "audio"
-    ],
-  
+  "requiredBackgroundModes": [
+    "audio"
+  ],
   "tabBar": {
     "color": "#99cc00",
     "selectedColor": "#cccc99",
     "borderStyle": "white",
-    "backgroundColor":"#fff0ee",
+    "backgroundColor": "#fff0ee",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "selectedIconPath": "images/000.png",
+        "iconPath": "images/1.png"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "text": "日志",
+        "selectedIconPath": "images/000.png",
+        "iconPath": "images/2.png"
       },
       {
         "pagePath": "pages/nice/nice",
-        "text": "我的"
+        "text": "我的",
+        "selectedIconPath": "images/000.png",
+        "iconPath": "images/3.png"
       }
     ]
   },
@@ -44,5 +47,6 @@
   "debug": true,
   "navigateToMiniProgramAppIdList": [
     "wxe5f52902cf4de896"
-  ]
+  ],
+  "sitemapLocation": "sitemap.json"
 }

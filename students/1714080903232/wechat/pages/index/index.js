@@ -50,8 +50,8 @@ Page({
     this.back = wx.getBackgroundAudioManager()
 
     // 对实例进行设置
-    this.back.src = "http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E061FF02C31F716658E5C81F5594D561F2E88B854E81CAAB7806D5E4F103E55D33C16F3FAC506D1AB172DE8600B37E43FAD&fromtag=46"
-    this.back.title = 'Tassel'   // 标题为必选项
+    this.back.src = "http://fs.w.kugou.com/201904212238/aab1e6086640824b16b38dd35eefb4f8/G141/M04/16/14/zQ0DAFvISSKAHUP_ADnuB2mBdUA803.mp3"
+    this.back.title = 'luv letter'   // 标题为必选项
     this.back.play()               // 开始播放
  
   },
@@ -62,8 +62,8 @@ Page({
     })
     if (this.data.on) {
       // 这里有点不明白，如果不重新加链接，音乐不会播放；  希望知道的人能分享告诉我
-      this.back.src = "http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E061FF02C31F716658E5C81F5594D561F2E88B854E81CAAB7806D5E4F103E55D33C16F3FAC506D1AB172DE8600B37E43FAD&fromtag=46"
-      this.back.title = 'Tassel'
+      this.back.src = "http://fs.w.kugou.com/201904212238/aab1e6086640824b16b38dd35eefb4f8/G141/M04/16/14/zQ0DAFvISSKAHUP_ADnuB2mBdUA803.mp3"
+      this.back.title = 'luv letter'
       this.back.play()
     } else {
       this.back.stop()

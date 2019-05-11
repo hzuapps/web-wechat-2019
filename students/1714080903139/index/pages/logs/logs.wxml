@@ -51,6 +51,7 @@
 <view>
 <text>\n</text>
 <button bindtap='save' class='btn2' >
+
     <image class='btnImg' src="https://img.icons8.com/ultraviolet/40/000000/save.png"></image>
     <view>保存</view>
  </button>

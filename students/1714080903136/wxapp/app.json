@@ -1,0 +1,34 @@
+{
+  "pages":[
+        "pages/index/index",
+     "pages/history-bill/history-bill",
+
+     "pages/record-expend/record-expend",
+   
+    "pages/mine/mine"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F0F8FF",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#F0F8FF"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "backgroundColor": "#F0F8FF",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"待办流程.png",
+      "selectedIconPath":"待办流程1.png",
+      "text": "首页"
+    }, 
+    {
+      "pagePath": "pages/mine/mine",
+      "iconPath":"关于.png",
+      "selectedIconPath":"关于1.png",
+      "text": "关于"
+    }]
+  }
+ 
+}

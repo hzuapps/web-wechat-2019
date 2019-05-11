@@ -1,0 +1,85 @@
+/**index.wxss**/
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a5dee05b;
+}
+
+.panel-display{
+  width: 100%;
+  flex: 0.6;
+}
+
+.panel-btns{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.btns-rows{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: #61a2e431;
+}
+
+.btn{
+  text-align: center;
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #1b627a2f;
+}
+
+.btn.active{
+  background-color: #39608825;
+}
+
+.btn:not(:last-child){
+  border-right: 1px solid #42859b36;
+}
+
+#btns2-right{
+  border-left: 1px solid #3786a049;
+}
+
+#display-num{
+  display: inline-block;
+  font-size: 36px;
+  position: absolute; 
+  bottom: 5vh; 
+  right: 3vw; 
+}
+
+#display-op{
+  display: inline-block;
+  font-size: 16px;
+  position: absolute; 
+  bottom: 1vh; 
+  right: 3vw; 
+}
+
+#btns2{
+  flex: 2;display: flex;flex-direction: row;
+}
+
+#btns2-left{
+  flex: 3;display: flex;flex-direction: column;
+}
+
+.btns2-left-part{
+  display: flex; flex-direction: row;flex-grow: 1;
+}
+
+#btn-c{
+  color: #f00;
+}
+

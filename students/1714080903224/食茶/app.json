@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/chaju/chaju",
+    "pages/chami/chami",
+    "pages/chongcha/chongcha",
+    "pages/lishi/lishi",
+    "pages/chaju/cb",
+    "pages/chaju/wxb",
+    "pages/chaju/gdb",
+    "pages/chaju/gw",
+    "pages/chaju/cp",
+    "pages/chaju/chaze",
+    "pages/chaju/cz",
+    "pages/chaju/cs",
+    "pages/chaju/cj",
+    "pages/chaju/cx",
+    "pages/chami/dc",
+    "pages/chami/hc",
+    "pages/chami/lc",
+    "pages/chami/tgy",
+    "pages/chami/pe",
+    "pages/shicha/shicha",
+    "pages/logs/logs"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#CDBA96",
+    "navigationBarTitleText": "食茶",
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar": {
+    "color": "#8B795E",
+    "selectedColor": "#8FBC8F",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/d1.jpg",
+        "iconPath": "images/d2.jpg",
+        "pagePath": "pages/index/index",
+        "text": "工夫茶"
+      },
+        {
+          "selectedIconPath": "images/d1.jpg",
+          "iconPath": "images/d2.jpg",
+          "pagePath": "pages/shicha/shicha",
+          "text": "食茶"
+        },
+      {
+        "selectedIconPath": "images/d1.jpg",
+        "iconPath": "images/d2.jpg",
+        "pagePath": "pages/logs/logs",
+        "text": "关于"
+      }
+    ]
+  }
+  }

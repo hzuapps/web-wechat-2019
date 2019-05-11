@@ -1,0 +1,9 @@
+<!--pages/chaju/cb.wxml-->
+<view class="imagesize">
+<image src='/images/chabei.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">茶杯\n</text>
+<text class="wz">茶杯作为盛茶用具，\n一般可分大小两种：小\n杯主要用于乌龙茶的品\n啜，亦叫品茗杯，是\n与闻香杯配合使用的；\n大杯也可直接作泡茶\n和盛茶用具，主要用于\n高级细嫩名茶的品饮。</text>
+
+</view>

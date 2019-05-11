@@ -1,0 +1,28 @@
+/* pages/chaju/cx.wxss */
+.mod-text
+{
+  writing-mode: vertical-rl;
+}
+.wz
+{
+ display:STXingkai;
+  color:#CDBA96;
+  font-size: 55rpx;
+  margin: 20px;
+  line-height:1.5em;      /*行距*/
+  text-decoration:underline;
+}
+.cb
+{
+ display:STXingkai;
+  color:rgb(185, 162, 117);
+  font-size: 70rpx;
+  margin: 20px;
+  line-height:1.5em;      /*行距*/
+
+}
+.imagesize
+{
+  display:flex;               
+ justify-content: center; 
+}

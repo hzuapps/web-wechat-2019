@@ -1,0 +1,9 @@
+<!--pages/chaju/gw.wxml-->
+<view  class="imagesize">
+<image src='/images/gw.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">盖碗\n</text>
+<text class="wz">盖碗是一种上有盖、下\n有托，中有碗的茶具。“茶\n托”又称“茶船”。盖碗茶，\n须用滚烫的开水冲一下\n碗，然后放入茶叶盛水加盖，\n沁茶的时间看茶叶数量和\n种类约为20秒至3分钟。</text>
+
+</view>

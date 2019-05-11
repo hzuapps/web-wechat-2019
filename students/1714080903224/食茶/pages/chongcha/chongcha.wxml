@@ -1,0 +1,27 @@
+<swiper indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" style='height:{{Height}}'> 
+      <block wx:for="{{arr}}"> 
+        <swiper-item> 
+            <image src='/images/cc1.jpg' class="slide-image" mode="widthFix"            bindload='imgHeight'/>  
+        </swiper-item>
+        <swiper-item> 
+            <image src='/images/cc2.jpg' class="slide-image" mode="widthFix"            bindload='imgHeight'/>  
+        </swiper-item>
+        <swiper-item> 
+            <image src='/images/cc3.jpg' class="slide-image" mode="widthFix"            bindload='imgHeight'/>  
+        </swiper-item>
+        <swiper-item> 
+            <image src='/images/cc4.jpg' class="slide-image" mode="widthFix"            bindload='imgHeight'/>  
+        </swiper-item> 
+        <swiper-item> 
+            <image src='/images/cc5.jpg' class="slide-image" mode="widthFix"            bindload='imgHeight'/>  
+        </swiper-item> 
+        <swiper-item> 
+            <image src='/images/cc6.jpg' class="slide-image" mode="widthFix"            bindload='imgHeight'/>  
+        </swiper-item> 
+        <swiper-item> 
+            <image src='/images/cc7.jpg' class="slide-image" mode="widthFix"            bindload='imgHeight'/>  
+        </swiper-item>   
+      </block> 
+</swiper>
+ 

@@ -1,0 +1,9 @@
+<!--pages/chaju/gdb.wxml-->
+<view  class="imagesize">
+<image src='/images/gdb.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">公道杯\n</text>
+<text class="wz">公道杯，又名茶盅、茶海，\n是上世纪70年代开始使用\n的茶具，用来盛放泡好的茶\n汤，均匀茶汤，使茶汤浓\n淡、颜色、滋味一致，再\n均匀地分到品茗杯中。</text>
+
+</view>

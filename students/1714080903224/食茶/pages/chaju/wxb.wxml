@@ -1,0 +1,9 @@
+<!--pages/chaju/wxb.wxml-->
+<view  class="imagesize">
+<image src='/images/wxb.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">闻香杯\n</text>
+<text class="wz">闻香杯，工夫茶赏茶用具。\n闻香之用，比品茗杯细长，\n是特有的茶具，多用于冲\n泡乌龙时使用。与饮杯\n配套，质地相同，加一茶托\n则为一套闻香组杯。</text>
+
+</view>

@@ -1,0 +1,113 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.shi{
+font-size: 90rpx;
+color:#6c934a;
+}
+.sz{
+font-size: 60rpx;
+color:#6c934a;
+} /**字体大小颜色**/
+
+.fx-zx button {
+width: 250rpx;
+height: 250rpx;
+}
+.fx-zx image{
+width: 250rpx;
+height: 250rpx;
+}
+.fx-zx button {
+width: 250rpx;
+height:350rpx;
+border:none;
+padding:0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 30rpx;
+}/**设置按钮**/
+
+view
+{
+  background-color: #CDBA96
+}/**背景颜色**/
+
+.rowLayout {
+  display: flex;
+  flex-direction: row;
+}
+
+.pages-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+ 
+.pages-title-bg {
+  width: 100%;
+}
+ 
+ 
+.pages-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ 
+.pages-item {
+  position: relative;
+  padding: 10rpx;
+  width: 33%;
+  background-color: #fff;
+  border: #ddd solid 1px;
+}
+ 
+.pages-icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10rpx;
+  border-radius: 30%;
+  height: 75%;
+  background:#00CD0D;
+}
+ 
+.pages-icon-wrapper-no-bg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10rpx;
+  height: 75%;
+}
+ 
+.pages-icon {
+  width: 100rpx;
+  height: 100rpx;
+}
+ 
+.pages-text-wrapper {
+  text-align: center;
+}
+ 
+.pages-text {
+  font-weight: bolder;
+}

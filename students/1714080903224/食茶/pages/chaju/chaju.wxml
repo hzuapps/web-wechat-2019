@@ -1,0 +1,82 @@
+<view class='tab_content' class='tab_content'>
+
+<view class='nav-view-two'>
+     <navigator url='../chaju/cb' class='nav_one'>
+        <image class='fx-zx' src='/images/chabei.jpg'></image>
+        <text class='nav_text'>茶杯[dei bwei]</text>
+        <view class='icon-arrow'></view>
+     </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chaju/wxb' class='nav_one'>
+    <image class='fx-zx' src='/images/wxb.jpg'></image>
+    <text class='nav_text'>闻香杯[pi pang bwei]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chaju/gdb' class='nav_one'>
+    <image class='fx-zx' src='/images/gdb.jpg'></image>
+    <text class='nav_text'>公道杯[gong dao bwei]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chaju/gw' class='nav_one'>
+  <image class='fx-zx' src='/images/gw.jpg'></image>
+    <text class='nav_text'>盖碗[kai wa]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chaju/cp' class='nav_one'>
+    <image class='fx-zx' src='/images/cp.jpg'></image>
+    <text class='nav_text'>茶盘[dei buan] </text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chaju/chaze' class='nav_one'>
+    <image class='fx-zx' src='/images/chaze.jpg'></image>
+    <text class='nav_text'>茶则[dei zêg]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chaju/cz' class='nav_one'>
+    <image class='fx-zx' src='/images/cz.jpg'></image>
+    <text class='nav_text'>茶针[dei zam]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chaju/cs' class='nav_one'>
+    <image class='fx-zx' src='/images/cs.jpg'></image>
+    <text class='nav_text'>茶匙[dei si]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chaju/cj' class='nav_one'>
+    <image class='fx-zx' src='/images/cj.jpg'></image>
+    <text class='nav_text'>茶夹[dei gia]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chaju/cx' class='nav_one'>
+    <image class='fx-zx' src='/images/cx.jpg'></image>
+    <text class='nav_text'>茶洗[dei soi]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+</view>

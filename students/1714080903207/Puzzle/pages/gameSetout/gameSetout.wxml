@@ -1,8 +1,4 @@
 <!--pages/gameSetout/gameSetout.wxml-->
-<!-- 选择图片  默认图片
-  单图，双图
-  隐藏
-  自己， 好友 -->
 
 <view class="container">
     <template name="we-cropper">
@@ -24,3 +20,4 @@
         </view>
     </view>
 </view>
+

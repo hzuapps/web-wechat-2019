@@ -6,6 +6,9 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
+    const device = wx.getSystemInfoSync();
+    this.globalData.device = device;
+
     // 登录
     wx.login({
       success: res => {

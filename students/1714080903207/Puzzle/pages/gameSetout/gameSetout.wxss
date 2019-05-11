@@ -1,1 +1,6 @@
 /* pages/gameSetout/gameSetout.wxss */
+.cropper-buttons{
+    display: flex;
+    padding: 10px;
+    justify-content:center;
+}

@@ -1,15 +1,14 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <button bindtap='gameSetout' class='selection_button'>开始</button>
-    <button bindtap='showHelp' class='selection_button'>帮助</button>
-  </view> 
-  
+<view class="container" style="background:url({{backgroundImg}}) ">
+     <image style="position:absolute;z-index:-10;width:100%;height:100%;" mode="aspectFill" src="{{backgroundImg}}"></image>
+    <view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+        <block wx:else>
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view>
+    <view class="handle">
+        <button size="mini" type="primary" bindtap='random'>随机图片</button>
+        <button size="mini" type='primary' bindtap='create'>选择图片</button>
+    </view>
 </view>

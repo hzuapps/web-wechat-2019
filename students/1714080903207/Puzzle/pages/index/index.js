@@ -1,27 +1,33 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp();
+const util = require('../../utils/util');
 
 Page({
   data: {
-    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+
+    files: [
+      { id: 1, src: '/images/1.jpg' },
+      { id: 2, src: '/images/2.jpg' },
+      { id: 3, src: '/images/3.jpg' },
+      { id: 4, src: '/images/4.jpg' },
+      { id: 5, src: '/images/5.jpg' },
+      { id: 6, src: '/images/6.jpg' },
+    ],
+    isUploadShow: true,
+    backgroundImg: '/images/background.jpg',
   },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
       })
-    } else if (this.data.canIUse){
+    } else if (this.data.canIUse) {
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况
       app.userInfoReadyCallback = res => {
@@ -43,25 +49,56 @@ Page({
       })
     }
   },
-  getUserInfo: function(e) {
-    console.log(e)
+
+  downloadFile:function(){
+    wx.downloadFile({
+      url: 'http://localhost:8088/img/1.jpg',
+      success: function (res) {
+        if (success) {
+          success(res.tempFilePath)
+        }
+      }
+    })
+  },
+  getUserInfo: function (e) {
+    // console.log('111111', e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
   },
-  gameSetout: function(e) {
-    console.log(e)
+
+  // 直接开始
+  random: function () {
+    let that=this;
+    let num = Math.floor(Math.random() * Math.floor(6))+1;
     wx.navigateTo({
-      url: '../gameSetout/gameSetout'
+      url: '/pages/gameSetout/gameSetout?img=' + that.data.files[num],
     })
   },
-  showHelp: function(e) {
-    console.log(e)
-    wx.navigateTo({
-      url: '../help/help'
+
+  // 创建拼图
+  create: function () {
+    wx.chooseImage({
+      sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+      sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+      count: 1,
+      success: function (res) {
+        console.log('图片信息', res);
+        app.globalData.img = res.tempFilePaths;
+
+        wx.navigateTo({
+          url: '/pages/gameSetout/gameSetout?img=' + res.tempFilePaths,
+        })
+      }
+    })
+  },
+
+  onShow: function () {
+    let back = '/images/background.jpg';
+    this.setData({
+      backgroundImg: back
     })
   }
 })
-

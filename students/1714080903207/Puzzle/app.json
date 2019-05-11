@@ -4,7 +4,7 @@
     "pages/record/record",
     "pages/play/play",
     "pages/gameSetout/gameSetout",
-    "pages/help/help"
+    "pages/Jigsaw/Jigsaw"
   ],
   "window": {
     "backgroundTextStyle": "light",

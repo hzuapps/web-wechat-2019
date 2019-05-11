@@ -1,4 +1,4 @@
-import WeCropper from '../../utils//we-cropper.min.js';
+import WeCropper from '../../utils/we-cropper.min.js';
 
 // const device = wx.getSystemInfoSync() // 获取设备信息
 // pages/editimg/editimg.js
@@ -95,7 +95,7 @@ Page({
       if (src) {
         //跳转到任务创建页
         wx.navigateTo({
-          url: '/pages/newJigsaw/newJigsaw?img=' + src,
+          url: '/pages/Jigsaw/Jigsaw?img=' + src,
         })
       }
 

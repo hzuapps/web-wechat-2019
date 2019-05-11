@@ -1,0 +1,9 @@
+<!--pages/chaju/cj.wxml-->
+<view  class="imagesize">
+<image src='/images/cj.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">茶夹\n</text>
+<text class="wz">茶夹又称茶筷 ，\n茶夹功用与茶匙相同，\n可将茶渣从壶中挟出。\n也可用茶夹夹着茶杯洗杯，\n既防烫又卫生。</text>
+
+</view>

@@ -1,0 +1,9 @@
+<!--pages/chaju/cs.wxml-->
+<view  class="imagesize">
+<image src='/images/cs.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">茶匙\n</text>
+<text class="wz">茶匙又称茶扒，形\n状像汤匙，所以称茶匙。\n其主要用途是挖取泡过\n的茶壶内茶叶，茶叶冲泡\n过后，往往会紧紧塞满茶\n壶，加上一般茶壶的口都\n不大，用手拿出茶叶既不方便\n也不卫生，故皆使用茶匙。</text>
+
+</view>

@@ -1,0 +1,43 @@
+<view class='tab_content' class='tab_content'>
+
+<view class='nav-view-two'>
+     <navigator url='../chami/dc' class='nav_one'>
+        <image class='fx-zx' src='/images/dc.jpg'></image>
+        <text class='nav_text'>单从茶[duan zan dei]</text>
+        <view class='icon-arrow'></view>
+     </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chami/hc' class='nav_one'>
+    <image class='fx-zx' src='/images/hc.jpg'></image>
+    <text class='nav_text'>红茶[ang dei]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chami/lc' class='nav_one'>
+    <image class='fx-zx' src='/images/lc.jpg'></image>
+    <text class='nav_text'>绿茶[lei dei]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chami/tgy' class='nav_one'>
+  <image class='fx-zx' src='/images/tgy.jpg'></image>
+    <text class='nav_text'>铁观音[ti guang yem]</text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+<view class='nav-view-two'>
+  <navigator url='../chami/pe' class='nav_one'>
+    <image class='fx-zx' src='/images/pe.jpg'></image>
+    <text class='nav_text'>普洱茶[pou ri dei] </text>
+    <view class='icon-arrow'></view>
+  </navigator>
+</view>
+
+</view>

@@ -1,0 +1,10 @@
+page
+{
+  background-color: #CDBA96;
+}/**背景颜色**/
+.wz
+{
+  color: rgb;
+   font-size: 40rpx;
+  line-height:1.5em;
+}

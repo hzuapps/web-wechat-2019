@@ -1,0 +1,33 @@
+/* pages/chami/tgy.wxss */
+view
+{
+  background-color: #0000;
+}/**背景颜色**/
+.wz
+{
+  display:flex;
+  color:#CDBA96;
+  font-size: 55rpx;
+  margin: 20px;
+  line-height:1.5em;      /*行距*/
+  text-decoration:underline;
+  justify-content: center;
+  align-items: center;
+}
+.cb
+{
+  display:flex;
+  color:#47682b;
+  font-size: 70rpx;
+  margin: 20px;
+  line-height:1em;      /*行距*/
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imagesize
+{
+  display:flex;               
+ justify-content: center; 
+}

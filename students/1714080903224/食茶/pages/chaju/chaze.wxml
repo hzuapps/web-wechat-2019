@@ -1,0 +1,9 @@
+<!--pages/chaju/chaze.wxml-->
+<view  class="imagesize">
+<image src='/images/chaze.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">茶则\n</text>
+<text class="wz">茶则是汉族茶道六用\n之一，是汉族民间烹试\n茶时量取茶末入汤的量\n具。在茶道中，把茶从\n茶罐取出置于茶荷或茶\n壶时，需要用茶则来量取。</text>
+
+</view>

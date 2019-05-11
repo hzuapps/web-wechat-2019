@@ -1,0 +1,11 @@
+<!--pages/chami/hc.wxml-->
+<view class="imagesize">
+<image src='/images/hc.jpg'></image>
+</view>
+<view>
+<text class="cb">红茶\n</text>
+<text class="cb">【ang dei】</text>
+<text class="wz">水温：95~100度\n水量：200~250g\n茶叶量：3g\n※以上为建议冲泡方式，\n可依个人喜好调整浓淡。</text>
+
+</view>
+

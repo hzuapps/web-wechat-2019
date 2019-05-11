@@ -1,0 +1,9 @@
+<!--pages/chaju/cz.wxml-->
+<view  class="imagesize">
+<image src='/images/cz.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">茶针\n</text>
+<text class="wz">茶针又称茶通，功用\n是疏通茶壶的内网（蜂巢），\n以保持水流畅通。当壶嘴被\n茶叶堵住时用来疏通，或\n放入茶叶后把茶叶拨匀，\n碎茶在底，整茶在上。</text>
+
+</view>

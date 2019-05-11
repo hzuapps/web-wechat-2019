@@ -15,7 +15,7 @@ Page({
    * 首页页面跳转
    */
   jumpPage1: function () {
-    wx.redirectTo({
+    wx.navigateTo({
       url: '../chaju/chaju',
     })
   },

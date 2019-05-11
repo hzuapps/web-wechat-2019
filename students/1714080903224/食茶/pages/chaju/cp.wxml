@@ -1,0 +1,9 @@
+<!--pages/chaju/cp.wxml-->
+<view  class="imagesize">
+<image src='/images/cp.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">茶盘\n</text>
+<text class="wz">茶盘是用来置茶杯的，\n材质广泛，款式多样，\n圆月形、棋盘形……等等。\n但不管什么材质和式样，\n最重要也是四字诀：宽、\n平、浅、白。就是盘面要\n宽，以便就客人人数多\n寡，可以放多几个杯。</text>
+
+</view>

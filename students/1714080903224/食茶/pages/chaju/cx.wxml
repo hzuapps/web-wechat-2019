@@ -1,0 +1,9 @@
+<!--pages/chaju/cx.wxml-->
+<view  class="imagesize">
+<image src='/images/cx.jpg'></image>
+</view>
+<view class="mod-text">
+<text class="cb">茶洗\n</text>
+<text class="wz">茶洗形如大碗，深浅色\n样很多，烹功夫茶必备\n三个，一正二副，正洗\n用以浸茶杯，副洗用以\n浸冲罐，一个用以盛洗\n杯的水和已泡过的茶叶。</text>
+
+</view>

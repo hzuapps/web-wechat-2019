@@ -1,0 +1,11 @@
+<!--pages/chami/tgy.wxml-->
+<view class="imagesize">
+<image src='/images/tgy.jpg'></image>
+</view>
+<view>
+<text class="cb">铁观音\n</text>
+<text class="cb">【ti guang yem】</text>
+<text class="wz">水温：80~85度\n水量：150~200g\n茶叶量：4g\n※以上为建议冲泡方式，\n可依个人喜好调整浓淡。</text>
+
+</view>
+

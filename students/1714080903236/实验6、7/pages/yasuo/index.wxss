@@ -1,0 +1,23 @@
+page,.page {
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+.weui-uploader__hd {
+    margin-left: 3%;
+    margin-right: 3%;
+     font-size: 17px;
+     
+}
+
+.statement {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.statementContent {
+    margin-top:5px;
+    color:red;
+    text-align: right;
+    font-size: 14px;
+}

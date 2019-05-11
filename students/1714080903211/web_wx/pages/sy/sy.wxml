@@ -1,0 +1,27 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">关于小程序</view>
+        <view class="page__desc">此小程序为帮助大家收集学校的活动信息，为各位同学提供便捷的服务。</view>
+    </view>
+</view>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">作者留言</view>
+        <view class="page__desc">如果大家发现什么问题可以在下方给作者留言，或者通过邮箱：123*******@qq.com联系作者。</view>
+    </view>
+</view>
+
+ <view class='msg_box'>
+     <view class='send_box'>
+        <input value='{{inputVal}}' bindinput='changeinputVal' class='input' type='text' placeholder='请留言...' placeholder-class='pl_input'></input>
+        <button class='button' type='primary' bindtap='add'>留言</button>
+     </view>
+     <view class='tip' wx:if='{{msgData.length==0}}'>暂无留言...^_^...</view>
+     <!-- 留言列表--------------------------- -->
+     <view class='msgnav'>
+        <view class='msglist' wx:for="{{msgData}}" wx:key="{{index}}">
+           <text class='msg'>{{item.msg}}</text>
+           <icon data-index='{{index}}' bindtap='del' class='icon' type='cancel'></icon>
+        </view>
+     </view>
+</view>

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shoppingCart/shoppingCart",
+    "pages/user/user",
+    "pages/youhui/youhui",
+    "pages/daigou/daigou",
+    "pages/yijian/yijian",
+    "pages/guanyu/guanyu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "礼鱼",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/首页man.png",
+        "iconPath": "images/首页.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/liwuman.png",
+        "iconPath": "images/liwu.png",
+        "pagePath": "pages/shoppingCart/shoppingCart",
+        "text": "推荐"
+      },
+      {
+        "selectedIconPath": "images/yonghumingman.png",
+        "iconPath": "images/yonghu.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  }
+}

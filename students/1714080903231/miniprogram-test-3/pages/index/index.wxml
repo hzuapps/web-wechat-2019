@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="downView">
+<text class="winView" >你已经获胜了
+<text style='color:red'>{{winNum}}</text>次</text>
+<view class='showView'>
+<image src='{{imageAiSrc}}' class='gesturesImgL'></image>
+<text class='winOrlost'>{{gameResult}}</text>
+<image src='{{imageUserSrc}}' class='gesturesImgR'></image>
+</view>
+
+<view class='chooseForUserView'>
+<text class='winView'>出拳吧，少年</text>
+<view class='choose-v'> 
+<block wx:for='{{srcs}}' wx:key='this'>
+<view class='choose-view' bindtap='changeForChoose' id='{{index}}'>
+<image class='choose-image' src='{{item}}'></image>
+</view>
+</block>
+</view>
+<button class='againBtn' bindtap='again'> 再来</button>
+</view>
+</view>

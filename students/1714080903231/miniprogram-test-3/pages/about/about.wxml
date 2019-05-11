@@ -1,0 +1,16 @@
+<!--about.wxml-->
+<view class="container">
+  <view class="about">
+  <text>产品名称：猜拳游戏</text>
+  <text>版本号：{{v}}</text>
+>
+  <text>开发时间：2019年4月</text>
+  </view>
+  <view class="about aboutme">
+    <text class="title">作者：大Cy</text>
+  
+    <text class="title">邮箱：330874054@qq.com</text>
+   
+    
+  </view>
+</view>

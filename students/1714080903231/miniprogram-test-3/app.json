@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#ddd",
+    "borderStyle": "black",
+    "list": [
+      
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/image/timg1.jpg",
+        "selectedIconPath": "pages/image/timg.jpg",
+        "text": "来猜拳吧"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "pages/image/about1.png",
+        "selectedIconPath": "pages/image/about2.png",
+        "text": "关于我"
+      }
+    ],
+    "position": "bottom"
+  }
+}

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container index-wrap">
+  <view class='index-head-wrap'>
+    <text class='index-head-text'>希望大家可以喜欢上诗!</text>
+  </view>
+  <view>
+    <image class='index-head-slogan-img' src='{{indexHeadBgSrc}}'></image>
+  </view>
+
+  <view class='index-head-input-wrap'>
+    <image class='index-head-input-img' src='{{indexHeadInputBgSrc}}'></image>
+    <view class='index-head-input-context'>
+      <text class='index-head-text index-head-input-title'>请随意</text>
+      <input class='fortune-input' bindinput="bindNameInput" style='text-align:center;'></input>
+      <button class='btn' style='margin-top:56rpx;width:324rpx;' bindtap="getUserFortune"> Go </button>
+    </view>
+  </view>
+  
+</view>

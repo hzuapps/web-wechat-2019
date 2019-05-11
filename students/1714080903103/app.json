@@ -1,13 +1,13 @@
+
 {
-  "pages": [
+  "pages":[
     "pages/index/index",
-    "pages/list/list",
-    "pages/index/AddMemorandum/AddMemorandum"
+    "pages/logs/logs"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "备忘录",
-    "navigationBarTextStyle": "black"
-  }
+ "window": {
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "wechat",
+  "navigationBarBackgroundColor": "#f8f8f8",
+  "backgroundColor": "#f8f8f8"
+}
 }

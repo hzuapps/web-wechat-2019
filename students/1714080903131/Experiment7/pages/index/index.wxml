@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="weui-cells__title">输入姓名</view>
+<view class="weui-cell__bd weui-cell__bd_in-select-before">
+  <input class="weui-input" bindinput="bindKeyInput" value="{{inputValue}}" type="number" placeholder="请输入姓名" />
+ </view>
+
+
+ <view><text>显示信息\n{{addTel}}</text></view>
+ 
+<button class="weui-btn" bindtap="ontouch1" type="primary" >显示存储信息</button>
+
+<text>\n</text>
+<button class="weui-btn" bindtap="ontouch2" type="primary" >下载</button>
+
+<text>\n</text>
+<button class="weui-btn" bindtap="ontouch3" type="primary" >交互按键</button>

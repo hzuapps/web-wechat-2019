@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "硕哥の日记",
+    "navigationBarTextStyle": "black"
+  },
+
+
+  "tabBar": {
+    "color": "#858585",
+    "selectedColor": "#39b5de",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/dairyJL1.png",
+        "selectedIconPath": "images/dairyJL.png",
+        "text": "dairy记录"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/mineZY1.png",
+        "selectedIconPath": "images/mineZY.png",
+        "text": "主人戳我"
+      }
+    ]
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+
+}

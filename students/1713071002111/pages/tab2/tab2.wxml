@@ -1,0 +1,7 @@
+<!--pages/tab2/tab2.wxml-->
+<view class='container'>
+<!--创建两个Canvas  -->
+<canvas class='bgCanvas' canvas-id='bgCanvas'></canvas>
+<view class='stepText'>{{stepText}}</view>
+</view>
+<button bindtap='clickStartBtn'>开始倒计时</button>

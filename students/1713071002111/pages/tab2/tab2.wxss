@@ -1,0 +1,21 @@
+/* pages/tab2/tab2.wxss */
+.container{
+    background-color: wheat;
+    width:100%;
+    height:200px;
+    justify-content:center;
+    position: relative;
+}
+.bgCanvas{
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+    position: absolute;
+    justify-content:center;
+}
+.stepText{
+  font-weight: bold;
+  font-size: 100px;
+  color: green;
+  justify-content:center;
+}

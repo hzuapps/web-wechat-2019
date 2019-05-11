@@ -1,0 +1,3 @@
+<!--pages/tab1/tab1.wxml-->
+当前时间
+<canvas canvas-id="myCanvas" class="canvas"></canvas>

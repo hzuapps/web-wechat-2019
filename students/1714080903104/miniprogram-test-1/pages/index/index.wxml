@@ -1,7 +1,7 @@
 <!--pages/index/index.wxml-->
 <view class="container news-list">
   <view class="navi">
-    <button class="add-button" size="mini" type="primary" bindtap="addItem">添加收支</button>
+    <button class="add-button" size="mini" type="primary" bindtap="addItem">添加今日账单</button>
   </view>
    <block wx:for="{{items}}" wx:key="*this">
     <!-- <view class="news-item" data-id="{{item.id}}" bindtap="itemTap"> -->

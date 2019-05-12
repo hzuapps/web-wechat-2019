@@ -1,0 +1,13 @@
+<!--pages/about/feedback/feedback.wxml-->
+
+
+<text>\n</text>
+  <view class="page-section">
+    <view class="page-section-title">反馈/建议</view>
+    <view class="textarea-wrp">
+      <textarea auto-focus="true" maxlength="200"  bindblur="bindTextAreaBlur" placeholder="最大输入长度为200" />
+    </view>
+  </view>
+
+<button class='btn1' bindtap="openAlert">提交</button>
+

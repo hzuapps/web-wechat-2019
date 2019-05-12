@@ -1,0 +1,32 @@
+<!--pages/imageFilter/imageFilter.wxml-->
+<view>
+  <button bindtap='choosePhoto' class='btn1'>上传图片</button>
+  <text>\n</text>
+  <view class='imagesize'>
+    <image class="{{addblur == 1 ? 'addblur':''}}{{oldEffect == 1 ?'oldeffect':''}}{{addretro == 1 ?'addretro':''}}{{addBeati == 1 ? 'addBeati':''}}{{addcontrast == 1 ? 'addcontrast':''}}{{addinvert == 1 ? 'addinvert':''}}{{addsaturate == 1 ? 'addsaturate':''}} img" src="{{picArray}}" mode='widthFix'></image>
+  </view>
+  <text>\n</text>
+
+
+
+  <view class="effectview">
+    <!--计划以后更改为使用滚轮进行选择-->
+    <view><button class="btn" bindtap="addblur">模糊</button></view>
+    <view><button class="btn" bindtap="addOld">怀旧</button></view>
+    <view><button class="btn" bindtap="addretro">复古</button></view>
+  </view>
+  <text>\n</text>
+  <view class="effectview">
+    <view><button class="btn" bindtap="addcontrast">蒙版</button></view>
+    <view><button class="btn" bindtap="addBeati">美白</button></view>
+    <view><button class="btn" bindtap="addinvert">反相</button></view>
+  </view>
+  <text>\n</text>
+  <view class="effectview">
+    <view><button class="btn" bindtap="addsaturate">零饱和</button></view>
+  </view>
+  <button bindtap="originpic" class='btn1'>还原</button>
+</view> 
+
+<image src="{{tempFilePaths}}" mode="aspecFill" style="width: 100%; height: 450rpx"/>
+

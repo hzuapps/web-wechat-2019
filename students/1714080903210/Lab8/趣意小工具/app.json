@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/imageFilter/imageFilter",
+    "pages/about/about",
+    "pages/about/help/help",
+    "pages/about/feedback/feedback"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#20B2AA",
+    "navigationBarTitleText": "滤镜工具",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/imageFilter/imageFilter",
+        "text": "图片滤镜",
+        "iconPath":"imag/Normal/decoration.png",
+        "selectedIconPath": "imag/Normal/decoration.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "imag/HL/about.png",
+        "selectedIconPath": "imag/HL/about.png"
+      }
+ 
+    ]
+  }
+}

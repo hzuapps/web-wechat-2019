@@ -1,0 +1,42 @@
+
+page{
+  height:50%  /*满屏设置*/
+}
+
+/* 设置边距 */
+.page-section{
+  margin-bottom: 20rpx;
+}
+/* flex布局相关设置 */
+.flex-wrp{display: flex;}
+.bc{background: ; width: 100vw;}
+.bc_middle{background: ; width: 100vw;}
+
+.imagesize{
+  display:flex; /*flex布局设置*/
+  height:100%;  /*满屏设置*/
+  /*图片居中*/
+  justify-content: center;  
+  align-items:center;
+}
+
+.imagesize image { 
+  /*图片长宽，圆形*/
+  width:175rpx;   
+  height:175rpx;
+  border-radius: 87.5px;
+}
+
+.wordo{
+  display: flex;
+  justify-content: center;  
+  align-items:center;
+}
+
+.last{
+  position: fixed;
+  text-align: center;
+  bottom: 30rpx;
+  left: 0;
+  right: 0;
+}

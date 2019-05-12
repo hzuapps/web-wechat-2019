@@ -1,0 +1,21 @@
+.count-control {
+  display: inline-block;
+  width: 43%;
+  margin-left: 5%;
+}
+
+.count-input {
+  width: 85%;
+  margin-left: 5%;
+  border: 1px solid #efefef;
+  margin-bottom: 3%;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+.result {
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin: 3% 0%;
+}

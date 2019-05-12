@@ -42,7 +42,12 @@
         "selectedIconPath": "images/记录.png",
         "text": "访问记录"
       },
-     
+      {
+        "pagePath": "pages/pintu/pintu",
+        "iconPath": "images/计算器黑.png",
+        "selectedIconPath": "images/计算器.png",
+        "text": "计算器"
+      },
       {
         "pagePath": "pages/jiaohu/jiaohu",
         "iconPath": "images/user黑.png",

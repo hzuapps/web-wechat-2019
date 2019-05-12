@@ -20,12 +20,14 @@ Page({
     var tapped = {[code]: 'active'}
     this.setData({tapped: tapped})
   },
-  btnTouchEnd: function(e){
+  btnTouchEnd: function(e)
+  {
     var code = e.target.dataset.op
     var tapped = {}
     this.setData({tapped: tapped})
   },
-  onLoad: function () {
+  onLoad: function () 
+  {
     console.log('onLoad')
     calc.reset()
     var that = this

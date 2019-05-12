@@ -17,6 +17,7 @@ Page({
       this.setData({
         alter: true
       })
+      
     that = this;
     //获取存储信息
     wx.getStorage({

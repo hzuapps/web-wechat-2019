@@ -35,6 +35,7 @@
           <view class="btn {{tapped['2']}}" bindtap="btnClicked" bindtouchstart="btnTouchStart"  bindtouchend="btnTouchEnd"  data-op="2">2</view>
           <view class="btn {{tapped['3']}}" bindtap="btnClicked" bindtouchstart="btnTouchStart"  bindtouchend="btnTouchEnd"  data-op="3">3</view>
         </view>
+        
         <view class="btns2-left-part">
           <view class="btn {{tapped['%']}}" bindtap="btnClicked" bindtouchstart="btnTouchStart"  bindtouchend="btnTouchEnd"  data-op="%">%</view>
           <view class="btn {{tapped['0']}}" bindtap="btnClicked" bindtouchstart="btnTouchStart"  bindtouchend="btnTouchEnd"  data-op="0">0</view>

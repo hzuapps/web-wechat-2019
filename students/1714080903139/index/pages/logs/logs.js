@@ -12,12 +12,13 @@ Page({
   /**
   * 生命周期函数--监听页面加载
   */
-  onLoad:  function (options) {
+  onLoad:  function (options) 
+  {
     this.createtable(),
       this.setData({
         alter: true
       })
-      
+
     that = this;
     //获取存储信息
     wx.getStorage({

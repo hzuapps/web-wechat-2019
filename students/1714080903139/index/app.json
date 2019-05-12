@@ -13,6 +13,7 @@
   "tabBar": {
     "color": "black",
     "selectedColor": "#999",
+    
     "list": [
       {
         "iconPath": "pages/img/math2.png",

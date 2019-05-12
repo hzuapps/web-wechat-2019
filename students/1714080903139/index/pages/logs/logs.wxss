@@ -9,7 +9,6 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 }
-
 .th1{
 display: flex;
 font-weight: 900;

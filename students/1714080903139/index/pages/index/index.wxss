@@ -50,7 +50,6 @@
 #btns2-right{
   border-left: 1px solid #3786a049;
 }
-
 #display-num{
   display: inline-block;
   font-size: 36px;

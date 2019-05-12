@@ -9,7 +9,8 @@ Page({
   },
  
 
-  btnClicked: function(e){
+  btnClicked: function(e)
+  {
     var code = e.target.dataset.op
     calc.addOp(code)
     console.log(calc.getVars())

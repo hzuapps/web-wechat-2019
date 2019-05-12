@@ -12,7 +12,7 @@ Page({
   /**
   * 生命周期函数--监听页面加载
   */
-  onLoad: function (options) {
+  onLoad:  function (options) {
     this.createtable(),
       this.setData({
         alter: true
@@ -140,7 +140,7 @@ Page({
     wx.showToast({
       title: '成功',
       icon: 'succes',
-      duration: 1000,
+      duration: 5000,
       mask: true
     }) 
   }

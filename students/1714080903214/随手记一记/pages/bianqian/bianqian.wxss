@@ -1,0 +1,38 @@
+/**bianqian.wxss**/
+.list-view{
+  margin:20px 0 0 0;
+}
+.input{
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+.msg-box{
+  padding: 20px;
+
+}
+.msg-info{
+  display:block;
+  margin:10px 0 0 0;
+  color:#ccc;
+}
+.send-box{
+  display:flex;
+}
+.item{
+  border-bottom: 1px dashed #ccc;
+  height:30px;
+  line-height:30px;
+  overflow:hidden;
+}
+.text1{
+  float:left;
+
+}
+.close-btn{
+  float:right;
+  margin: 5px 5px 0 0;
+}
+.place-input{
+  color:#ccc;
+}

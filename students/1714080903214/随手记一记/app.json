@@ -1,0 +1,13 @@
+
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bianqian/bianqian"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "登录",
+    "navigationBarTextStyle": "black"
+  }
+}

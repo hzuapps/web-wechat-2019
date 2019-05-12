@@ -1,0 +1,16 @@
+<view class="msg-box">
+  <!--输入框-->
+  <view class="send-box"> 
+    <input class="input" type="text" placeholder="请添加便签..."  bindinput="changeInputVal" placeholder-class="place-input" value="{{inputVal}}"></input>
+    <button size="mini" type="primary" bindtap="addMsg">添加</button>
+  </view>
+  <!--无便签时-->
+  <text class="msg-info" wx:if="{{msgData.length==0}}">暂无便签</text>
+  <!--便签列表-->
+  <view class="list-view">
+    <view class="item"  wx:for="{{msgData}}" wx:key="{{bianqian}}">
+      <text class="text1">{{item.msg}}</text>
+      <icon bindtap="delMsg" class="close-btn" data-index="{{index}}" type="cancel"></icon>
+    </view>
+  </view>
+</view>

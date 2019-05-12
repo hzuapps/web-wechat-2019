@@ -1,0 +1,23 @@
+<view class="weui-cells__title">请先点击下方装备按钮</view>
+ <view class="page-section">
+    <view class="weui-cells__title">当前野生或已升级装备数量：{{I}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" maxlength="10" bindinput="SHURU" placeholder="输入野生或已升级装备数量"/>
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="weui-cells__title">当前拥有的材料：{{Y}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" maxlength="10" bindinput="SHURU1" placeholder="输入拥有的材料"/>
+      </view>
+    </view>
+  </view>
+<view wx:if="{{x==0}}" >你离dalao还有{{K-96*I-Y}}个反物质粒子
+    </view>
+    <view wx:if="{{x==1}}" >你离dalao还有{{J-480*I-Y}}个苍穹碎片
+    </view>
+    <button plain='1' bindtap="a">泰伯尔斯装备</button>
+<button  plain='1' bindtap="b">超界升级装备</button>

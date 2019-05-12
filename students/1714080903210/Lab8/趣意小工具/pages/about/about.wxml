@@ -1,0 +1,64 @@
+<!-- 关于界面 -->
+
+<view class="section">
+  <!-- top  -->
+  <view class="flex-wrp" style="height:150px;flex-direction:colum;">
+    <view class="flex-item bc imagesize">
+      <image src='/imag/other/touxiang.png' class='in-image' mode='aspectFill'></image>
+    </view>
+  </view>
+
+  <!-- middle -->
+  <view class="flex-wrp" style="height:120px;flex-direction:colum;">
+    <view class="flex-item bc_middle">
+      <view class='wordo'>欢迎使用滤镜工具。</view>
+      <text> \n </text>
+      <!--  -->
+      <view class="page">
+        <view class="page__bd">
+          <!--view class="weui-cells__title">小程序信息</view-->
+          <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+              <view class="weui-cell__bd">作者</view>
+              <view class="weui-cell__ft">二先生</view>
+            </view>
+            <view class="weui-cell">
+              <view class="weui-cell__bd">联系邮箱</view>
+              <view class="weui-cell__ft">949482122@qq.com</view>
+            </view>
+          </view>
+          <!-- 帮助&反馈 -->
+          <view class="weui-cells__title">帮助&反馈</view>
+          <view class="weui-cells weui-cells_after-title">
+
+            <navigator url="/pages/about/help/help?title=help" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__bd">功能与帮助</view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+
+            <navigator url="/pages/about/feedback/feedback?title=feedback" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__bd">反馈</view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+
+          </view>
+
+          <!-- last -->
+          <view class="weui-footer last">
+            <view class="weui-footer__links">
+            <navigator url="https://github.com/bcwsdnrjy" class="weui-footer__link">Welcome To My Github</navigator>
+            </view>
+            <view class="weui-footer__text">Filter tool © Mr.2</view>
+          </view>
+
+
+        </view>
+      </view>
+
+
+    </view>
+  </view>
+
+
+
+</view>

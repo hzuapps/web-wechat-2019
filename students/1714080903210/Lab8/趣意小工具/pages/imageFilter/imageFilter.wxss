@@ -1,0 +1,72 @@
+/* pages/imageFilter/imageFilter.wxss */
+.btn1 {
+    width: 80%;
+    margin-top: 20rpx;
+    background-color: #20B2AA;
+    color:white;
+    border-radius: 98rpx; 
+}
+
+/* 图片居中 */
+.imagesize{
+ display:flex;                    
+ justify-content: center;        
+}
+
+/* 图片自适应 */
+.imag{
+  width: 100%;
+}
+
+/* 按钮样式 */
+.btn {
+    width:110px;
+    height:34px;
+    font-size:14px;
+    background-color: #20B2AA;
+    border-radius: 98rpx;
+    color:white;
+}
+
+
+.effectview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* 怀旧 */
+.oldeffect {
+    filter: sepia(0.5);
+}
+
+/* 模糊 */
+.addblur {
+    filter: blur(6px);
+}
+
+/* 复古 */
+.addretro {
+    filter: grayscale(1);
+}
+
+/* 美白 */
+.addBeati {
+    filter: brightness(130%);
+}
+
+/* 蒙版 */
+.addcontrast
+{
+  filter: contrast(50%);
+}
+
+/* 反相 */
+.addinvert{
+  filter: invert(0.8);
+}
+
+.addsaturate{
+  filter: saturate(0%);
+}

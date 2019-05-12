@@ -1,0 +1,28 @@
+<!--pages/about/help/help.wxml-->
+<text>\n</text>
+<!--功能介绍-->
+<view class='title'>功能介绍</view>
+
+<view class='content'>
+
+<view class='content_son'>
+
+<text style='font-size:32rpx;line-height: 60rpx;' decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;滤镜工具提供了多种滤镜给用户使用，用户可以在小程序看到图片添加滤镜之后的效果，并且保存添加滤镜之后的图片。</text>
+
+</view>
+
+</view>
+<text>\n</text>
+<!--使用帮助-->
+<view class='title'>使用帮助</view>
+
+<view class='content'>
+
+<view class='content_son'>
+
+<text style='font-size:32rpx;line-height: 60rpx;' decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用方式简便，用户第一步需要点击按钮“上传图片”，然后在滚轮选框内选择想要的滤镜效果，然后保存图片即可。</text>
+
+</view>
+
+</view>
+

@@ -78,8 +78,9 @@
 
 <img src="https://user-images.githubusercontent.com/48166925/57298941-02aac800-7106-11e9-9f95-83bc710e09b4.jpg" height=256 />
 
+# 随机诗句 #647
 
-
+<img src="https://user-images.githubusercontent.com/48166885/57576698-0e491680-7499-11e9-8497-da6e115f86db.jpg" height=256 />
 
 
 

@@ -1,0 +1,83 @@
+<!-- <view class='time_head'>
+    <view class='time_head_l'>
+      <view class='time_head_title'>
+        <view class='course' bindtap='Set_class'>空课表</view>
+        <text class='icon iconfont icon-sanjiao_xia'></text>
+      </view>
+    </view>
+    <view class='time_head_r'>2019上学期</view>
+</view> -->
+
+
+<!-- <view class='cl'></view> -->
+
+<!-- <scroll-view scroll-x="true"> -->
+
+<view class='time_head_r'>{{Class}}</view>
+<view class="tle">
+    <scroll-view scroll-x="true" >
+      <view class="navigation">
+        <view class=" nav">嘻嘻</view>
+        <view class="nav ">周一</view>
+        <view class=" nav">周二</view>
+        <view class="nav ">周三</view>
+        <view class="nav ">周四</view>
+        <view class=" nav">周五</view>
+        <view class="nav ">周六</view>
+        <view class=" nav">周日</view>
+      </view>
+      <view class="ae by-w">
+        <view class="wc a-y">{{endwise1}}</view>
+        <block wx:for="{{tb}}" wx:key="*this">
+          <view class="wc" bindtap='getdetail' id="{{'0btn'+index}}">{{item}}</view>
+        </block>
+      </view>
+    <!-- </scroll-view> -->
+    
+    
+     <!-- <scroll-view scroll-x="true"  > -->
+      <view class="ae by-w">
+        <view class="wc a-y">{{endwise2}}</view>
+        <block wx:for="{{tc}}" wx:key="*this">
+          <view class="wc" bindtap='getdetail' id="{{'1btn'+index}}">{{item}}</view>
+        </block>
+      </view>
+    <!-- </scroll-view> -->
+
+   <!-- <scroll-view scroll-x="true"  > -->
+      <view class="ae by-w">
+        <view class="wc a-y">{{endwise3}}</view>
+        <block wx:for="{{td}}" wx:key="*this">
+          <view class="wc" bindtap='getdetail' id="{{'2btn'+index}}">{{item}}</view>
+        </block>
+      </view>
+    <!-- </scroll-view> -->
+
+
+   <!-- <scroll-view scroll-x="true"  > -->
+      <view class="ae by-w">
+        <view class="wc a-y">{{endwise4}}</view>
+        <block wx:for="{{te}}" wx:key="*this">
+          <view class="wc" bindtap='getdetail' id="{{'3btn'+index}}">{{item}}</view>
+        </block>
+      </view>
+    <!-- </scroll-view> -->
+
+   <!-- <scroll-view scroll-x="true"  > -->
+      <view class="ae by-w">
+        <view class="wc a-y">{{endwise5}}</view>
+        <block wx:for="{{tf}}" wx:key="*this">
+          <view class="wc" bindtap='getdetail' id="{{'4btn'+index}}">{{item}}</view>
+        </block>
+      </view>
+
+      <view class="ae by-w">
+        <view class="wc a-y">{{endwise6}}</view>
+        <block wx:for="{{tg}}" wx:key="*this">
+          <view class="wc" bindtap='getdetail' id="{{'5btn'+index}}">{{item}}</view>
+        </block>
+      </view>
+    <!-- </scroll-view> -->
+  <!-- </block> -->
+  </scroll-view>
+</view>

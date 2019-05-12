@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<!-- 最外层 -->
+<view class="pages">
+  <!-- 第一层标题 -->
+ 
+  <view class="cont fix-news" wx:if="{{fixTop<scrollTop}}">
+    <text>第一层标题</text>
+  </view>
+  <view class="cont static-news" wx:else>
+    <text>搜索结果</text>
+  </view>
+  <!-- 列表数据 -->
+  <view class="list" wx:for="{{st}}" wx:key="{{index}}" bindtap='click' id="{{'btn'+index}}" dataset="{{item}}">
+    <view>{{item}}</view>
+  </view>
+ 
+</view>

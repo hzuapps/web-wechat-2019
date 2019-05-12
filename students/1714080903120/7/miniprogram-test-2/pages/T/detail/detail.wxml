@@ -1,0 +1,48 @@
+<view class="page">
+  <view class="weui-cells weui-cells1">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">课程名称</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" value='{{className}}' />
+      </view>
+    </view>
+
+        <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">上课班级</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" placeholder='{{class}}' />
+      </view>
+     </view>
+
+      <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">上课周数</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" placeholder='第{{classZhou}}周' />
+      </view>
+     </view>
+
+
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">课程时间</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" value='第{{classTime}}节' />
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">课程老师</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" value='{{classTheacher}}' />
+      </view>
+    </view>
+  </view>
+</view>

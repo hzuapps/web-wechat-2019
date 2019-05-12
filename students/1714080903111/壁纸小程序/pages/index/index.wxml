@@ -1,0 +1,19 @@
+  <view class="card_wrap">
+    <view bindtouchend="slidethis" animation="{{id === 0 ? animationData : ''}}" class="card_item card{{ id + 1 }} " wx:for="{{ cardInfoList }}"  wx:key="unique" wx:for-index="id" wx:for-item="item">
+      <span class="change_icon" bindtap="slidethis" wx:if="{{ id === 0 }}">
+        <image src="http://bmob-cdn-20513.b0.upaiyun.com/2018/09/05/5ed0237640486075802217634d6aac81.png"></image>
+      </span>
+      <view class="card_info" style='background-image:url(http://bmob-cdn-20513.b0.upaiyun.com/2018/09/08/ab8752a34015c335807c7855488ecb7c.png)'>
+        <blockquote class="card_info_mes_title">{{ item.cardInfo.cardTitle }}</blockquote>
+
+        <span class="card_info_mes_item font-light content3" wx:for="{{item.cardInfo.cardInfoMes }}"  wx:key="unique2" wx:for-index="idx" wx:for-item="cradMes"  style="margin-top: {{  idx === 0 ? 15 : 0 }}px;">
+          {{ cradMes }}
+        </span>
+        
+      </view>
+       <navigator class='btn-cta buy_btn' url='../logs/logs?p_type={{item.p_type}}'>点击查看</navigator >
+      <image src="{{item.cardUrl}}"></image>
+    </view>
+   
+  </view>
+

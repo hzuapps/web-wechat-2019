@@ -1,0 +1,122 @@
+page{
+  background-color: #F8F8F8;
+
+}
+
+.ui_v2ee_swiper {
+  height: 450rpx;
+  width: 100%;
+}
+.ui_v2ee_swiper image{
+  height: 450rpx;
+  width: 100%;
+}
+
+.header {
+  height: 110rpx;
+  border-left-width: 2px;
+  border-left-color: #F8F8F8;
+  border-left-style: solid;
+  display: flex; /*变成flex布局*/
+  justify-content: space-between;  /*两边对齐*/
+  align-items: center;
+  box-shadow: 0 1px 1px #bebebe;
+  font-size: 28rpx;
+  color: #8CCEFD;
+  background:white;
+  
+}
+.text_right{
+  color: limegreen;
+  font-size: 13px;
+  padding-right: 10px;
+}
+.text_left {
+  color: black;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.text_left {
+  color: black;
+  font-size: 15px;
+  padding-left: 5px;
+}
+.content {
+  display: flex;
+  flex-direction: row; /*默认的方向*/
+  flex-wrap: wrap;  /*自动换行*/
+  justify-content: center; /*水平方向居中对齐*/
+}
+.content_item {
+  height: 400rpx;
+  width: 40%;
+  border: 18rpx;
+  border-style: solid;
+  border-color: white;
+  margin: 5px;
+  margin-bottom: 50rpx;
+  position: relative; /*相对定位 ——相对或者绝对都是定位，这里为了子视图方便定位*/
+  box-shadow:0px 1px 2px 2px #bebebe;
+  border-radius: 3%;
+}
+.content_item image {
+  width: 100%;
+  height: 100%;
+}
+.content_item_text{
+  width: 100%;
+  height: 30%;
+  background: -webkit-linear-gradient(bottom, rgba(0 , 0, 0, 0.3), rgba(0 , 0, 0, 0));
+  color: white;
+  position: absolute; /*绝对布局 相对于最近已经定位的父视图定位*/
+  bottom: 0px;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.item_text{
+  font-size: 35rpx;
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.ava{
+  width: 100%;
+  height: 200rpx;
+  background-color:white; 
+}
+
+.ava text{
+  font-size: 30rpx;
+  color: #666;
+}
+
+.flex-wrp{
+  display: flex;
+}
+.flex-tab{
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.flex-item{
+  flex-grow: 1;
+  text-align: center;
+  flex-direction: column;
+}
+
+.flex-item image{
+  height: 55rpx;
+  width: 55rpx;
+  border-radius: 50%;
+}

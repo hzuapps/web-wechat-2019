@@ -1,0 +1,6 @@
+<view class='contanier'>
+  <view class='content'>
+    <view class='avater'><image src='http://bmob-cdn-20513.b0.upaiyun.com/2018/09/06/e66274e840a4af2680b272c7aeb95468.png' /></view>
+    <view class='text_content'><text>我觉得一张好看的图片能使人在看到的一瞬间使人心情愉悦</text></view>
+  </view>
+</view>

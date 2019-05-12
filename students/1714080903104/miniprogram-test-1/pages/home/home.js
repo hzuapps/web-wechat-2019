@@ -1,40 +1,24 @@
-// pages/budget/budget.js
+// pages/home/home.js
 Page({
-    onLaunch: function () {
-    //调用API从本地缓存中获取数据
-    var logs = wx.getStorageSync('logs') || []
-    logs.unshift(Date.now())
-    wx.setStorageSync('logs', logs)
-  },
-  getUserInfo: function (cb) {
-    var that = this
-    if (this.globalData.userInfo) {
-      typeof cb == "function" && cb(this.globalData.userInfo)
-    } else {
-      //调用登录接口
-      wx.login({
-        success: function () {
-          wx.getUserInfo({
-            success: function (res) {
-              that.globalData.userInfo = res.userInfo
-              typeof cb == "function" && cb(that.globalData.userInfo)
-            }
-          })
-        }
-      })
-    }
-  },
-  globalData: {
-    userInfo: null,
-    backgroundAudioPlaying: true
-  },
+
+
   /**
    * 页面的初始数据
    */
   data: {
 
   },
+  bindGetUserInfo: function (e) {
+    var that = this;
+    //此处授权得到userInfo
+    console.log(e.detail.userInfo);
+    //接下来写业务代码
 
+    //最后，记得返回刚才的页面
+    wx.navigateBack({
+      delta: 1
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

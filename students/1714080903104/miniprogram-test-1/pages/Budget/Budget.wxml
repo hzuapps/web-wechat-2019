@@ -1,2 +1,13 @@
-<!--pages/Budget/Budget.wxml-->
-<text>pages/Budget/Budget.wxml</text>
+<!--pages/budget/budget.wxml-->
+<view style='margin: 300rpx auto 300rpx auto'>
+  <view style='margin:10rpx auto;text-align:center'>
+<view class="section">
+        <view class="section__title">
+          <text class='section__title'>
+            本月预算
+          </text>
+        </view>
+        <input bindinput="bindTitleInput" placeholder="金额(回车即确定)" value="{{title}}" />
+</view>
+</view>
+</view>

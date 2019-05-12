@@ -1,0 +1,47 @@
+<!--pages/item/item.wxml-->
+<view>
+  <view>
+    <button class="wa-button wa-button-sm"></button>
+  </view>
+</view>
+<view class="page">
+    <view class="section">
+        <view class="section__title">标题</view>
+        <input bindinput="bindTitleInput" placeholder="内容" value="{{title}}" />
+    </view>
+    <view class="section">
+        <view class="section__title">类型</view>
+        <radio-group class="radio-group" bindchange="radioChange">
+            <label class="radio">
+                <radio wx:if="{{cate == '+'}}" class="radio" value="+" checked="true"/>
+                <radio wx:else class="radio" value="+"/>
+                收入
+            </label>
+            <label class="radio">
+                <radio wx:if="{{cate == '-'}}" class="radio" value="-" checked="true"/>
+                <radio wx:else class="radio" value="-"/>
+                支出
+            </label>
+        </radio-group>
+    </view>
+    <view class="section">
+        <view class="section__title">金额</view>
+        <input bindinput="bindAccountInput" type="number" value="{{account}}" placeholder="请输入数字，不加正负号"/>
+    </view>
+    <view class="section">
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="{{date}}" bindchange="bindDateChange">
+		    <view class="section__title">
+		      日期: {{date}}
+		    </view>
+		</picker>
+    </view>
+    <button wx:if="{{id}}" class="button" type="primary" bindtap="update">编辑</button>
+    <button wx:else class="button" type="primary" bindtap="save">添加</button>
+    <button wx:if="{{id}}" class="button" type="default" bindtap="delete">删除</button>
+</view>
+<toast hidden="{{modalHidden}}" bindchange="hideModal">
+{{modalTitle}}
+</toast>
+<modal class="modal" hidden="{{alertHidden}}" no-cancel bindconfirm="hideAlertView">
+  <view>{{alertTitle}}</view>
+</modal>

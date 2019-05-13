@@ -1,0 +1,6 @@
+<!--a.wxml-->
+<button type="primary" bindtap="setNavigationBarTitle">设置标题为navigationBarTitle</button>
+<button type="primary" bindtap="showNavigationBarLoading">设置标题的加载状态</button>
+<button type="primary" bindtap="hiddenNavigationBarLoading">隐藏标题的加载状态</button>
+<button type="warn" bindtap="navigateTo"> 保留页面 跳转到日记(回得来)</button>
+<button type="warn" bindtap="redirectTo"> 就不保留 跳转到日记(回不来)</button>

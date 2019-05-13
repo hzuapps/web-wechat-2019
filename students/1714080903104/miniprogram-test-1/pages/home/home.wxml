@@ -1,0 +1,17 @@
+<!--pages/home/home.wxml-->
+<view style='margin: 300rpx auto 300rpx auto'>
+  <view style='margin:10rpx auto;text-align:center'>
+  <open-data class="open-data-userAvatarUrl" type="userAvatarUrl"></open-data>    
+  </view>
+ 
+  <view style='margin:40rpx auto;text-align:center;display:flex;justify-content: center;'>
+ <open-data class="open-data-userNickName line1" type="userNickName" lang="zh_CN"></open-data>
+  </view>
+</view>
+
+ 
+
+
+    
+
+

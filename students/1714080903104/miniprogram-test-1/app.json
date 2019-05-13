@@ -1,37 +1,40 @@
 {
   "pages": [
-    "pages/Budget/Budget",
-    "pages/Month/Month",
-    "pages/Today/Today"
+    "pages/index/index",
+    "pages/item/item",
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/budget/budget"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#07bbbb",
+    "navigationBarBackgroundColor": "#2297f1",
     "navigationBarTitleText": "记账小助手",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "black",
-    "selectedColor": "black",
+    "color": "blue",
+    "selectedColor": "perple",
     "list": [
       {
-        "iconPath":"account/1.jpg",
-        "selectedIconPath":"account/3.jpg",
-        "pagePath": "pages/Today/Today",
-        "text": "Today"
+        "iconPath": "pages/images/存钱罐.png",
+        "selectedIconPath": "pages/images/返回.png",
+        "pagePath": "pages/budget/budget",
+        "text": "预算"
       },
       {
-        "iconPath":"account/1.jpg",
-        "selectedIconPath":"account/2.jpg",
-        "pagePath": "pages/Month/Month",
-        "text": "Month"
+        "iconPath": "pages/images/首页.png",
+        "selectedIconPath": "pages/images/返回.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
       },
       {
-        "iconPath":"account/1.jpg",
-        "selectedIconPath":"account/4.jpg",
-        "pagePath": "pages/Budget/Budget",
-        "text": "Budget"
+        "iconPath": "pages/images/添加收支.png",
+        "selectedIconPath": "pages/images/返回.png",
+        "pagePath": "pages/index/index",
+        "text": "添加收支"
       }
     ]
   }
 }
+

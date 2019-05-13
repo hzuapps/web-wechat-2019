@@ -1,0 +1,24 @@
+
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+ 
+.line1{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis; 
+}
+ 
+.open-data-userAvatarUrl {
+  width: 160rpx;
+  height: 160rpx;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 40rpx auto;
+}
+.open-data-userNickName{
+  max-width: 105rpx;
+  display:block;
+}

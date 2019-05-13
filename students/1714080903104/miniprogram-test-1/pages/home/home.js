@@ -1,5 +1,6 @@
-// pages/Today/Today.js
+// pages/home/home.js
 Page({
+
 
   /**
    * 页面的初始数据
@@ -7,7 +8,17 @@ Page({
   data: {
 
   },
+  bindGetUserInfo: function (e) {
+    var that = this;
+    //此处授权得到userInfo
+    console.log(e.detail.userInfo);
+    //接下来写业务代码
 
+    //最后，记得返回刚才的页面
+    wx.navigateBack({
+      delta: 1
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

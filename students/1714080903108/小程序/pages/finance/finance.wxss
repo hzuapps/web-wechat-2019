@@ -1,0 +1,72 @@
+/* pages/finance/finance.wxss */
+
+.line{
+  height: 1rpx;
+  border-top: 1rpx solid gray;
+}
+.pay-money {
+  margin: 20rpx;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.ui-p10{
+  padding: 10rpx;
+}
+.ui-p20 {
+  padding: 20rpx;
+}
+
+.ui-pt20 {
+  padding-top: 20rpx;
+}
+.ui-m10 {
+  margin: 10rpx;
+}
+.ui-m20 {
+  margin: 20rpx;
+}
+.ui-mt20 {
+  margin-top: 20rpx;
+}
+.ui-ml20{
+  margin-left: 20rpx;
+}
+.date-text {
+  color: gray;
+  text-align: end;
+  background-color:rgba(128, 128, 128, 0.082);
+  width: 200rpx;
+}
+.ui-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.ui-flex-ver {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.ui-flex-center {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.ui-flex-hor-center {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.ui-flex-ver-center {
+  -webkit-align-items: center;
+  align-items: center;
+}
+.ui-flex-1{
+flex:1;
+}

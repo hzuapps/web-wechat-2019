@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/course/course",
+    "pages/logs/logs",
+    "pages/plan/plan",
+    "pages/finance/finance",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#808080",
+    "selectedColor":"#000000",
+    "list": [
+      {
+        "pagePath": "pages/course/course",
+        "text": "课程",
+        "iconPath":"img/course2.png",
+        "selectedIconPath":"img/course1.png"
+      },
+      {
+        "pagePath": "pages/plan/plan",
+        "text": "记录",
+        "iconPath": "img/record1.png",
+        "selectedIconPath": "img/record2.png"
+      },
+      {
+        "pagePath": "pages/finance/finance",
+        "text": "财务",
+        "iconPath": "img/finance1.png",
+        "selectedIconPath": "img/finance2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "动画",
+        "iconPath": "img/duola.png"
+      }
+    ]
+  }
+}

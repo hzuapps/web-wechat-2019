@@ -1,0 +1,33 @@
+<!--pages/finance/finance.wxml-->
+<view bindtap='onload'>
+</view>
+<view class="ui-flex  ui-p20">
+    <text>本月</text>
+    <text>总支出：</text>
+    <text>￥{{sum}}</text>
+  </view>
+  <view class="ui-flex  ui-p20">
+    <text>本日</text>
+    <text>总支出：</text>
+    <text>￥{{dayspend}}</text>
+  </view>
+  <!--横线-->
+  <view wx:for="{{['早餐','午餐','晚餐','其他']}}">
+  <view class="line"></view>
+  <view class="pay-money" >
+    <text class="ui-ml20">{{item}}:</text>
+    <input class="date-text" bindinput="put" data-index="{{index}}" value='{{mbb}}'></input>
+  </view>
+  </view>
+  <!--横线-->
+  <view class="line">
+  </view>
+  <view class="pay-money">
+    <input class="ui-ml20 ui-flex-1" bindinput="onInputRemarks"  type="text" placeholder="备注：{{selectName}}" />
+  </view>
+  <button bindtap='click' >提交今日</button>
+<view wx:for="{{item1}}">
+    <text>时间：{{item.date}}</text>
+    <text>   支出：</text>
+    <text>{{item.sum1}}</text>
+</view>

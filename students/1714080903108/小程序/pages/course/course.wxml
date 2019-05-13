@@ -1,0 +1,47 @@
+<!--pages/course/course.wxml-->
+<!--pages/课程/课程.wxml-->
+<view class='table'>
+  <view class='tr'>
+    <view class='th'>周一</view>
+    <view class='th'>周二</view>
+    <view class='th'>周三</view>
+    <view class='th'>周四</view>
+    <view class='th'>周五</view>
+    <view class='th'>周六</view>
+    <view class='th'>周日</view>
+  </view>
+
+    <!-- <view class='tr'>
+    <view class='td'><textarea style='width:100%;resize:resize;'></textarea></view>
+    <view class='td'>二</view>
+    <view class='td'>三</view>
+    <view class='td'>四</view>
+    <view class='td'>五</view>
+    <view class='td'>六</view>
+    <view class='td'>天</view>
+  </view> -->
+</view>
+
+<view id="panel" class="flex-column">
+<view wx:for="{{value}}" >
+<view class="flex-cell flex-row"  >
+      <textarea id='1' value='{{item.date1}}' disabled="{{alter}}" bindinput='ab' data-index="{{index}}"></textarea>
+      <textarea id='2' value='{{item.date2}}' disabled="{{alter}}" bindinput='ab' data-index="{{index}}"></textarea>
+      <textarea id='3' value='{{item.date3}}' disabled='{{alter}}' bindinput='ab' data-index="{{index}}"></textarea>
+      <textarea id='4' value='{{item.date4}}' disabled='{{alter}}' bindinput='ab' data-index="{{index}}"></textarea>
+      <textarea id='5' value='{{item.date5}}' disabled='{{alter}}' bindinput='ab' data-index="{{index}}"></textarea>
+      <textarea id='6' value='{{item.date6}}' disabled='{{alter}}' bindinput='ab' data-index="{{index}}"></textarea>
+      <textarea id='7' value='{{item.date7}}' disabled='{{alter}}' bindinput='ab' data-index="{{index}}"></textarea>
+  </view>
+</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+  <view>
+    <button bindtap='onclick' >修改</button>
+  <button bindtap='save' >保存</button>
+  </view>
+  <view>第一次修改保存不要输入文本信息，输入空格,有bug</view>
+</view>

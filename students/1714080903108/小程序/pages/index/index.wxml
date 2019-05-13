@@ -1,0 +1,62 @@
+
+<view class="doraemon" style="position:absolute;margin:250rpx 0 0 220rpx;">
+  <view class="head">
+    <view class="eyes">
+      <view class="eye left">
+        <view class="black bleft"></view>
+      </view>
+      <view class="eye right">
+        <view class="black bright"></view>
+      </view>
+    </view>
+
+    <view class="face">
+      <view class="white"></view>
+      <view class="nose">
+        <view class="light"></view>
+      </view>
+      <view class="nose_line"></view>
+      <view class='mouth'></view>
+      <view class='whiskers'>
+      <view class="whisker rTop r160"></view>
+        <view class="whisker rt"></view>
+        <view class="whisker rBottom r20"></view>
+        <view class='whisker lTop r20'></view>
+        <view class='whisker lt'></view>
+        <view class='whisker lBottom r160'></view>
+      </view>    
+    </view> 
+  </view>
+  <view class='choker'>
+    <view class='bell'>
+      <view class='bell_line'></view>
+      <view class='bell_circle'></view>
+      <view class='bell_under'></view>
+      <view class='bell_light'></view>
+    </view>
+  </view>
+  
+  <view class='bodys'>
+    <view class='body'></view>
+    <view class='wraps'></view>
+    <view class='pocket'></view>
+    <view class='pocket_mask'></view>
+  </view>
+  <view class='hand_right'>
+    <view class='arm'></view>
+    <view class='circle'></view>
+    <view class='arm_rewrite'></view>
+  </view>
+  <view class='hand_left'>
+    <view class='arm'></view>
+    <view class='circle'></view>
+    <view class='arm_rewrite'></view>
+  </view>
+  <view class='foot'>
+    <view class='left'></view>
+    <view class='right'></view>
+    <view class='foot_rewrite'></view>
+  </view>
+</view>
+
+

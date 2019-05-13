@@ -5,7 +5,7 @@
   ],
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#0ff",
+    "navigationBarBackgroundColor": "f00",
     "navigationBarTitleText": "材料计算器",
     "navigationBarTextStyle": "black",
     "backgroundColor":"#000"
@@ -14,14 +14,14 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath":"img/3.jpg",
+        "text": "dalao计算区",
+        "iconPath":"img/13.jpg",
         "selectedIconPath":"img/4.jpg"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "我的",
-        "iconPath":"img/1.jpg",
+        "text": "魔界人攻略",
+        "iconPath":"img/21.jpg",
         "selectedIconPath": "img/4.jpg"
       }
     ]

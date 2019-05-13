@@ -1,0 +1,4 @@
+<button  plain='1' bindtap="x">魔界人计算器</button>
+<button  plain='1' bindtap="b">魔界人划水攻略</button>
+<button  plain='1' bindtap="c">魔界人变强方法</button>
+<button  plain='1' bindtap="v">立即删除</button>

@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/day/day",
+    "pages/mess/mess"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ReMindB",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/icon/sy.png",
+        "selectedIconPath": "pages/icon/sys.png"
+      },
+      {
+        "pagePath": "pages/day/day",
+        "text": "日历",
+        "iconPath": "pages/icon/day.png",
+        "selectedIconPath": "pages/icon/days.png"
+      },
+      {
+        "pagePath": "pages/mess/mess",
+        "text": "用户",
+        "iconPath": "pages/icon/mess.png",
+        "selectedIconPath": "pages/icon/messs.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
